@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>philosophy on Simia</title>
+    <link>https://simia.net/tags/philosophy/</link>
+    <description>Recent content in philosophy on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/tags/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zur Ontologischen Bestimmung Neuronaler Netze</title>
+      <link>https://simia.net/posts/zur-ontologischen-bestimmung-neuronaler-netze/</link>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/zur-ontologischen-bestimmung-neuronaler-netze/</guid>
+      <description>2003, 2004 schrieb ich als Philosophiestudent eine Hausarbeit über Neuronale Netze, Turingvollständigkeit, und die Frage, was Künstliche Intelligenz und den Menschen ausmachen. Damals ging es um Ray Kurzweils Visionen, die Grenzen künstlicher Intelligenz und die Möglichkeit, den menschlichen Geist auf einem Computer nachzubilden. Mehr als zwanzig Jahre später, im Zeitalter von LLMs und generativer KI, habe ich die Arbeit wiederveröffentlicht. Manche meiner Argumente würde ich heute anders formulieren, einige Aussagen korrigieren, aber ein paar Gedanken sind vielleicht interessant.</description>
+      <content:encoded><![CDATA[<p>2003, 2004 schrieb ich als Philosophiestudent eine Hausarbeit über
+Neuronale Netze, Turingvollständigkeit, und die Frage, was Künstliche
+Intelligenz und den Menschen ausmachen. Damals ging es um Ray Kurzweils
+Visionen, die Grenzen künstlicher Intelligenz und die Möglichkeit, den
+menschlichen Geist auf einem Computer nachzubilden. Mehr als zwanzig
+Jahre später, im Zeitalter von LLMs und generativer KI, habe ich die
+Arbeit wiederveröffentlicht. Manche meiner Argumente würde ich heute
+anders formulieren, einige Aussagen korrigieren, aber ein paar Gedanken
+sind vielleicht interessant. Für die meisten wahrscheinlich nicht.</p>
+<p>Für mich war diese Arbeit immer mit dem folgenden Gedanken verbunden:
+<em>eine Rechnung wird durch einen Computer nicht simuliert, sondern die
+Rechnung findet tatsächlich statt</em>.</p>
+<p>Ich finde den Gedanken immer noch interessant und wichtig. Wenn ich die
+Arbeit aber lese, finde ich, dass die Arbeit diesen Gedanken weder
+wirklich gut ausarbeitet, noch die Folgen davon reflektiert. Stattdessen
+tastet sie sich an viele anderen Fragen ein wenig ran, ohne wirklich
+voranzukommen. Na gut. Ich war ja auch erst Mitte 20.</p>
+<ul>
+<li><a href="/pages/ontologische_bestimmung_neuronaler_netze/">Ontologische Bestimmung Neuronaler
+Netze</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>From vexing uncertainty to intellectual humility</title>
+      <link>https://simia.net/posts/from-vexing-uncertainty-to-intellectual-humility/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/from-vexing-uncertainty-to-intellectual-humility/</guid>
+      <description>A philosopher with schizophrenia wrote a harrowing account of how he experiences schizophrenia. And I wonder if some of the lessons are true for everyone, and what that means for society.
+&amp;ldquo;It’s definite belief, not certainty, that allows me to get along. It’s not that certainty, or something like it, never matters. If you are fixing dinner for me I’ll try to be clear about the eggplant allergy [&amp;hellip;] But most of the time, just having a definite, if unconfirmed and possibly false, belief about the situation is fine.</description>
+      <content:encoded><![CDATA[<p>A philosopher with schizophrenia wrote a harrowing account of how he
+experiences schizophrenia. And I wonder if some of the lessons are true
+for everyone, and what that means for society.</p>
+<ul>
+<li><em>&ldquo;It’s definite belief, not certainty, that allows me to get along.
+It’s not that certainty, or something like it, never matters. If you
+are fixing dinner for me I’ll try to be clear about the eggplant
+allergy [&hellip;] But most of the time, just having a definite, if
+unconfirmed and possibly false, belief about the situation is fine.
+It allows one to get along.</em></li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li><em>&ldquo;I think of this attitude as a kind of “intellectual humility”
+because although I do care about truth—and as a consequence of
+caring about truth, I do form beliefs about what is true—I no longer
+agonize about whether my judgments are wrong. For me, living
+relatively free from debilitating anxiety is incompatible with
+relentless pursuit of truth. Instead, I need clear beliefs and a
+willingness to change them when circumstances and evidence demand,
+without worrying about, or getting upset about, being wrong. This
+attitude has made life better and has made the “near-collapses” much
+rarer.&rdquo;</em></li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="https://academic.oup.com/schizophreniabulletin/advance-article/doi/10.1093/schbul/sbad173/7517011">From Vexing Uncertainty to Intellectual Humility by Michael
+Dickson</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Finding God through Information Theory</title>
+      <link>https://simia.net/posts/finding-god-through-information-theory/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/finding-god-through-information-theory/</guid>
+      <description>I found that surprising: Luciano Floridi, one of the most-cited living philosophers, started studying information theory because young Floridi, still Catholic, concluded that God&amp;rsquo;s manifestation to humanity must be an information process. He wanted to understand God&amp;rsquo;s manifestation through the lens of information.
+He didn&amp;rsquo;t get far in answering that question, but he did become the leading expert in the Philosophy of Information, and an expert in Digital Ethics (and also, since then, an agnostic).</description>
+      <content:encoded><![CDATA[<p>I found that surprising: Luciano Floridi, one of the most-cited living
+philosophers, started studying information theory because young Floridi,
+still Catholic, concluded that God&rsquo;s manifestation to humanity must be
+an information process. He wanted to understand God&rsquo;s manifestation
+through the lens of information.</p>
+<p>He didn&rsquo;t get far in answering that question, but he did become the
+leading expert in the Philosophy of Information, and an expert in
+Digital Ethics (and also, since then, an agnostic).</p>
+<p>Post scriptum: The more I think about it, the more I like the idea.
+Information theory is not even one of these vague, empirical disciplines
+such as Physics, but more like Mathematics and Logics, and thus
+unavoidable. Any information exchange, i.e. communication, must follow
+its rules. Therefore the manifestation of God, i.e. the way God chooses
+to communicate themselves to us, must also follow information theory. So
+this should lead to some necessary conditions on the shape of such a
+manifestation.</p>
+<p>It&rsquo;s a bright idea. I am not surprised it didn&rsquo;t go anywhere, but I
+still like the idea.</p>
+<p>Could have at least engendered a novel Proof for the Existence of God.
+They have certainly come from more surprising corners.</p>
+<p>Source: <a href="https://philosophy.fireside.fm/1">https://philosophy.fireside.fm/1</a></p>
+<p>More about <a href="https://en.wikipedia.org/wiki/Luciano_Floridi">Luciano Flordi on
+Wikipedia</a>.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Sam Altman and the veil of ignorance</title>
+      <link>https://simia.net/posts/sam-altman-and-the-veil-of-ignorance/</link>
+      <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/sam-altman-and-the-veil-of-ignorance/</guid>
+      <description>(This is not about Altman having been removed as CEO of OpenAI)
+During the APEC forum on Thursday, Sam Altman has been cited to having said the following thing: &amp;ldquo;Four times now in the history of OpenAI—the most recent time was just in the last couple of weeks—I’ve gotten to be in the room when we push the veil of ignorance back and the frontier of discovery forward. And getting to do that is like the professional honor of a lifetime.</description>
+      <content:encoded><![CDATA[<p>(This is not about Altman having been removed as CEO of OpenAI)</p>
+<p>During the APEC forum on Thursday, Sam Altman has been cited to having
+said the following thing: &ldquo;Four times now in the history of OpenAI—the
+most recent time was just in the last couple of weeks—I’ve gotten to be
+in the room when we push the veil of ignorance back and the frontier of
+discovery forward. And getting to do that is like the professional honor
+of a lifetime.&rdquo;</p>
+<p>He meant that as an uplifting quote to describe how awesome his company
+and their achievements are.</p>
+<p>I find it deeply worrying. Why?</p>
+<p>The &ldquo;veil of ignorance&rdquo; (also known as the original position) is a
+thought experiment introduced by John Rawls, one of the leading American
+moral and political philosophers of the 20th century. The goal is to
+think about the fairness of a society or a social system without you
+knowing where in the system you end up: are you on top or at the bottom?
+What are your skills, your talents? Who are your friends? Do you have
+disabilities? What is your gender, your family history?</p>
+<p>The whole point is to *not* push the veil of ignorance back, otherwise
+you&rsquo;ll create an unfair system. It is a good tool to think about the
+coming disruptions by AI technology.</p>
+<p>The fact that he&rsquo;s using that specific term but is obviously entirely
+oblivious to its meaning tells us that there was a path that term took,
+probably from someone working on ethics to then-CEO Altman, and that
+someone didn&rsquo;t listen. The meaning was lost, and the beautiful phrase
+was entirely repurposed.</p>
+<p>Given that&rsquo;s coming from the then-CEO of the company that claims and
+insists on, again and again (without substantial proof) that they are
+doing all this for the greater benefit of all humanity, that are,
+despite their name, increasingly closing their results, making public
+scrutiny increasingly difficult if not impossible - well, I find that
+worrying. The quote indicates that they have no idea about a basic tool
+towards evaluating fairness, even worse, have heard about it - but they
+have not listened or comprehended.</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Original_position?wprov=sfla1">Wikipedia on the veil of
+ignorance</a></li>
+<li><a href="https://arstechnica.com/information-technology/2023/11/report-sutskever-led-board-coup-at-openai-that-ousted-altman-over-ai-safety-concerns/">Source of the Altman
+quote</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Zen and the Art of Motorcycle Maintenance</title>
+      <link>https://simia.net/posts/zen-and-the-art-of-motorcycle-maintenance/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/zen-and-the-art-of-motorcycle-maintenance/</guid>
+      <description>During my PhD, on the topic of ontology evaluation - figuring out what a good ontology is and what is not - I was running circles up and down trying to define what &amp;ldquo;good&amp;rdquo; means for an ontology (Benjamin Good, another researcher on that topic, had it easier, as he could call his metric &amp;ldquo;Good metric&amp;rdquo; and be done with it).
+So while I was struggling with the definition in one of my academic essays, a kind anonymous reviewer (I think it was Aldo Gangemi) suggested I should read &amp;ldquo;Zen and the Art of Motorcycle Maintenance&amp;rdquo;.</description>
+      <content:encoded><![CDATA[<p>During my PhD, on the topic of <a href="/pages/ontology-evaluation">ontology
+evaluation</a> - figuring out what a good
+ontology is and what is not - I was running circles up and down trying
+to define what &ldquo;good&rdquo; means for an ontology (Benjamin
+Good, another researcher on that topic, had
+it easier, as he could call his metric &ldquo;Good metric&rdquo; and be done with
+it).</p>
+<p>So while I was struggling with the definition in one of my academic
+essays, a kind anonymous reviewer (I think it was Aldo
+Gangemi) suggested I should read &ldquo;Zen and the
+Art of Motorcycle Maintenance&rdquo;.</p>
+<p>When I read the title of the suggested book, I first thought the
+reviewer was being mean or silly and suggesting a made-up book because I
+was so incoherent. It took me two days to actually check whether that
+book existed, as I wouldn&rsquo;t believe it.</p>
+<p>It existed. And it really helped me, by allowing me to set boundaries of
+how far I can go in my own work, and that it is OK to have limitations,
+and that trying to solve EVERYTHING leads to madness.</p>
+<p>(Thanks to Brandon Harris for triggering
+this memory)</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Gödel and Leibniz</title>
+      <link>https://simia.net/posts/goedel-and-leibniz/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/goedel-and-leibniz/</guid>
+      <description>Gödel in his later age became obsessed with the idea that Leibniz had written a much more detailed version of the Characteristica Universalis, and that this version was intentionally censored and hidden by a conspiracy. Leibniz had discovered what he had hunted for his whole life, a way to calculate truth and end all disagreements.
+I&amp;rsquo;m surprised that it was Gödel in particular to obsess with this idea, because I&amp;rsquo;d think that someone with Leibniz&amp;rsquo; smarts would have benefitted tremendously from Gödel&amp;rsquo;s proofs, and it might have been a helpful antidote to his own obsession with making truth a question of mathematics.</description>
+      <content:encoded><![CDATA[<p>Gödel in his later age became obsessed with the idea that Leibniz had
+written a much more detailed version of the Characteristica Universalis,
+and that this version was intentionally censored and hidden by a
+conspiracy. Leibniz had discovered what he had hunted for his whole
+life, a way to calculate truth and end all disagreements.</p>
+<p>I&rsquo;m surprised that it was Gödel in particular to obsess with this idea,
+because I&rsquo;d think that someone with Leibniz&rsquo; smarts would have
+benefitted tremendously from Gödel&rsquo;s proofs, and it might have been a
+helpful antidote to his own obsession with making truth a question of
+mathematics.</p>
+<p>And wouldn&rsquo;t it seem likely to Gödel that even if there were such a
+Characteristics Universalis by Leibniz, that, if no one else before him,
+he, Gödel himself would have been the one to find the fatal bug in it?</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

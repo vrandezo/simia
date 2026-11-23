@@ -1,0 +1,82 @@
+baseURL = 'https://simia.net/'
+title = 'Simia'
+theme = 'PaperMod'
+
+[taxonomies]
+  tags = "tags"
+
+[permalinks]
+  posts = "/posts/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  mainSections = ["posts"]
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowTags = true
+  hideFooter = true
+  ShowFullTextinRSS = true
+
+  [params.homeInfoParams]
+    Title = "Simia"
+    Content = "The blog by Denny Vrandečić. Some posts in english, some in german."
+
+  [[params.socialIcons]]
+    name = "wikipedia"
+    url = "https://meta.wikipedia.com/wiki/User:Denny"
+
+  [[params.socialIcons]]
+    name = "mastodon"
+    url = "http://mas.to/@vrandecic"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/vrandezo"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/vrandecic"
+
+  [[params.socialIcons]]
+    name = "facebook"
+    url = "https://facebook.com/vrandezo"
+
+  [[params.socialIcons]]
+    name = "youtube"
+    url = "https://www.youtube.com/@DennyVrande%C4%8Di%C4%87"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+
+  [[menu.main]]
+    name = "Archive"
+    url = "/archives/"
+    weight = 40
+
+  [[menu.main]]
+    name = "Pages"
+    url = "/pages/"
+    weight = 50
+
+  [[menu.main]]
+    name = "About"
+    url = "/pages/about/"
+    weight = 60

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Studium on Simia</title>
+    <link>https://simia.net/tags/studium/</link>
+    <description>Recent content in Studium on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/tags/studium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zur Ontologischen Bestimmung Neuronaler Netze</title>
+      <link>https://simia.net/posts/zur-ontologischen-bestimmung-neuronaler-netze/</link>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/zur-ontologischen-bestimmung-neuronaler-netze/</guid>
+      <description>2003, 2004 schrieb ich als Philosophiestudent eine Hausarbeit über Neuronale Netze, Turingvollständigkeit, und die Frage, was Künstliche Intelligenz und den Menschen ausmachen. Damals ging es um Ray Kurzweils Visionen, die Grenzen künstlicher Intelligenz und die Möglichkeit, den menschlichen Geist auf einem Computer nachzubilden. Mehr als zwanzig Jahre später, im Zeitalter von LLMs und generativer KI, habe ich die Arbeit wiederveröffentlicht. Manche meiner Argumente würde ich heute anders formulieren, einige Aussagen korrigieren, aber ein paar Gedanken sind vielleicht interessant.</description>
+      <content:encoded><![CDATA[<p>2003, 2004 schrieb ich als Philosophiestudent eine Hausarbeit über
+Neuronale Netze, Turingvollständigkeit, und die Frage, was Künstliche
+Intelligenz und den Menschen ausmachen. Damals ging es um Ray Kurzweils
+Visionen, die Grenzen künstlicher Intelligenz und die Möglichkeit, den
+menschlichen Geist auf einem Computer nachzubilden. Mehr als zwanzig
+Jahre später, im Zeitalter von LLMs und generativer KI, habe ich die
+Arbeit wiederveröffentlicht. Manche meiner Argumente würde ich heute
+anders formulieren, einige Aussagen korrigieren, aber ein paar Gedanken
+sind vielleicht interessant. Für die meisten wahrscheinlich nicht.</p>
+<p>Für mich war diese Arbeit immer mit dem folgenden Gedanken verbunden:
+<em>eine Rechnung wird durch einen Computer nicht simuliert, sondern die
+Rechnung findet tatsächlich statt</em>.</p>
+<p>Ich finde den Gedanken immer noch interessant und wichtig. Wenn ich die
+Arbeit aber lese, finde ich, dass die Arbeit diesen Gedanken weder
+wirklich gut ausarbeitet, noch die Folgen davon reflektiert. Stattdessen
+tastet sie sich an viele anderen Fragen ein wenig ran, ohne wirklich
+voranzukommen. Na gut. Ich war ja auch erst Mitte 20.</p>
+<ul>
+<li><a href="/pages/ontologische_bestimmung_neuronaler_netze/">Ontologische Bestimmung Neuronaler
+Netze</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Zen and the Art of Motorcycle Maintenance</title>
+      <link>https://simia.net/posts/zen-and-the-art-of-motorcycle-maintenance/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/zen-and-the-art-of-motorcycle-maintenance/</guid>
+      <description>During my PhD, on the topic of ontology evaluation - figuring out what a good ontology is and what is not - I was running circles up and down trying to define what &amp;ldquo;good&amp;rdquo; means for an ontology (Benjamin Good, another researcher on that topic, had it easier, as he could call his metric &amp;ldquo;Good metric&amp;rdquo; and be done with it).
+So while I was struggling with the definition in one of my academic essays, a kind anonymous reviewer (I think it was Aldo Gangemi) suggested I should read &amp;ldquo;Zen and the Art of Motorcycle Maintenance&amp;rdquo;.</description>
+      <content:encoded><![CDATA[<p>During my PhD, on the topic of <a href="/pages/ontology-evaluation">ontology
+evaluation</a> - figuring out what a good
+ontology is and what is not - I was running circles up and down trying
+to define what &ldquo;good&rdquo; means for an ontology (Benjamin
+Good, another researcher on that topic, had
+it easier, as he could call his metric &ldquo;Good metric&rdquo; and be done with
+it).</p>
+<p>So while I was struggling with the definition in one of my academic
+essays, a kind anonymous reviewer (I think it was Aldo
+Gangemi) suggested I should read &ldquo;Zen and the
+Art of Motorcycle Maintenance&rdquo;.</p>
+<p>When I read the title of the suggested book, I first thought the
+reviewer was being mean or silly and suggesting a made-up book because I
+was so incoherent. It took me two days to actually check whether that
+book existed, as I wouldn&rsquo;t believe it.</p>
+<p>It existed. And it really helped me, by allowing me to set boundaries of
+how far I can go in my own work, and that it is OK to have limitations,
+and that trying to solve EVERYTHING leads to madness.</p>
+<p>(Thanks to Brandon Harris for triggering
+this memory)</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

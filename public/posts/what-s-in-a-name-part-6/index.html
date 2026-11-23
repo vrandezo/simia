@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>What&#39;s in a name - Part 6 | Simia</title>
+<meta name="keywords" content="">
+<meta name="description" content="In this series we learned how to make URIs for entities. I know there&rsquo;s a big discussion flaring up every few weeks or so, if we should use fragment identifier or not. For me, this question is pretty much settled. Using a fragment identifier has the advantage of giving you the ability of providing a human readable page for those few lost souls who look up the URI, so maybe it&rsquo;s a tad nicer than using no fragment identifier and returning 404s.">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/posts/what-s-in-a-name-part-6/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="What&#39;s in a name - Part 6" />
+<meta property="og:description" content="In this series we learned how to make URIs for entities. I know there&rsquo;s a big discussion flaring up every few weeks or so, if we should use fragment identifier or not. For me, this question is pretty much settled. Using a fragment identifier has the advantage of giving you the ability of providing a human readable page for those few lost souls who look up the URI, so maybe it&rsquo;s a tad nicer than using no fragment identifier and returning 404s." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://simia.net/posts/what-s-in-a-name-part-6/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2005-01-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2005-01-11T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="What&#39;s in a name - Part 6"/>
+<meta name="twitter:description" content="In this series we learned how to make URIs for entities. I know there&rsquo;s a big discussion flaring up every few weeks or so, if we should use fragment identifier or not. For me, this question is pretty much settled. Using a fragment identifier has the advantage of giving you the ability of providing a human readable page for those few lost souls who look up the URI, so maybe it&rsquo;s a tad nicer than using no fragment identifier and returning 404s."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://simia.net/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "What's in a name - Part 6",
+      "item": "https://simia.net/posts/what-s-in-a-name-part-6/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "What's in a name - Part 6",
+  "name": "What\u0027s in a name - Part 6",
+  "description": "In this series we learned how to make URIs for entities. I know there\u0026rsquo;s a big discussion flaring up every few weeks or so, if we should use fragment identifier or not. For me, this question is pretty much settled. Using a fragment identifier has the advantage of giving you the ability of providing a human readable page for those few lost souls who look up the URI, so maybe it\u0026rsquo;s a tad nicer than using no fragment identifier and returning 404s.",
+  "keywords": [
+    
+  ],
+  "articleBody": "In this series we learned how to make URIs for entities. I know there’s a big discussion flaring up every few weeks or so, if we should use fragment identifier or not. For me, this question is pretty much settled. Using a fragment identifier has the advantage of giving you the ability of providing a human readable page for those few lost souls who look up the URI, so maybe it’s a tad nicer than using no fragment identifier and returning 404s. Not using fragids has the advantage of probably reducing bandwidth - but this discussion should be more or less academic, because looking up URIs, as we have seen, should not happen.\nThere is some talking about different representations, negotiating media-types, returning RDF in one, XHTML in the other case, but to be honest, I think that’s far too complicated. And you would need to use another web server and extensions to HTTP to make this real, which doesn’t really help the advent of the Semantic Web. Look at Nokias URIQA project for more information.\nKeep this rules in mind, and everything should be fine:\nbe careful to use unused URIs if you reference a new entity. Take one from an URI space you have control of, so that URI collision won’t appear don’t put a website under the URI you used to to name an entity. That would lead to URI collision try to make nice looking URIs, but don’t try to hard. They are supposed to be hidden by the application anyway provide rdfs:label and rdfs:seeAlso instead. This solves everything you would want to try to solve with URI naming, but in a standard compliant way give your resources URIs. Please. So that other can reference them more easily. I should emphasise the last one more. Especially using RDF/XML-Syntax easily leads to anonymous nodes, which are a pain in the ass because they are hard or impossible to address. Especially, don’t use rdf:nodeID. They don’t give your node an ID that’s visible to the outer world. This is just a local name. Don’t use it, please.\nThe second is using them like this:\nJ. Random User Actually, the Person known to “me” is an anonymous one. You can’t refer to her. Again, try to avoid that. If you can, look up the URI the person gave to herself in her own FOAF-file. Or give her a name in your own URI-space. Don’t be afraid, you won’t run out of it.\nAnother very interesting approach is to use published subjects. I will return to this in another blog, promised, but so long: never forget, there is owl:sameAs to make two URIs point to the same thing, so don’t mind too much if you doublename something.\nWell, that’s it. I hope you enjoyed the series, and that you learned a bit from it. Looking forward to your comments, and your questions.\nComments\nAsh Maurya (11 February 2005 04:02)\nA great series of posts. I’ve always used URIs for all my resources but was begning to question my judgement after seeing widespread use of rdf:nodeID in foaf.\nOne of the potential applications for foaf, in my opinion, is aggregation and linking across multiple models. I’ve been scratching my head on how they plan on avoiding nodeID collisions?\nAlso, have you looked at the Joseki project? What are your thoughts on the RDFWeb API (especially data objects) described there?\nDenny (11 February 2005 16:06)\nThanks.\nI think HP is doing a great job with Joseki - I mean, I didn’t try it myself yet, but the idea behind is the right one. Providing an RDF-WebServer will become essential for the Semantic Web. For me it’s much cleaner than the URIQA/MGET-Idea, but according to the mass of discussion ond RDF-IG and now SWIG, I guess, this isn’t yet decied… :)\n",
+  "wordCount" : "645",
+  "inLanguage": "en",
+  "datePublished": "2005-01-11T00:00:00Z",
+  "dateModified": "2005-01-11T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://simia.net/posts/what-s-in-a-name-part-6/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Simia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://simia.net/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://simia.net/">Home</a>&nbsp;»&nbsp;<a href="https://simia.net/posts/">Posts</a></div>
+    <h1 class="post-title">
+      What&#39;s in a name - Part 6
+    </h1>
+    <div class="post-meta"><span title='2005-01-11 00:00:00 +0000 UTC'>January 11, 2005</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>In this series we learned how to make URIs for entities. I know there&rsquo;s
+a big discussion flaring up every few weeks or so, if we should use
+fragment identifier or not. For me, this question is pretty much
+settled. Using a fragment identifier has the advantage of giving you the
+ability of providing a human readable page for those few lost souls who
+look up the URI, so maybe it&rsquo;s a tad nicer than using no fragment
+identifier and returning 404s. Not using fragids has the advantage of
+probably reducing bandwidth - but this discussion should be more or less
+academic, because looking up URIs, as we have seen, should not happen.</p>
+<p>There is some talking about different representations, negotiating
+media-types, returning RDF in one, XHTML in the other case, but to be
+honest, I think that&rsquo;s far too complicated. And you would need to use
+another web server and extensions to HTTP to make this real, which
+doesn&rsquo;t really help the advent of the Semantic Web. Look at <a href="http://sw.nokia.com/uriqa/URIQA.html">Nokias
+URIQA</a> project for more
+information.</p>
+<p>Keep this rules in mind, and everything should be fine:</p>
+<ul>
+<li>be careful to use unused URIs if you reference a new entity. Take
+one from an URI space you have control of, so that URI collision
+won&rsquo;t appear</li>
+<li>don&rsquo;t put a website under the URI you used to to name an entity.
+That would lead to URI collision</li>
+<li>try to make nice looking URIs, but don&rsquo;t try to hard. They are
+supposed to be hidden by the application anyway</li>
+<li>provide <em>rdfs:label</em> and <em>rdfs:seeAlso</em> instead. This solves
+everything you would want to try to solve with URI naming, but in a
+standard compliant way</li>
+<li>give your resources URIs. Please. So that other can reference them
+more easily.</li>
+</ul>
+<p>I should emphasise the last one more. Especially using RDF/XML-Syntax
+easily leads to anonymous nodes, which are a pain in the ass because
+they are hard or impossible to address. Especially, don&rsquo;t use
+rdf:nodeID. They don&rsquo;t give your node an ID that&rsquo;s visible to the outer
+world. This is just a local name. Don&rsquo;t use it, please.</p>
+<p>The second is using them like this:</p>
+<pre><code>&lt;foaf:person about=&quot;me&quot;&gt;
+  &lt;foaf:knows&gt;
+    &lt;foaf:Person&gt;
+      &lt;foaf:name&gt;J. Random User&lt;/foaf:name&gt;
+    &lt;/foaf:Person&gt;
+  &lt;/foaf:knows&gt;
+&lt;/foaf:Person&gt;
+</code></pre>
+<p>Actually, the Person known to <em>&ldquo;me&rdquo;</em> is an anonymous one. You can&rsquo;t
+refer to her. Again, try to avoid that. If you can, look up the URI the
+person gave to herself in her own FOAF-file. Or give her a name in your
+own URI-space. Don&rsquo;t be afraid, you won&rsquo;t run out of it.</p>
+<p>Another very interesting approach is to use published subjects. I will
+return to this in another blog, promised, but so long: never forget,
+there is <em>owl:sameAs</em> to make two URIs point to the same thing, so don&rsquo;t
+mind too much if you doublename something.</p>
+<p>Well, that&rsquo;s it. I hope you enjoyed the series, and that you learned a
+bit from it. Looking forward to your comments, and your questions.</p>
+<p><strong>Comments</strong></p>
+<p><em>Ash Maurya (11 February 2005 04:02)</em></p>
+<p>A great series of posts. I&rsquo;ve always used URIs for all my resources but was begning to question my judgement after seeing widespread use of rdf:nodeID in foaf.</p>
+<p>One of the potential applications for foaf, in my opinion, is aggregation and linking across multiple models. I&rsquo;ve been scratching my head on how they plan on avoiding nodeID collisions?</p>
+<p>Also, have you looked at the Joseki project? What are your thoughts on the RDFWeb API (especially data objects) described there?</p>
+<p><em>Denny (11 February 2005 16:06)</em></p>
+<p>Thanks.</p>
+<p>I think HP is doing a great job with Joseki - I mean, I didn&rsquo;t try it myself yet, but the idea behind is the right one. Providing an RDF-WebServer will become essential for the Semantic Web. For me it&rsquo;s much cleaner than the URIQA/MGET-Idea, but according to the mass of discussion ond RDF-IG and now SWIG, I guess, this isn&rsquo;t yet decied&hellip; :)</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://simia.net/posts/what-s-in-a-name-part-5/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>What&#39;s in a name - Part 5</span>
+  </a>
+  <a class="next" href="https://simia.net/posts/comments-to-naming/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Comments to naming</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

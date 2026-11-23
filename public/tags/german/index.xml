@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>German on Simia</title>
+    <link>https://simia.net/tags/german/</link>
+    <description>Recent content in German on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/tags/german/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github not displaying external contributions anymore</title>
+      <link>https://simia.net/posts/github-not-displaying-external-contributions-anymore/</link>
+      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/github-not-displaying-external-contributions-anymore/</guid>
+      <description>Git is a very widely used version control system. Version control systems are an absolute crucial tool for collaborating and developing software. Git was developed to be a decentralized such system, meaning that people could easier develop their own versions, collaborate on side ideas, and not rely on a single large central repository.
+Github is a Microsoft-owned website which made it easy to start, maintain, and share Git repositories. In fact so easy that in many ways the advantages of decentralization that have been built-in into Git have been nullified.</description>
+      <content:encoded><![CDATA[<p>Git is a very widely used version control system. Version control
+systems are an absolute crucial tool for collaborating and developing
+software. Git was developed to be a decentralized such system, meaning
+that people could easier develop their own versions, collaborate on side
+ideas, and not rely on a single large central repository.</p>
+<p>Github is a Microsoft-owned website which made it easy to start,
+maintain, and share Git repositories. In fact so easy that in many ways
+the advantages of decentralization that have been built-in into Git have
+been nullified. Convenience beats many other advantages, or &ldquo;<a href="https://en.wikipedia.org/wiki/Worse_is_better">worse is
+better</a>&rdquo;, an often stated
+adage.</p>
+<p>Some organizations and projects, such as Wikimedia, decided to host
+their own Git instance, and not rely on Microsoft&rsquo;s. Due to the
+decentralized model of Git that&rsquo;s absolutely possible and encouraged. It
+is a bit of a hassle, but you don&rsquo;t rely on Microsoft for your project.</p>
+<p>Github has become an important &ldquo;hub&rdquo; for developers, also because they
+provide profile pages for developers, showing off their contributions,
+achievements, etc. Hiring managers will often look at a developer&rsquo;s
+Github page to assess a candidate.</p>
+<p>Microsoft made a change that contributions to projects will only &ldquo;count&rdquo;
+and be reflected on the Github profile of the contributor if they are
+made through Github (unless they are members of the organization owning
+the mirrored Git). Contributions through other paths don&rsquo;t count for the
+profile. Microsoft, worth a trillion dollar, is explaining that it&rsquo;s too
+&ldquo;nuanced and difficult&rdquo; for them to continue to display contributions on
+your profile which happened outside of Github.</p>
+<p>I mean, it is clearly the fault of the community to allow Microsoft to
+embrace and enclosure this space. Will this change be enough to have
+developers leave Github? (No) How difficult will it be to get hiring
+managers to not just reflexively look up a Github profile? (Very) Will
+there be an outcry that will make Microsoft change their mind? (No) Is
+this just a move to ensure that they enclose the Open Source workflow
+even more? (They&rsquo;ll say no, and it might even be true, but they sure
+won&rsquo;t mind that this is happening)</p>
+<p>The lesson we should learn, but won&rsquo;t, is to not allow companies to
+enclose and control such spaces. But we keep doing that, again and
+again. It&rsquo;s a pity.</p>
+<p><em>Source</em>: <a href="https://github.com/orgs/community/discussions/128895">Starring a repository you&rsquo;ve contributed to should make it
+show up on your profile, just like how it was for the past 10+
+years</a></p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

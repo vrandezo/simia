@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>wikis on Simia</title>
+    <link>https://simia.net/tags/wikis/</link>
+    <description>Recent content in wikis on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/tags/wikis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>30 years of wikis</title>
+      <link>https://simia.net/posts/30-years-of-wikis/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/30-years-of-wikis/</guid>
+      <description>Today is the 30th anniversary of the launch of the first wiki by Ward Cunningham. A page that anyone could edit. Right from the browser. It was generally seen as a bad idea. What if people did bad things?
+Originally with the goal to support the software development community in creating a repository of software design patterns, wikis were later used for many other goals (even an encyclopedia!), and became part of the recipe, together with blogs, fora and early social media, that was considered the Web 2.</description>
+      <content:encoded><![CDATA[<p>Today is the 30th anniversary of the <a href="https://wiki.c2.com/?WikiHistory">launch of the first
+wiki</a> by <a href="https://en.wikipedia.org/wiki/Ward_Cunningham">Ward
+Cunningham</a>. A page that
+anyone could edit. Right from the browser. It was generally seen as a
+bad idea. What if people did bad things?</p>
+<p>Originally with the goal to support the software development community
+in creating a repository of software design patterns, wikis were later
+used for many other goals (even an
+<a href="https://en.wikipedia.org">encyclopedia</a>!), and became part of the
+recipe, together with blogs, fora and early social media, that was
+considered the Web 2.0.</p>
+<p>Thank you, Ward, and congratulations on the first 30 years.</p>
+<p>A wiki <a href="https://wikiindex.org/w/30th_WikiBirthday#WikiBirthdayCard">birthday card is being collected on
+Wikiindex</a>.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

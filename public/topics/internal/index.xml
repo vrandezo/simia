@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>internal on Simia</title>
+    <link>https://simia.net/topics/internal/</link>
+    <description>Recent content in internal on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/topics/internal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hosting yourself is painful</title>
+      <link>https://simia.net/posts/hosting-yourself-is-painful/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/hosting-yourself-is-painful/</guid>
+      <description>It never was particularly easy to host your own Website. But these days, it is getting harder, I feel. I had this Website for many years, and once I moved to Google Cloud Hosting, it was just like five bucks a month, to have a small VM running Semantic MediaWiki, and all is fine.
+The last few years, it is constantly overloaded, and I have repeatedly raised the VM capacity, and now I am somewhere around 30-40 bucks per month, and it is still completely overloaded.</description>
+    </item>
+    
+  </channel>
+</rss>

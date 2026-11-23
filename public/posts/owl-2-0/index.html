@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>OWL 2.0 | Simia</title>
+<meta name="keywords" content="">
+<meta name="description" content="I posted this to the public OWL dev mailing list as a response to a question posed by Jim Hendler quite some while ago. I publish it here for easier reference.
+Quite some while ago the question of OWL 2.0 was rised here, and I wrote already two long replies with a wishlist - but both were never sent and got lost in digital nirvana, one due to a hardware, the second due to a software failure.">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/posts/owl-2-0/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="OWL 2.0" />
+<meta property="og:description" content="I posted this to the public OWL dev mailing list as a response to a question posed by Jim Hendler quite some while ago. I publish it here for easier reference.
+Quite some while ago the question of OWL 2.0 was rised here, and I wrote already two long replies with a wishlist - but both were never sent and got lost in digital nirvana, one due to a hardware, the second due to a software failure." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://simia.net/posts/owl-2-0/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2005-05-31T00:00:00+00:00" />
+<meta property="article:modified_time" content="2005-05-31T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="OWL 2.0"/>
+<meta name="twitter:description" content="I posted this to the public OWL dev mailing list as a response to a question posed by Jim Hendler quite some while ago. I publish it here for easier reference.
+Quite some while ago the question of OWL 2.0 was rised here, and I wrote already two long replies with a wishlist - but both were never sent and got lost in digital nirvana, one due to a hardware, the second due to a software failure."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://simia.net/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "OWL 2.0",
+      "item": "https://simia.net/posts/owl-2-0/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "OWL 2.0",
+  "name": "OWL 2.0",
+  "description": "I posted this to the public OWL dev mailing list as a response to a question posed by Jim Hendler quite some while ago. I publish it here for easier reference.\nQuite some while ago the question of OWL 2.0 was rised here, and I wrote already two long replies with a wishlist - but both were never sent and got lost in digital nirvana, one due to a hardware, the second due to a software failure.",
+  "keywords": [
+    
+  ],
+  "articleBody": "I posted this to the public OWL dev mailing list as a response to a question posed by Jim Hendler quite some while ago. I publish it here for easier reference.\nQuite some while ago the question of OWL 2.0 was rised here, and I wrote already two long replies with a wishlist - but both were never sent and got lost in digital nirvana, one due to a hardware, the second due to a software failure. Well, let’s hope this one passes finally through. That’s why this answer is so late.\nSorry for the lengthy post. But I tried to structure it a bit and make it readable, so I hope you find some interesting stuff here. So, here is my wishlist.\nI would like yet another OWL language, call it OWL RDF or OWL Superlite, or whatever. This is like the subset of OWL Lite and RDFS. For this the difference between of owl:Class and rdf:Class needs to be somehow standardly solved. Why is this good? It makes moving from RDF to OWL easier, as it forces you to keep Individuals, Classes and Relations in different worlds, and forgets about some of the more sophisticated constructs of RDF(S) like lists, bags and such. This is a real beginners language, really easy to learn and implement. Defined Semantics for OWL FUll. It is unclear – at least to me – what some combinations of RDF(S)-Constructs and OWL DL-constructs are meant to mean. Add easy reification to OWL. I know, I know, making statements about statements is meant to be the root of all evil, but I find it pretty useful. If you like, just add another group of elements to OWL, statements, that are mutually disjoint from classes, instances and relations in OWL DL, but there’s a sublanguage that enables us to speak about statements. Or else OWL will suck a lot in comparison to RDF(S) and RDF(S) + Rules will win, because you can’t do a lot of the stuff you need to do, like saying what the source of a certain statement is, how reliable this source is, etc. Trust anyone? This is also needed to extend ontologies toward probabilistic, fuzzy or confidence-carrying models. I would love to be able to define syntactic sugar, like partitionOf (I think, this is from Asun’s Book on Ontology Engineering). ((A, B, C) partitionOf D) means that every D is either an A or a B or a C, that every A, B or C is a D, and that A, B and C are mutually disjunct. So you can say this already, but it needs a lot of footwork. It would be nice to be able to define such shotcuts that lever upon the semantics of existing constructors. That said, another form of syntactic sugar - because again you can use existing OWL constructs to reach the same goal, but it is very strenuous to do so - would be to define UNA locally. Like either to say “all individuals in this ontology are mutually different” or “all individuals with this namespace are mutually different”. I think, due to XML constraints the first one would be the weapon of choice. I would like to be able to have more ontologies in the same file. So you can use ontologies to group a number of axioms, and you also could use the name of this group to refer to it. Oh well, using the name of an ontology as an individual, what does this mean? Does it imply any further semantics? I would like to see this clarified. Is this like named graphs? The DOM has quite nicely partitioned itself in levels and modules. Why not OWL itself? So you could have like a level 2 ontology of mereological questions, and such stuff, all with well defined semantics, for the generic questions. I am not sure there are too many generic questions, but taxonomy is (already covered), mereology would be, and spatiotemporal and dynamic issues would be as well. Mind you, not everyone must use them, but many will need them. It would be fine to find stan dard answers to such generic questions. Procedural attachments would be a nice thing. Like have a a standardized possibilities to add pieces of code and have them executed by an appropriate execution environment on certain events or requests by the reasoner. Yes, I am totally aware of the implications on reasoning and decidability, but hey, you asked what people need, and did not ask for theoretical issues. Those you understand better. There are some ideas of others (which doesn’t mean that the rest is necessarily original mine) I would like to see integrated, like a well-defined epistemic operator or streamlining the concrete domains to be more consistent with abstract domains, or to define domain and range _constraints_ on relations, and much more. Much of this stuff could be added optional in the sense of point 7. And not to forget that we have to integrate with rules later, and to finally have an OWL DL query language. One goal is to make it clear what OWL offers over simply adding rules atop of RDF and ignoring the ontology layer completely. So, you see, this is quite a list, and it sure is not complete. Even if only two or three points were finally picked up I would be very happy :)\n",
+  "wordCount" : "898",
+  "inLanguage": "en",
+  "datePublished": "2005-05-31T00:00:00Z",
+  "dateModified": "2005-05-31T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://simia.net/posts/owl-2-0/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Simia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://simia.net/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://simia.net/">Home</a>&nbsp;»&nbsp;<a href="https://simia.net/posts/">Posts</a></div>
+    <h1 class="post-title">
+      OWL 2.0
+    </h1>
+    <div class="post-meta"><span title='2005-05-31 00:00:00 +0000 UTC'>May 31, 2005</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p><em>I posted this to the public OWL dev mailing list as a response to a
+question posed by Jim Hendler quite some while ago. I publish it here
+for easier reference.</em></p>
+<p>Quite some while ago the question of OWL 2.0 was rised here, and I wrote
+already two long replies with a wishlist - but both were never sent and
+got lost in digital nirvana, one due to a hardware, the second due to a
+software failure. Well, let&rsquo;s hope this one passes finally through.
+That&rsquo;s why this answer is so late.</p>
+<p>Sorry for the lengthy post. But I tried to structure it a bit and make
+it readable, so I hope you find some interesting stuff here. So, here is
+my wishlist.</p>
+<ol>
+<li>I would like yet another OWL language, call it OWL RDF or OWL
+Superlite, or whatever. This is like the subset of OWL Lite and
+RDFS. For this the difference between of owl:Class and rdf:Class
+needs to be somehow standardly solved. Why is this good? It makes
+moving from RDF to OWL easier, as it forces you to keep Individuals,
+Classes and Relations in different worlds, and forgets about some of
+the more sophisticated constructs of RDF(S) like lists, bags and
+such. This is a real beginners language, really easy to learn and
+implement.</li>
+<li>Defined Semantics for OWL FUll. It is unclear &ndash; at least to me &ndash;
+what some combinations of RDF(S)-Constructs and OWL DL-constructs
+are meant to mean.</li>
+<li>Add easy reification to OWL. I know, I know, making statements about
+statements is meant to be the root of all evil, but I find it pretty
+useful. If you like, just add another group of elements to OWL,
+statements, that are mutually disjoint from classes, instances and
+relations in OWL DL, but there&rsquo;s a sublanguage that enables us to
+speak about statements. Or else OWL will suck a lot in comparison to
+RDF(S) and RDF(S) + Rules will win, because you can&rsquo;t do a lot of
+the stuff you need to do, like saying what the source of a certain
+statement is, how reliable this source is, etc. Trust anyone? This
+is also needed to extend ontologies toward probabilistic, fuzzy or
+confidence-carrying models.</li>
+<li>I would love to be able to define syntactic sugar, like partitionOf
+(I think, this is from Asun&rsquo;s Book on Ontology Engineering). ((A, B,
+C) partitionOf D) means that every D is either an A or a B or a C,
+that every A, B or C is a D, and that A, B and C are mutually
+disjunct. So you can say this already, but it needs a lot of
+footwork. It would be nice to be able to define such shotcuts that
+lever upon the semantics of existing constructors.</li>
+<li>That said, another form of syntactic sugar - because again you can
+use existing OWL constructs to reach the same goal, but it is very
+strenuous to do so - would be to define UNA locally. Like either to
+say &ldquo;all individuals in this ontology are mutually different&rdquo; or
+&ldquo;all individuals with this namespace are mutually different&rdquo;. I
+think, due to XML constraints the first one would be the weapon of
+choice.</li>
+<li>I would like to be able to have more ontologies in the same file. So
+you can use ontologies to group a number of axioms, and you also
+could use the name of this group to refer to it. Oh well, using the
+name of an ontology as an individual, what does this mean? Does it
+imply any further semantics? I would like to see this clarified. Is
+this like named graphs?</li>
+<li>The DOM has quite nicely partitioned itself in levels and modules.
+Why not OWL itself? So you could have like a level 2 ontology of
+mereological questions, and such stuff, all with well defined
+semantics, for the generic questions. I am not sure there are too
+many generic questions, but taxonomy is (already covered), mereology
+would be, and spatiotemporal and dynamic issues would be as well.
+Mind you, not everyone must use them, but many will need them. It
+would be fine to find stan dard answers to such generic questions.</li>
+<li>Procedural attachments would be a nice thing. Like have a a
+standardized possibilities to add pieces of code and have them
+executed by an appropriate execution environment on certain events
+or requests by the reasoner. Yes, I am totally aware of the
+implications on reasoning and decidability, but hey, you asked what
+people need, and did not ask for theoretical issues. Those you
+understand better.</li>
+<li>There are some ideas of others (which doesn&rsquo;t mean that the rest is
+necessarily original mine) I would like to see integrated, like a
+well-defined epistemic operator or streamlining the concrete domains
+to be more consistent with abstract domains, or to define domain and
+range _constraints_ on relations, and much more. Much of this
+stuff could be added optional in the sense of point 7.</li>
+<li>And not to forget that we have to integrate with rules later, and to
+finally have an OWL DL query language. One goal is to make it clear
+what OWL offers over simply adding rules atop of RDF and ignoring
+the ontology layer completely.</li>
+</ol>
+<p>So, you see, this is quite a list, and it sure is not complete. Even if
+only two or three points were finally picked up I would be very happy :)</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://simia.net/posts/semantic-scripting/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Semantic Scripting</span>
+  </a>
+  <a class="next" href="https://simia.net/posts/d-artagnans-tochter/">
+    <span class="title">Next »</span>
+    <br>
+    <span>D&#39;Artagnans Tochter</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

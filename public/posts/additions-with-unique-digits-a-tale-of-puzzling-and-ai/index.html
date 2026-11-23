@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Additions with unique digits: a tale of puzzling and AI | Simia</title>
+<meta name="keywords" content="math, Simia, english, AI">
+<meta name="description" content="The other day, Markus Krötzsch and I were catching up when one of his kids came in. She told us about a puzzle her math teacher gave her:
+How many integer sums are there where the equation uses each digit at most once?
+The simplest example is 1&#43;2=3, but 12&#43;47=59 also works. On the other hand, 1&#43;9=10 isn’t a solution because the digit ‘1’ appears twice (in the first number and the sum).">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/posts/additions-with-unique-digits-a-tale-of-puzzling-and-ai/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Additions with unique digits: a tale of puzzling and AI" />
+<meta property="og:description" content="The other day, Markus Krötzsch and I were catching up when one of his kids came in. She told us about a puzzle her math teacher gave her:
+How many integer sums are there where the equation uses each digit at most once?
+The simplest example is 1&#43;2=3, but 12&#43;47=59 also works. On the other hand, 1&#43;9=10 isn’t a solution because the digit ‘1’ appears twice (in the first number and the sum)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://simia.net/posts/additions-with-unique-digits-a-tale-of-puzzling-and-ai/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-08-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-08-24T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Additions with unique digits: a tale of puzzling and AI"/>
+<meta name="twitter:description" content="The other day, Markus Krötzsch and I were catching up when one of his kids came in. She told us about a puzzle her math teacher gave her:
+How many integer sums are there where the equation uses each digit at most once?
+The simplest example is 1&#43;2=3, but 12&#43;47=59 also works. On the other hand, 1&#43;9=10 isn’t a solution because the digit ‘1’ appears twice (in the first number and the sum)."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://simia.net/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Additions with unique digits: a tale of puzzling and AI",
+      "item": "https://simia.net/posts/additions-with-unique-digits-a-tale-of-puzzling-and-ai/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Additions with unique digits: a tale of puzzling and AI",
+  "name": "Additions with unique digits: a tale of puzzling and AI",
+  "description": "The other day, Markus Krötzsch and I were catching up when one of his kids came in. She told us about a puzzle her math teacher gave her:\nHow many integer sums are there where the equation uses each digit at most once?\nThe simplest example is 1+2=3, but 12+47=59 also works. On the other hand, 1+9=10 isn’t a solution because the digit ‘1’ appears twice (in the first number and the sum).",
+  "keywords": [
+    "math", "Simia", "english", "AI"
+  ],
+  "articleBody": "The other day, Markus Krötzsch and I were catching up when one of his kids came in. She told us about a puzzle her math teacher gave her:\nHow many integer sums are there where the equation uses each digit at most once?\nThe simplest example is 1+2=3, but 12+47=59 also works. On the other hand, 1+9=10 isn’t a solution because the digit ‘1’ appears twice (in the first number and the sum). Markus’s wife Anja was the first of us to find a solution using three-digit numbers.\nI recommend trying to solve it yourself at this point, and then come back to this post. It is much more fun like that.\nThinking for a moment, we realized there seemed to be quite a few solutions. But how many? As computer scientists, our immediate thought was to write a program. First, though, we estimated the complexity of a brute force approach: if we tried all possible permutations of the digits 0 to 9, that’s 10! permutations, or about 3.6 million. A computer should work through that pretty quickly.\nI started writing code, and did so even more inefficiently. I included ‘+’ and ‘=’ with the 10 digits, then iterated through all permutations (and shorter versions) to check for solutions. This ballooned the candidate pool to an upper bound of 12!x10, or about 5 billion. I knew there was plenty of room for improvement – the code wasn’t smart – but it should find all the results. I started running it. At this point, I was pretty sure this was the kind of problem that with raw computational power can be solved faster than taking the time to come up with ‘smart’ code and better heuristics. My full code is here.\nAs my code ran, Markus took it as a fun challenge and set out to create a smarter solution — which, admittedly, shouldn’t be too hard. Instead of iterating through all possible (and many impossible) equation strings, he only permuted the numbers, applied a maximum length, and checked those. Markus’ code was impressively fast – just 4 seconds! It seemed like we had found the ‘right’ way to solve it, using better heuristics. Or had we?\nSoon after, my code finished, taking 20 minutes. We both had the same answer! (You can find the answer in the linked material, but I am keeping it out here in case you want to try it out yourself). Having two different approaches with the same result gave us high confidence in the answer.\nNow, that’s where it could have ended. But the kids were teasing us: it took us forever to write the code (less than half an hour, but still), why didn’t we just ask ChatGPT for the answer?\nWe were pretty convinced there’s no chance ChatGPT would be able to answer that. So we asked. Markus formulated the prompt (in German, due to my prodding, so it’s more fun for his kid watching), and ChatGPT started thinking.\nI have never seen it thinking for so long. Almost seven minutes.\nWe used that time to laugh and joke about it. No way it would figure it out! We were looking at the steps it was describing. They didn’t seem too bad. What is a cryptarithm? Never heard of that. We were getting ready to amuse ourselves by watching and dissecting ChatGPT’s answer.\nBoy, we were wrong!\nIt returned the same number we had found. The answer was great! Not only that, we looked into the thinking process and found the code that ChatGPT wrote. That code ran in fractions of a second. It wasn’t just faster; the way it built the equations, digit by digit, felt like a fundamentally different strategy than our permutations. Here is a link to the full conversation (local archive). Where my code ran in 20 minutes and Markus’s in 4 seconds, ChatGPT’s code ran in 60 milliseconds.\nWe were completely baffled. I searched the Web for this riddle and solutions, hoping to find indications it had been solved before, that it was part of the corpus. It might be the case, but we didn’t find it anywhere. ChatGPT came up with more efficient code, and was faster to write it. We were deeply impressed, and were left with two questions, without immediate answers:\nGiven that this is a language model, how did it actually manage to reach this solution? Why did this work? Given that ChatGPT can do this, what does this mean? What are the consequences of having such an ability available? How does this change things? I kicked off my local Ollama with OpenAI’s recent Open Weight model (120 billion parameters), using Markus’s prompt. I let it run in the background while Markus and I kept chatting. It took a long time – tens of minutes? I didn’t keep track – and we were again confident it wouldn’t be able to answer the question. This was mostly because my local Ollama doesn’t have access to a Python interpreter. And indeed, it answered that there were 45 solutions, very much off from the 1991 solutions we were looking for.\nWe were a bit relieved. It was getting late, so we called it a night. Seeing Ollama struggle initially, giving me numbers far off the mark, actually reinforced my earlier skepticism. It felt like my intuition about what these models couldn’t do was being confirmed – at least for a moment. I asked the system to list all 45 solutions, and it did. I noticed that 1+2=3 was missing. I asked if that would be a correct answer and if it wanted to reconsider its number of solutions, then left it to run while I went to sleep.\nThe next day I checked the answer. The model had increased its answer to 124 solutions and wrote new code. It told me I should run that Python code myself, as a next step. So, again, the wrong answer.\nAnd then I did run the code. From both the first answer, and the second, improved answer. If you actually run the code, both of them result in the correct answer! The first version took about 20 seconds. The second version then took almost half an hour to run, but I think that’s only because at this point the LLM was becoming a bit extra cautious; it even checked for five-digit numbers, although four-digit numbers were sufficient. I took the LLM’s last code, made some minor clean-up to the code, and reduced it to four digits again, and the code gives the correct answer in 20 seconds again. My complete conversation with gpt-oss is available here.\nNot only that: I would even claim that this cleaned-up code provides the easiest to read and understand of all the solutions we discussed so far. It iterates over all possible numbers up to four digits, making sure the second number is always bigger than the first, gets their sum, checks the result for digit uniqueness (quite elegantly using a set!), and counts the solutions. The code is short and, I’d say, elegant.\nMarkus has also written a second version, which beats the one by ChatGPT in efficiency, running in only 20 milliseconds, and probably being so fast that the Unix time command doesn’t measure it reliably.\nI am impressed by the answers by the models (and by Markus as well). I think this is a great example of my biggest problem with all of these models, something I’ve been saying for years: I cannot explain to someone else what these models are good at, and what they are not good at.\nBut I thought I had a good intuition myself. That I roughly knew what kind of questions they would answer well, and which ones I shouldn’t trust them with. What my experience from this experiment showed me is that I do not. I don’t know what the capabilities of these models are.\nGiven the recent news around the math olympiad, should I have expected such a result? Was this just a toss-up? Do these systems now reliably solve problems like these? Would we have trusted ChatGPt’s result, or would we have been skeptical, if Markus and I hadn’t calculated the result for the riddle ourselves?\nI am tempted to rationalize it away, to think that the problem was simpler than we made it, that my complex code involving permutations was a red herring, and that’s why the systems could solve it. Maybe that’s just me dealing with the AI effect, where we downplay AI achievements once they happen.\nThanks for reading so far. And big thanks to Markus’s kids for bringing up this riddle, and their math teacher for asking it.\n",
+  "wordCount" : "1449",
+  "inLanguage": "en",
+  "datePublished": "2025-08-24T00:00:00Z",
+  "dateModified": "2025-08-24T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://simia.net/posts/additions-with-unique-digits-a-tale-of-puzzling-and-ai/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Simia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://simia.net/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://simia.net/">Home</a>&nbsp;»&nbsp;<a href="https://simia.net/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Additions with unique digits: a tale of puzzling and AI
+    </h1>
+    <div class="post-meta"><span title='2025-08-24 00:00:00 +0000 UTC'>August 24, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>The other day, <a href="https://www.korrekt.org/page/Markus_Kr%C3%B6tzsch">Markus
+Krötzsch</a> and I were
+catching up when one of his kids came in. She told us about a puzzle her
+math teacher gave her:</p>
+<p><em>How many integer sums are there where the equation uses each digit at
+most once?</em></p>
+<p>The simplest example is 1+2=3, but 12+47=59 also works. On the other
+hand, 1+9=10 isn’t a solution because the digit ‘1’ appears twice (in
+the first number and the sum). Markus’s wife Anja was the first of us to
+find a solution using three-digit numbers.</p>
+<p>I recommend trying to solve it yourself at this point, and then come
+back to this post. It is much more fun like that.</p>
+<p>Thinking for a moment, we realized there seemed to be quite a few
+solutions. But how many? As computer scientists, our immediate thought
+was to write a program. First, though, we estimated the complexity of a
+brute force approach: if we tried all possible permutations of the
+digits 0 to 9, that’s 10! permutations, or about 3.6 million. A
+computer should work through that pretty quickly.</p>
+<p>I started writing code, and did so even more inefficiently. I included
+‘+’ and ‘=’ with the 10 digits, then iterated through all permutations
+(and shorter versions) to check for solutions. This ballooned the
+candidate pool to an upper bound of 12!x10, or about 5 billion. I knew
+there was plenty of room for improvement – the code wasn’t smart – but
+it should find all the results. I started running it. At this point, I
+was pretty sure this was the kind of problem that with raw computational
+power can be solved faster than taking the time to come up with &lsquo;smart&rsquo;
+code and better heuristics. <a href="/pages/unique-digits-addition/denny">My full code is
+here</a>.</p>
+<p>As my code ran, Markus took it as a fun challenge and set out to create
+a smarter solution — which, admittedly, shouldn’t be too hard. Instead
+of iterating through all possible (and many impossible) equation
+strings, he only permuted the numbers, applied a maximum length, and
+checked those. <a href="/pages/unique-digits-addition/markus">Markus’
+code</a> was impressively fast
+– just <strong>4 seconds</strong>! It seemed like we had found the &lsquo;right&rsquo; way to
+solve it, using better heuristics. Or had we?</p>
+<p>Soon after, my code finished, taking <strong>20 minutes</strong>. We both had the
+same answer! (You can find the answer in the linked material, but I am
+keeping it out here in case you want to try it out yourself). Having two
+different approaches with the same result gave us high confidence in the
+answer.</p>
+<p>Now, that’s where it could have ended. But the kids were teasing us: it
+took us forever to write the code (less than half an hour, but still),
+why didn’t we just ask ChatGPT for the answer?</p>
+<p>We were pretty convinced there’s no chance ChatGPT would be able to
+answer that. So we asked. Markus formulated the prompt (in German, due
+to my prodding, so it’s more fun for his kid watching), and ChatGPT
+started thinking.</p>
+<p>I have never seen it thinking for so long. Almost seven minutes.</p>
+<p>We used that time to laugh and joke about it. No way it would figure it
+out! We were looking at the steps it was describing. They didn’t seem
+too bad. What is a
+<a href="https://en.wikipedia.org/wiki/Verbal_arithmetic">cryptarithm</a>? Never
+heard of that. We were getting ready to amuse ourselves by watching and
+dissecting ChatGPT’s answer.</p>
+<p>Boy, we were wrong!</p>
+<p>It returned the same number we had found. The answer was great! Not
+only that, we looked into the thinking process and found <a href="/pages/unique-digits-addition/chatgpt">the code that
+ChatGPT wrote</a>. That code
+ran in fractions of a second. It wasn’t just faster; the way it built
+the equations, digit by digit, felt like a fundamentally different
+strategy than our permutations. Here is <a href="https://chatgpt.com/share/68a8d196-bab8-8007-9a27-192391ce5b07">a link to the full
+conversation</a>
+(<a href="/pages/unique-digits-addition/chatgpt-conversation">local
+archive</a>).
+Where my code ran in 20 minutes and Markus’s in 4 seconds, ChatGPT’s
+code ran in 60 milliseconds.</p>
+<p>We were completely baffled. I searched the Web for this riddle and
+solutions, hoping to find indications it had been solved before, that it
+was part of the corpus. It might be the case, but we didn’t find it
+anywhere. ChatGPT came up with more efficient code, and was faster to
+write it. We were deeply impressed, and were left with two questions,
+without immediate answers:</p>
+<ol>
+<li>Given that this is a language model, how did it actually manage to
+reach this solution? Why did this work?</li>
+<li>Given that ChatGPT can do this, what does this mean? What are the
+consequences of having such an ability available? How does this
+change things?</li>
+</ol>
+<p>I kicked off my local <a href="https://ollama.com/">Ollama</a> with <a href="https://openai.com/index/introducing-gpt-oss/">OpenAI’s
+recent Open Weight model</a>
+(120 billion parameters), using Markus’s prompt. I let it run in the
+background while Markus and I kept chatting. It took a long time – tens
+of minutes? I didn’t keep track – and we were again confident it
+wouldn’t be able to answer the question. This was mostly because my
+local Ollama doesn’t have access to a Python interpreter. And indeed, it
+answered that there were 45 solutions, very much off from the 1991
+solutions we were looking for.</p>
+<p>We were a bit relieved. It was getting late, so we called it a night.
+Seeing Ollama struggle initially, giving me numbers far off the mark,
+actually reinforced my earlier skepticism. It felt like my intuition
+about what these models <em>couldn&rsquo;t</em> do was being confirmed – at least for
+a moment. I asked the system to list all 45 solutions, and it did. I
+noticed that 1+2=3 was missing. I asked if that would be a correct
+answer and if it wanted to reconsider its number of solutions, then left
+it to run while I went to sleep.</p>
+<p>The next day I checked the answer. The model had increased its answer to
+124 solutions and wrote new code. It told me I should run that Python
+code myself, as a next step. So, again, the wrong answer.</p>
+<p>And then I did run the code. From both <a href="/pages/unique-digits-addition/gpt-oss">the first
+answer</a>, and <a href="/pages/unique-digits-addition/gpt-oss-v2">the second,
+improved answer</a>. If you
+actually run the code, both of them result in the correct answer! The
+first version took about 20 seconds. The second version then took almost
+half an hour to run, but I think that’s only because at this point the
+LLM was becoming a bit extra cautious; it even checked for five-digit
+numbers, although four-digit numbers were sufficient. I took the LLM’s
+last code, made some <a href="/pages/unique-digits-addition/gpt-oss-cleaned">minor clean-up to the
+code</a>, and reduced
+it to four digits again, and the code gives the correct answer in 20
+seconds again. <a href="/pages/unique-digits-addition/gpt-oss-conversation">My complete conversation with gpt-oss is available
+here</a>.</p>
+<p>Not only that: I would even claim that this cleaned-up code provides the
+easiest to read and understand of all the solutions we discussed so far.
+It iterates over all possible numbers up to four digits, making sure the
+second number is always bigger than the first, gets their sum, checks
+the result for digit uniqueness (quite elegantly using a set!), and
+counts the solutions. The code is short and, I’d say, elegant.</p>
+<p>Markus has also written <a href="/pages/unique-digits-addition/markus-v2">a second
+version</a>, which beats the
+one by ChatGPT in efficiency, running in only <em>20 milliseconds</em>, and
+probably being so fast that the Unix time command doesn&rsquo;t measure it
+reliably.</p>
+<p>I am impressed by the answers by the models (and by Markus as well). I
+think this is a great example of my biggest problem with all of these
+models, something I’ve been saying for years: <strong>I cannot explain to
+someone else what these models are good at, and what they are not good
+at</strong>.</p>
+<p>But I thought I had a good intuition myself. That I roughly knew what
+kind of questions they would answer well, and which ones I shouldn’t
+trust them with. What my experience from this experiment showed me is
+that I do not. <strong>I don’t know what the capabilities of these models
+are</strong>.</p>
+<p>Given the <a href="https://www.heise.de/en/news/OpenAI-and-Google-win-gold-at-the-Math-Olympics-10496839.html">recent news around the math
+olympiad</a>,
+should I have expected such a result? Was this just a toss-up? Do these
+systems now reliably solve problems like these? Would we have trusted
+ChatGPt’s result, or would we have been skeptical, if Markus and I
+hadn&rsquo;t calculated the result for the riddle ourselves?</p>
+<p>I am tempted to rationalize it away, to think that the problem was
+simpler than we made it, that my complex code involving permutations was
+a red herring, and that’s why the systems could solve it. Maybe that’s
+just me dealing with the <a href="https://en.wikipedia.org/wiki/AI_effect">AI
+effect</a>, where we downplay AI
+achievements once they happen.</p>
+<p>Thanks for reading so far. And big thanks to Markus’s kids for bringing
+up this riddle, and their math teacher for asking it.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://simia.net/tags/math/">math</a></li>
+      <li><a href="https://simia.net/tags/simia/">Simia</a></li>
+      <li><a href="https://simia.net/tags/english/">english</a></li>
+      <li><a href="https://simia.net/tags/ai/">AI</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://simia.net/posts/wikipedia-is-an-encyclopedia/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Wikipedia is an encyclopedia</span>
+  </a>
+  <a class="next" href="https://simia.net/posts/tech-companies-and-the-size-of-the-market/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Tech companies and the size of the market</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

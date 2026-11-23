@@ -1,0 +1,18 @@
+---
+title: "Academic lineage"
+date: 2019-10-16
+language: "en"
+slug: "academic-lineage"
+aliases:
+  - "/wiki/Academic_lineage"
+tags:
+  []
+---
+
+Sorry for showing off, but it is just too cool not to:
+[here](http://simia.net/download/academic_lineage.png) is a
+visualization of my academic lineage according to Wikidata.
+
+Query: [w.wiki/AE8](http://w.wiki/AE8)
+
+

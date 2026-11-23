@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wikimedia on Simia</title>
+    <link>https://simia.net/tags/wikimedia/</link>
+    <description>Recent content in Wikimedia on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/tags/wikimedia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Web of Knowledge</title>
+      <link>https://simia.net/posts/the-web-of-knowledge/</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/the-web-of-knowledge/</guid>
+      <description>I thought I knew the history of Wikipedia inside and out. Then I read Giota Alevizou’s The Web of Knowledge, and I found myself honestly surprised. I learned things about Wikipedia and its role in the knowledge ecosystem that had a major impact on my career, and that I was completely unaware of.
+2026 is Wikipedia’s Jubilee year, and there are a few books published retelling the history of Wikipedia. But this book goes further; it discusses the role of Wikipedia in the wider knowledge infrastructure, and it encompasses the history of (English) digital encyclopedias as a whole, covering in particular the journeys of Britannica and Encarta from the 1990s on, in addition to telling the history of Wikipedia.</description>
+      <content:encoded><![CDATA[<p>I thought I knew the history of Wikipedia inside and out. Then I read
+<a href="https://www.kcl.ac.uk/people/giota-alevizou">Giota Alevizou</a>’s <a href="https://kclpure.kcl.ac.uk/portal/en/publications/the-web-of-knowledge-encyclopedias-and-authority-in-the-digital-a/">The Web
+of
+Knowledge</a>,
+and I found myself honestly surprised. I learned things about Wikipedia
+and its role in the knowledge ecosystem that had a major impact on my
+career, and that I was completely unaware of.</p>
+<p>2026 is Wikipedia’s Jubilee year, and there are a few books published
+retelling the history of Wikipedia. But this book goes further; it
+discusses the role of Wikipedia in the wider knowledge infrastructure,
+and it encompasses the history of (English) digital encyclopedias as a
+whole, covering in particular the journeys of Britannica and Encarta
+from the 1990s on, in addition to telling the history of Wikipedia.</p>
+<p>The book starts with a foreword by Jimmy Wales, the founder of
+Wikipedia, in which he closes by discussing the impact AI might have on
+Wikipedia and the knowledge ecosystem. A timely topic that the book will
+pick up.</p>
+<p>I have to admit that I had a bit of a hard time getting started with the
+book, particularly regarding its positioning within its theoretical
+frameworks. But once we started to dive into the topic, I enjoyed it
+quite a bit and learned a few things.</p>
+<p>The book covers very competently the pre-history of digital
+encyclopedias, starting well before Diderot, covering the ‘Great Books’
+of the past, the Summae, and also Otlet and Dewey and their plans to
+index and organize the world’s knowledge, and Nelson’s Memex, all the
+way to Lenat’s Cyc. Giota describes knowledge organization and the
+encyclopedia as parallel threads weaving through the centuries.</p>
+<p>For me the biggest surprise was right in the origin story of Wikipedia,
+where both threads were tied together. A lot has been written and said
+about Jimmy Wales’ motivation to start an online encyclopedia, including
+his mother buying an encyclopedia when he was 3 years old. When Jimmy
+was 30 years old, in 1996, he founded Bomis, a web portal for
+user-generated webrings and adult content. Critics often raised the
+second part, but Giota’s book focuses on the first: to structure the
+topics of the webrings would be helpful. And what better solution for
+that than an encyclopedia?</p>
+<p>This was around the same time that Yahoo started becoming the main
+portal to the Web, and that predecessors of DMOZ came around. Back then,
+Yahoo wasn’t a search portal, but a directory. Jimmy’s intuition that an
+encyclopedia would be a great complement or substrate to organize the
+webrings would prove extremely foresighted, and became one of the
+foundational ideas for my own career.</p>
+<p>That’s why I was so surprised to read about it in this book. So much
+that I actually had to discuss this with Jimmy and he, unsurprisingly,
+confirmed the story.</p>
+<p>An encyclopedia is “a systematically organized repository of knowledge”.
+Already in the early 20th century, Giota describes how “the encyclopedia
+serves as a means for the semantic structuring of (digital) information
+spaces”.</p>
+<p>I want to expand on this point: Jimmy’s intuition repeatedly bore fruit
+in the years that followed. Ironically, to the best of my understanding
+he never used it to improve the organization of webrings by Bomis. In
+2005, Markus Krötzsch, Max Völkel and I described the <a href="https://iccl.inf.tu-dresden.de/web/Inproceedings963/en">Semantic
+Wikipedia</a> idea,
+where we suggested using Wikipedia articles as anchors for topics.</p>
+<p>In 2007, Metaweb’s Freebase also took Wikipedia as the central semantic
+structure to build around, which later became the Google Knowledge
+Graph, considerably improving Google Search by using <a href="https://blog.google/products-and-platforms/products/search/introducing-knowledge-graph-things-not/">“things, not
+strings”</a>.
+DBpedia, started in the same year, was also lifted off from Wikipedia
+and called itself a <a href="https://link.springer.com/chapter/10.1007/978-3-540-76298-0_52">Nucleus for the Web of Open
+Data</a>.</p>
+<p>In 2012 <a href="https://iccl.inf.tu-dresden.de/w/images/9/9d/Vrandecic-Pintscher-Kroetzsch_Wikidata-History-WWW-2023.pdf">we kicked off
+Wikidata</a>
+to explicitly provide and entangle a machine-readable knowledge graph,
+firmly based on Wikipedia. Abstract Wikipedia is now a continuation of
+this idea, working toward a more comprehensive knowledge representation
+than Wikidata did, towards the more ambitious goal of allowing many more
+people to share knowledge across language barriers.</p>
+<p>And although I have been working on this for more than 20 years, I did
+not know that using an encyclopedia as the foundational structure of the
+semantic space was Jimmy’s motivation all along.</p>
+<p>But back to the book. For me, that insight alone was worth the prize of
+admission. And Giota doesn’t stop there. There is the widespread myth
+that <em>“Wikipedia killed Britannica”</em>, and maybe some of us know that
+this doesn’t align with events. Britannica was already in a steep
+decline when Wikipedia was founded, and the reason was Microsoft’s
+Encarta. And whereas I roughly knew this story, Giota really lays out
+the narrative with thorough evidence drawn from her own material
+collected over decades. She had already interviewed people involved with
+Britannica and Encarta in the 2000s, and used this material to lay out a
+fascinating story, about Britannica’s turbulent organizational history
+and Microsoft’s ambitions to use Encarta as the promotional vehicle to
+get a PC into every household: because for the price of a Britannica,
+you not only get an encyclopedia for your children, but you get a lot
+more value.</p>
+<p>One interesting point is about finances: Giota mentions that in 1989,
+Britannica had $627 million in revenue. That’s almost <a href="https://www.wikifunctions.org/wiki/Special:RunFunction?call=%7B%22Z1K1%22%3A%22Z7%22%2C%22Z7K1%22%3A%22Z25445%22%2C%22Z25445K1%22%3A%7B%22Z1K1%22%3A%22Z7%22%2C%22Z7K1%22%3A%22Z25970%22%2C%22Z25970K1%22%3A%7B%22Z1K1%22%3A%22Z19677%22%2C%22Z19677K1%22%3A%7B%22Z1K1%22%3A%22Z16659%22%2C%22Z16659K1%22%3A%22Z16660%22%7D%2C%22Z19677K2%22%3A%7B%22Z1K1%22%3A%22Z13518%22%2C%22Z13518K1%22%3A%22627000000%22%7D%2C%22Z19677K3%22%3A%7B%22Z1K1%22%3A%22Z13518%22%2C%22Z13518K1%22%3A%221%22%7D%7D%2C%22Z25970K2%22%3A%7B%22Z1K1%22%3A%22Z20159%22%2C%22Z20159K1%22%3A%7B%22Z1K1%22%3A%22Z17813%22%2C%22Z17813K1%22%3A%22Z17814%22%7D%2C%22Z20159K2%22%3A%7B%22Z1K1%22%3A%22Z13518%22%2C%22Z13518K1%22%3A%221989%22%7D%7D%2C%22Z25970K3%22%3A%7B%22Z1K1%22%3A%22Z20159%22%2C%22Z20159K1%22%3A%7B%22Z1K1%22%3A%22Z17813%22%2C%22Z17813K1%22%3A%22Z17814%22%7D%2C%22Z20159K2%22%3A%7B%22Z1K1%22%3A%22Z13518%22%2C%22Z13518K1%22%3A%222026%22%7D%7D%7D%2C%22Z25445K2%22%3A%7B%22Z1K1%22%3A%22Z13518%22%2C%22Z13518K1%22%3A%222%22%7D%7D">$1.6 billion in
+today’s
+dollars</a>.</p>
+<p>That is roughly one order of magnitude larger than the budget of the
+Wikimedia Foundation. While Britannica is available only in English,
+Wikipedia is available in more than 300 languages.</p>
+<p>Giota also reminds us that Encarta premiered multimedia capabilities and
+functionalities from which Wikipedia could still learn. But just as
+Encarta eroded Britannica’s financial base, Wikipedia was able to
+replace Encarta. Microsoft wouldn’t even put up a fight: the PC had
+already won the marketplace, and whether Encarta or Wikipedia was the
+encyclopedia, what did it matter to Microsoft?</p>
+<p>The book outlines the history of how encyclopedic authority moved from a
+small group of exalted individuals to a crowd in which everyone can
+participate. It reminds us again how littered with accidents this
+history was, and how fragile the current situation is. The wide
+deployment and usage of AI is destabilizing a situation in more than one
+way, and the book outlines what we may lose if we are not careful. We
+must take our role as stewards of the encyclopedia seriously – I am
+reminded of Umberto Eco’s wonderful quote: &ldquo;After all, the cultivated
+person&rsquo;s first duty is to be always prepared to rewrite the
+encyclopaedia.&rdquo;</p>
+<p>Links:</p>
+<ul>
+<li><a href="https://kclpure.kcl.ac.uk/portal/en/publications/the-web-of-knowledge-encyclopedias-and-authority-in-the-digital-a/">Website about the book by King’s College
+London</a></li>
+<li><a href="https://ijoc.org/index.php/ijoc/article/view/27488/5320">A review of the book by Matthew Vetter in the International Journal
+of
+Communication</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Vortrag an der Stadtbibliothek Stuttgart zu Wikidata</title>
+      <link>https://simia.net/posts/stuttgart/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/stuttgart/</guid>
+      <description>Vortrag an der Stadtbibliothek Stuttgart über Wikidata zum Wikipedia-Tag in Stuttgart zur Feier des 25. Jubiläumsjahres der Wikipedia</description>
+      <content:encoded><![CDATA[<p><a href="https://docs.google.com/presentation/d/1aEZnMY8q_Vo5x1Q_F0fAlS2rS35zQtKzp5DIo6qKc3M/edit?slide=id.g39eac51ae71_0_13602#slide=id.g39eac51ae71_0_13602">Vortrag an der Stadtbibliothek
+Stuttgart über Wikidata</a> zum Wikipedia-Tag in Stuttgart zur Feier des 25. Jubiläumsjahres der Wikipedia</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Abstract Wikipedia in Beta launch</title>
+      <link>https://simia.net/posts/abstract-wikipedia-in-beta-launch/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/abstract-wikipedia-in-beta-launch/</guid>
+      <description>Psst! It is a quiet launch. Abstract Wikipedia has launched in Beta. More information in the weekly Abstract Wikipedia newsletter.</description>
+      <content:encoded><![CDATA[<p>Psst! It is a quiet launch. Abstract Wikipedia has launched in Beta.
+More information in the <a href="https://www.wikifunctions.org/wiki/Wikifunctions:Status_updates/2026-03-19">weekly Abstract Wikipedia
+newsletter</a>.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Kicking off the naming contest for Abstract Wikipedia</title>
+      <link>https://simia.net/posts/kicking-off-the-naming-contest-for-abstract-wikipedia/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/kicking-off-the-naming-contest-for-abstract-wikipedia/</guid>
+      <description>Before we started Abstract Wikipedia, it was always clear that &amp;ldquo;Abstract Wikipedia&amp;rdquo; was just a working name for the project, not the name that the Website would eventually get. It was intentionally chosen to be minimally descriptive &amp;ndash;it is abstract in the sense that it captures encyclopaedic content abstracted from a concrete natural language&amp;ndash; but also not a very good name, because it is confusing: people confuse it with a Wikipedia of Abstracts (short summaries of articles), or think of math or art.</description>
+      <content:encoded><![CDATA[<p>Before we started Abstract Wikipedia, it was always clear that &ldquo;Abstract
+Wikipedia&rdquo; was just a working name for the project, not the name that
+the Website would eventually get. It was intentionally chosen to be
+minimally descriptive &ndash;it is abstract in the sense that it captures
+encyclopaedic content abstracted from a concrete natural language&ndash; but
+also not a very good name, because it is confusing: people confuse it
+with a Wikipedia of Abstracts (short summaries of articles), or think of
+math or art.</p>
+<p>Thus we are kicking off a <a href="https://meta.wikimedia.org/wiki/Abstract_Wikipedia/Abstract_Wikipedia_naming_contest">naming
+contest</a>
+and were inviting all Wikimedians to join! Already, more than a dozen
+names are there, and you can suggest more, and vote for your favorites.</p>
+<p>Let&rsquo;s find the best possible name!</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Wikipedia is an encyclopedia</title>
+      <link>https://simia.net/posts/wikipedia-is-an-encyclopedia/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/wikipedia-is-an-encyclopedia/</guid>
+      <description>Just happy to post that Wikifunctions can now create some simple sentences in multiple languages. More information on the Abstract Wikipedia newsletter.</description>
+      <content:encoded><![CDATA[<p>Just happy to post that Wikifunctions can now create some simple
+sentences in multiple languages. More information on the <a href="https://www.wikifunctions.org/wiki/Wikifunctions:Status_updates/2025-07-26">Abstract
+Wikipedia
+newsletter</a>.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>News about Abstract Wikipedia</title>
+      <link>https://simia.net/posts/news-about-abstract-wikipedia/</link>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/news-about-abstract-wikipedia/</guid>
+      <description>Some material about Abstract Wikipedia from the last few days:
+Abstract Wikipedia is a MacArthur 100&amp;amp;Change finalist Knowledge in the Age of AI, talk at King&amp;rsquo;s College London by me, on the occasion of becoming a Visiting Professor Episode of Between the Brackets by Yaron Koren with me </description>
+      <content:encoded><![CDATA[<p>Some material about Abstract Wikipedia from the last few days:</p>
+<ul>
+<li><a href="https://diff.wikimedia.org/2025/04/30/abstract-wikipedia-is-a-100change-finalist/">Abstract Wikipedia is a MacArthur 100&amp;Change
+finalist</a></li>
+<li><a href="https://www.youtube.com/watch?v=2oFrs86xtco">Knowledge in the Age of AI, talk at King&rsquo;s College
+London</a> by me, on the
+occasion of becoming a Visiting Professor</li>
+<li><a href="https://betweenthebrackets.libsyn.com/episode-180-denny-vrandei">Episode of Between the Brackets by Yaron
+Koren</a>
+with me</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Katherine Maher to step down from Wikimedia Foundation</title>
+      <link>https://simia.net/posts/katherine-maher-to-step-down-from-wikimedia-foundation/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/katherine-maher-to-step-down-from-wikimedia-foundation/</guid>
+      <description>Today Katherine Maher announced that she is stepping down as the CEO of the Wikimedia Foundation in April.
+Thank you for everything!</description>
+      <content:encoded><![CDATA[<p>Today <a href="https://en.wikipedia.org/wiki/Katherine_Maher">Katherine Maher</a>
+announced that she is <a href="https://meta.wikimedia.org/wiki/Wikimedia_Foundation_Board_noticeboard/4_February_2021_-_Executive_transition_planning">stepping down as the
+CEO</a>
+of the <a href="https://en.wikipedia.org/wiki/Wikimedia_Foundation">Wikimedia
+Foundation</a> in
+April.</p>
+<p>Thank you for everything!</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Abraham Taherivand to step down from Wikimedia Deutschland</title>
+      <link>https://simia.net/posts/abraham-taherivand-to-step-down-from-wikimedia-deutschland/</link>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/abraham-taherivand-to-step-down-from-wikimedia-deutschland/</guid>
+      <description>Today Abraham Taherivand announced that he is stepping down as the CEO of Wikimedia Deutschland at the end of the year.
+Thank you for everything!</description>
+      <content:encoded><![CDATA[<p>Today <a href="https://de.wikipedia.org/wiki/Abraham_Taherivand">Abraham
+Taherivand</a> announced
+that he is <a href="https://lists.wikimedia.org/pipermail/wikimedia-l/2021-January/096133.html">stepping down as the
+CEO</a>
+of <a href="https://meta.wikimedia.org/wiki/Wikimedia_Deutschland">Wikimedia
+Deutschland</a> at
+the end of the year.</p>
+<p>Thank you for everything!</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Starting Abstract Wikipedia</title>
+      <link>https://simia.net/posts/starting-abstract-wikipedia/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/starting-abstract-wikipedia/</guid>
+      <description>I am very happy about the Board of the Wikimedia Foundation having approved the proposal for the multilingual Wikipedia aka Abstract Wikipedia aka Wikilambda aka we&amp;rsquo;ll need to find a name for it.
+In order to make that project a reality, I will as of next week join the Foundation. We will be starting with a small, exploratory team, which will allow us to have plenty of time to continue to socialize and discuss and refine the idea.</description>
+      <content:encoded><![CDATA[<p>I am very happy about the Board of the Wikimedia Foundation having
+approved the proposal for the multilingual Wikipedia aka Abstract
+Wikipedia aka Wikilambda aka we&rsquo;ll need to find a name for it.</p>
+<p>In order to make that project a reality, I will as of next week join the
+Foundation. We will be starting with a small, exploratory team, which
+will allow us to have plenty of time to continue to socialize and
+discuss and refine the idea. Being able to work on this full time and
+with a team should allow us to make significant progress. I am very
+excited about that.</p>
+<p>I am sad to leave Google. It was a great time, and I learned a lot about
+running *large* projects, and I met so many brilliant people, and I
+&hellip; seriously, it was a great six and a half years, and I will very much
+miss it.</p>
+<p>There is so much more I want to write but right now I am just super
+happy and super excited. Thanks everyone!</p>
+<ul>
+<li><a href="https://meta.wikimedia.org/wiki/Abstract_Wikipedia">Abstract Wikipedia on
+Meta</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.119.0"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Simia</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://simia.net/index.xml">
+<link rel="alternate" type="application/json" href="https://simia.net/index.json">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Simia" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://simia.net/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Simia"/>
+<meta name="twitter:description" content=""/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Simia",
+  "url": "https://simia.net/",
+  "description": "",
+  "thumbnailUrl": "https://simia.net/favicon.ico",
+  "sameAs": [
+      "https://meta.wikipedia.com/wiki/User:Denny", "http://mas.to/@vrandecic", "https://github.com/vrandezo", "https://linkedin.com/in/vrandecic", "https://facebook.com/vrandezo", "https://www.youtube.com/@DennyVrande%C4%8Di%C4%87", "/index.xml"
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>RIP Christopher Alexander
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>RIP Christopher Alexander, the probably most widely read actual architect in all of computer science. His work, particularly his book “A Pattern Language” was popularized, among others, by the Gang of Four and Design Pattern work, and is frequently read and cited in Future of Programming and UX circles for the idea that everyone should be able to create, but in order to enable them, they need patterns that make creation possible....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-03-22 00:00:00 +0000 UTC'>March 22, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to RIP Christopher Alexander" href="https://simia.net/posts/rip-christopher-alexander/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Ante Vrandečić (1919-1944)
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I knew that my father was named for his uncle. His other brother told me about him, and he was telling me that he became a prisoner of war and that they lost his trace. Back then, I didn’t dare to ask on which side he was fighting, and when I would have dared to ask, it was too late.
+Today, thanks to the increasing digitalisation of older sources and their publication on the Web and the Web being indexed, I accidentally stumbled upon a record about him in a three thousand pages long book, Volume 8 of the “Victims of the War 1941-1945” (Žrtve rata 1941-1945)....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-02-17 00:00:00 +0000 UTC'>February 17, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to Ante Vrandečić (1919-1944)" href="https://simia.net/posts/ante-vrande-i-1919-1944/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>A quick draft for a curriculum for Computer Science
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The other day, on Facebook, I was asking the question who would be the person closest to being a popularizer for ideas in Computer Science to the wider audience, which lead to an interesting and insightful discussion.
+Pat Hayes asked what I would consider the five (or so) core concepts of Computer Science. Ernest Davis answer with the following short list (not in any particular order):
+Virtual machine Caching Algorithm Data structure Programming language And I followed up with this drafty, much longer answer:...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-02-13 00:00:00 +0000 UTC'>February 13, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to A quick draft for a curriculum for Computer Science" href="https://simia.net/posts/a-quick-draft-for-a-curriculum-for-computer-science/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>The Strange Case of Booker T. Washington’s Birthday
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>A lovely geeky essay about how much work a single edit to Wikipedia can be. I went down this kind of rabbit holes myself more than once, and so I very much enjoyed the essay.
+https://contingentmagazine.org/2021/04/05/the-strange-case-of-booker-t-washingtons-birthday/ </p>
+  </div>
+  <footer class="entry-footer"><span title='2022-02-04 00:00:00 +0000 UTC'>February 4, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to The Strange Case of Booker T. Washington’s Birthday" href="https://simia.net/posts/the-strange-case-of-booker-t-washington-s-birthday/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Wordle is good and pure
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The nice thing about Wordle - whether you play it or not, whether you like it or not - is that it is one of those good, pure things the Web was made for. A simple Website, without ads, popups, monetization, invasive tracking, etc.
+You know, something that can chiefly be done by someone who already has a comfortable life and won’t regret not having monetized this. The same way scientists mainly have been “gentleman scientist”....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-26 00:00:00 +0000 UTC'>January 26, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to Wordle is good and pure" href="https://simia.net/posts/wordle-is-good-and-pure/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Meat Loaf
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>“But it was long ago
+And it was far away
+Oh God, it seemed so very far
+And if life is just a highway
+Then the soul is just a car
+And objects in the rear view mirror may appear closer than they are.”
+Bat out of Hell II: Back into Hell was the first album I really listened to, over and over again. Where I translated the songs to better understand them....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-21 00:00:00 +0000 UTC'>January 21, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to Meat Loaf" href="https://simia.net/posts/meat-loaf/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Map of current Wikidata edits
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>It starts entirely black and then listens to Wikidata edits. Every time an item with a coordinate is edited, a blue dot in the corresponding place is made. So slowly, over time, you get a more and more complete map of Wikidata items.
+https://vrandezo.github.io/wikidata-edit-map/ If you open the developer console, you can get links and names of the items being displayed.
+The whole page is less than a hundred lines of JavaScript and HTML, and it runs entirely in the browser....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-16 00:00:00 +0000 UTC'>January 16, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to Map of current Wikidata edits" href="https://simia.net/posts/map-of-current-wikidata-edits/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>White&#39;s illusion
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I stumbled upon “White’s Illusion” and was wondering - was this named after a person called White, or was this named because, well it is an illusion where the colour white plays an important role?
+As usual in this case, I started at Wikipedia’s article on White’s illusion. But Wikipedia didn’t answer that question. The references at the bottom also didn’t list to anyone named White. So I started guessing it’s about the colour....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-12 00:00:00 +0000 UTC'>January 12, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to White&#39;s illusion" href="https://simia.net/posts/white-s-illusion/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>She likes music, but only when the music is loud
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Original in German by Herbert Grönemeyer, 1983.
+She sits on her windsill all day
+Her legs dangling to the music
+The noise from her room
+drives all the neighbours mad
+She is content
+smiles merrily
+She doesn’t know
+that snow
+falls
+without a sound
+to the ground
+Doesn’t notice
+the knocking
+on the wall
+She likes music
+but only
+when the music is loud
+When it hits her stomach
+with the sound...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-09 00:00:00 +0000 UTC'>January 9, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to She likes music, but only when the music is loud" href="https://simia.net/posts/she-likes-music-but-only-when-the-music-is-loud/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>A sermon on tolerance and inclusion
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Warning: meandering New Year’s sermon ahead, starting at a random point and going somewhere entirely else. I started reading Martin Kay’s book on Translation, and I am enjoying it quite a bit so far. Kay passed away August 2021. His work seems highly relevant for the work on Abstract Wikipedia.
+One thing that bummed me though is that for more than a page in the introduction he rants about pronouns and how he is going to use “he” to generically mean both men and women, and how all other solutions have deficits....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-04 00:00:00 +0000 UTC'>January 4, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to A sermon on tolerance and inclusion" href="https://simia.net/posts/a-sermon-on-tolerance-and-inclusion/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://simia.net/page/15/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://simia.net/page/17/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

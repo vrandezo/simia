@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.119.0"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Simia</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://simia.net/index.xml">
+<link rel="alternate" type="application/json" href="https://simia.net/index.json">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Simia" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://simia.net/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Simia"/>
+<meta name="twitter:description" content=""/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Simia",
+  "url": "https://simia.net/",
+  "description": "",
+  "thumbnailUrl": "https://simia.net/favicon.ico",
+  "sameAs": [
+      "https://meta.wikipedia.com/wiki/User:Denny", "http://mas.to/@vrandecic", "https://github.com/vrandezo", "https://linkedin.com/in/vrandecic", "https://facebook.com/vrandezo", "https://www.youtube.com/@DennyVrande%C4%8Di%C4%87", "/index.xml"
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>DSA4 Werkzeug 1.17
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Und schon wieder eine neue Version DSA4 Werkzeugs. Dort habe ich dann auch eine ganze Menge geschrieben, dafür halte ich mich hier schön kurz.</p>
+  </div>
+  <footer class="entry-footer"><span title='2003-02-17 00:00:00 +0000 UTC'>February 17, 2003</span></footer>
+  <a class="entry-link" aria-label="post link to DSA4 Werkzeug 1.17" href="https://simia.net/posts/dsa4-werkzeug-1-17/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Entschuldigung!
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Die Farbe war doch furchtbar! Rosa. Ich habe mich ja schon selbst kaum auf Nodix getraut… Hiermit kehren wir zu dem gewohnten langweiligen Grau in Grau zurück, welches wir erst zu schätzen wissen, nachdem wir gesehen haben, welche furchtbaren Farbkombinationen sonst noch möglich sind.
+Auf der DSA4 Werkzeug-Website gab es ein kleines Update auf Version 1.16a.</p>
+  </div>
+  <footer class="entry-footer"><span title='2003-02-15 00:00:00 +0000 UTC'>February 15, 2003</span></footer>
+  <a class="entry-link" aria-label="post link to Entschuldigung!" href="https://simia.net/posts/entschuldigung/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>FROHEN VALENTINSTAG!
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Anmerkung: am Tag dieses Posts wurde ganz Nodix rosa eingefärbt. Der Post selber hatte keinen Inhalt.</p>
+  </div>
+  <footer class="entry-footer"><span title='2003-02-14 00:00:00 +0000 UTC'>February 14, 2003</span></footer>
+  <a class="entry-link" aria-label="post link to FROHEN VALENTINSTAG!" href="https://simia.net/posts/frohen-valentinstag/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Blumengruß
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Ein neuer Donnerstag und eine neue nutkidz-Folge - natürlich passend zum morgigen Valentinstag! Für alle also, die es (fast) vergessen haben: pflückt Gänseblümchen! Vergesst nicht, Damen: wenn er euch keine Blumen schenkt, dann hasst er euch!
+Ach ja, für alle Herren, denen gerade noch einfällt, dass sie doch jemanden lieben: bei Amazon kann man auch Blumen versenden. Frohen Valentinstag allen!
+UPDATE
+Ich schon wieder! Bin auch gleich wieder weg, wollte bloß die Veröffentlichung einer neuen Version des DSA4 Werkzeugs verkünden!...</p>
+  </div>
+  <footer class="entry-footer"><span title='2003-02-13 00:00:00 +0000 UTC'>February 13, 2003</span></footer>
+  <a class="entry-link" aria-label="post link to Blumengruß" href="https://simia.net/posts/blumengruss/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Melodie zu Diadem aus Elfenhand
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Wie vielleicht manche von Euch wissen, erschien letztes Jahr in dem Abenteuersammelband “Leicht verdientes Gold” mein DSA-Abenteuer “Ein Diadem von Elfenhand”. Darin spielt eine bestimmte Melodie eine wichtige Rolle - und in letzter Zeit erhalte ich immer häufiger eMails, die micht fragen, wie die Melodie geht. Da meine Stimme die letzten paar Tage versagt hat, und ich ohnehin nicht vorhatte es jedem einzeln am Telefon vorzusingen, habe ich kurzerhand ein Midi erstellt, welches die Melodie abspielen kann....</p>
+  </div>
+  <footer class="entry-footer"><span title='2003-02-12 00:00:00 +0000 UTC'>February 12, 2003</span></footer>
+  <a class="entry-link" aria-label="post link to Melodie zu Diadem aus Elfenhand" href="https://simia.net/posts/melodie-zu-diadem-aus-elfenhand/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Wachstumsmodelle
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Neue Woche, neue nutkidz, sonst nicht viel Neues zu berichten.
+Wie ihr ja wisst, läuft dieses Jahr das Projekt 100.000 - der Counter soll den 100.000sten Besucher auf dieser Seite zählen. Ich habe - da mir das rumrechnen mit Zahlen wirklich Spaß macht - einfach ein paar Hochrechnungen angestellt, um zu sehen, wie erfolgreich ich mit diesem Plan voranschreite. Hier mal ein paar Ergebnisse aus diesen Rechnungen (alle, die von Zahlen gelangweilt werden und seit Sonntag ob Wiesbaden, Hannover und Lissabon genug von Zahlen haben, können jetzt schon ihren weiteren Weg durch den Cyberspace gehen)....</p>
+  </div>
+  <footer class="entry-footer"><span title='2003-02-06 00:00:00 +0000 UTC'>February 6, 2003</span></footer>
+  <a class="entry-link" aria-label="post link to Wachstumsmodelle" href="https://simia.net/posts/wachstumsmodelle/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Ultimatum läuft ab
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Die Zeit wird knapp. In wenigen Stunden läuft das Ultimatum ab, und noch gibt es keine einzige Zusendung. Sagt nicht später, dass Ihr es bedauert habt - es wird zu spät sein!
+Es erreichte mich eine verschlüsselte Nachricht von den Entführern von Zirkonia-B. Schwesterchen gehe es gut, aber so teilten die Entführer mit, sie hoffe sehr, dass die Katastrophe vermieden werden kann, und dass ich nicht das Comic erstellen müsse. Die Entführer schlossen sich Schwesterchens Hoffnung an....</p>
+  </div>
+  <footer class="entry-footer"><span title='2003-02-05 00:00:00 +0000 UTC'>February 5, 2003</span></footer>
+  <a class="entry-link" aria-label="post link to Ultimatum läuft ab" href="https://simia.net/posts/ultimatum-laeuft-ab/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Ab nach Bielefeld
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>So, heute geht es noch nach Bielelfeld, nur mal schnell den neuen nutkidz-Comic aufgespielt. Abgesehen davon jedoch, dass die Besucherzahlen steigen - immer ein positives Zeichen, wie ich finde - wie findet ihr die nutkidz? Feedback wie immer erwünscht.</p>
+  </div>
+  <footer class="entry-footer"><span title='2003-01-30 00:00:00 +0000 UTC'>January 30, 2003</span></footer>
+  <a class="entry-link" aria-label="post link to Ab nach Bielefeld" href="https://simia.net/posts/ab-nach-bielefeld/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>DSA4 Werkzeug 1.15
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Schon wieder eine Woche, die mit einem neuen DSA4 Werkzeug beginnt - DSA4 Werkzeug Version 1.15 ist erschienen! Und ja, richtig gelesen - kein dev mehr dahinter. Also, eine stabile Version, die ihr voll und ganz auf Herz und Nieren prüfen sollt.</p>
+  </div>
+  <footer class="entry-footer"><span title='2003-01-27 00:00:00 +0000 UTC'>January 27, 2003</span></footer>
+  <a class="entry-link" aria-label="post link to DSA4 Werkzeug 1.15" href="https://simia.net/posts/dsa4-werkzeug-1-15/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>ARS Ludis veröffentlicht
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>So, liebe rollenspielende Fangemeinde, hier die versprochene Überraschung: nein, keine neue Version des DSA4 Werkzeugs, sondern ein komplett neues Rollenspiel!
+ARS Ludis - ein kostenloses Rollenspielsystem. Michael Ruckaberle initiierte es, und mit der Hilfe einiger Wackerer erstellte er ein offenes Rollenspielsystem und möchte es nun an die breitere Öffentlichkeit bringen. Schaut es Euch an - es lohnt sich allemal! Und er sucht nach Mitarbeitern und Testspielern. Wenn also irgendjemand Interesse daran hat, das Rollenspiel zu fördern - meldet Euch bei Michael!...</p>
+  </div>
+  <footer class="entry-footer"><span title='2003-01-25 00:00:00 +0000 UTC'>January 25, 2003</span></footer>
+  <a class="entry-link" aria-label="post link to ARS Ludis veröffentlicht" href="https://simia.net/posts/ars-ludis-veroeffentlicht/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://simia.net/page/62/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://simia.net/page/64/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

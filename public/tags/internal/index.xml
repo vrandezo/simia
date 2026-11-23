@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>internal on Simia</title>
+    <link>https://simia.net/tags/internal/</link>
+    <description>Recent content in internal on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/tags/internal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hosting yourself is painful</title>
+      <link>https://simia.net/posts/hosting-yourself-is-painful/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/hosting-yourself-is-painful/</guid>
+      <description>It never was particularly easy to host your own Website. But these days, it is getting harder, I feel. I had this Website for many years, and once I moved to Google Cloud Hosting, it was just like five bucks a month, to have a small VM running Semantic MediaWiki, and all is fine.
+The last few years, it is constantly overloaded, and I have repeatedly raised the VM capacity, and now I am somewhere around 30-40 bucks per month, and it is still completely overloaded.</description>
+      <content:encoded><![CDATA[<p>It never was particularly easy to host your own Website. But these days,
+it is getting harder, I feel. I had this Website for many years, and
+once I moved to Google Cloud Hosting, it was just like five bucks a
+month, to have a small VM running Semantic MediaWiki, and all is fine.</p>
+<p>The last few years, it is constantly overloaded, and I have repeatedly
+raised the VM capacity, and now I am somewhere around 30-40 bucks per
+month, and it is still completely overloaded. My assumption is, based on
+what I see otherwise, that inconsiderate AI crawlers are just massively
+hitting the page.</p>
+<p>There&rsquo;s a way to download all the content easily! You don&rsquo;t have to
+crawl the page! I want to shout, but it&rsquo;s useless, no one will hear it.</p>
+<p>I am already paying more than I want to for this. Taking two or three
+days off to move everything to a static site is probably the way
+forward, but that&rsquo;s also unfortunate. I&rsquo;d really prefer to run SMW.</p>
+<p>Gnah. I need either time, or someone to do it for me. But I am not even
+sure what I want to do. I would love to be able to publish through the
+Web, which is what the wiki is really good at. I would love to keep SMW.
+But also I would love to push my cost down to 10 bucks or less per month
+again.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

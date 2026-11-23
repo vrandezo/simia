@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>paper on Simia</title>
+    <link>https://simia.net/tags/paper/</link>
+    <description>Recent content in paper on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/tags/paper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Large Language Models, Knowledge Graphs and Search Engines</title>
+      <link>https://simia.net/posts/large-language-models-knowledge-graphs-and-search-engines/</link>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/large-language-models-knowledge-graphs-and-search-engines/</guid>
+      <description>How can Large Language Models (LLMs), Knowledge Graphs and Search Engines be combined to best serve users? What are the strengths and limitations of these technologies?
+Aidan Hogan (Universidad de Chile, previously DERI, Linked data), Luna Dong (Meta, previously Amazon and Google), Gerhard Weikum (MPI, Yago), and myself (Wikimedia, previously Google) have been invited to give keynotes on this topic in the last year or two, on different conferences. Now we wrote a paper together to synthesise and capture some of the ideas we were presenting.</description>
+      <content:encoded><![CDATA[<p>How can Large Language Models (LLMs), Knowledge Graphs and Search
+Engines be combined to best serve users? What are the strengths and
+limitations of these technologies?</p>
+<p><a href="https://aidanhogan.com/">Aidan Hogan</a> (Universidad de Chile, previously
+DERI, Linked data), <a href="https://lunadong.com/">Luna Dong</a> (Meta, previously
+Amazon and Google), <a href="https://people.mpi-inf.mpg.de/~weikum/">Gerhard
+Weikum</a> (MPI, Yago), and myself
+(Wikimedia, previously Google) have been invited to give keynotes on
+this topic in the last year or two, on different conferences. Now we
+wrote a paper together to synthesise and capture some of the ideas we
+were presenting.</p>
+<ul>
+<li>Large Language Models, Knowledge Graphs and Search Engines: A
+Crossroads for Answering Users&rsquo; Questions,
+<a href="https://arxiv.org/abs/2501.06699">arxiv.org/abs/2501.06699</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

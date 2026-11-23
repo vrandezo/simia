@@ -1,0 +1,38 @@
+/* Light mode colors */
+:root,
+body,
+body.list,
+.list {
+  --theme: #eaeaea;   /* Main page background (e.g., warm off-white) */
+  --entry: #eaeaea;   /* Post card background */
+  --primary: #000000; /* Main text color */
+  --secondary: #555555; /* Date and subtitle text color */
+  --border: #000000;  /* Card and divider borders */
+  --code-bg: #eaeaea;
+}
+
+.paginav a:hover {
+    background: #f0f0f0;
+    color: var(--primary);
+}
+
+.archive-year-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 1.5rem 0 2rem;
+}
+
+.archive-year-nav a {
+    padding: 5px 12px;
+    border-radius: 6px;
+    background: var(--code-bg);
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.archive-year-nav a:hover {
+    background: var(--tertiary);
+    color: var(--primary);
+}

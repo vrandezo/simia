@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.119.0"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Simia</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://simia.net/index.xml">
+<link rel="alternate" type="application/json" href="https://simia.net/index.json">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Simia" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://simia.net/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Simia"/>
+<meta name="twitter:description" content=""/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Simia",
+  "url": "https://simia.net/",
+  "description": "",
+  "thumbnailUrl": "https://simia.net/favicon.ico",
+  "sameAs": [
+      "https://meta.wikipedia.com/wiki/User:Denny", "http://mas.to/@vrandecic", "https://github.com/vrandezo", "https://linkedin.com/in/vrandecic", "https://facebook.com/vrandezo", "https://www.youtube.com/@DennyVrande%C4%8Di%C4%87", "/index.xml"
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Sagrada Familia
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Ich bin zwar schon zurück aus Barcelona, aber so zwei, drei Nachwehen werde ich dazu noch bloggen. Heute: die Sagrada Familia, die Kathedrale der Heiligen Familie zu Barcelona (noch im Bau). Man kommt hin, und muss schlappe 8 Euro hinblättern für den Eintritt. Erscheint viel, ist es auch.
+Aber wie berechnet man den Eintritt für etwas, das wirklich einzigartig ist? Man sieht vor allem eine Baustelle, umgeben von den gewaltigen bestehenden Türmen....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-04-10 00:00:00 +0000 UTC'>April 10, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Sagrada Familia" href="https://simia.net/posts/sagrada-familia/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Unique Name Assumption - another example
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Ian Davis has a very nice example illustrating the Unique Name Assumption: “Two sons and two fathers went to a pizza restaurant. They ordered three pizzas. When they came, everyone had a whole pizza. How can that be?”&#39;
+Better than my examples. And much shorter!</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-04-10 00:00:00 +0000 UTC'>April 10, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Unique Name Assumption - another example" href="https://simia.net/posts/unique-name-assumption-another-example/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Barcelona II
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Wieder in Barcelona. Nachdem letztes Mal im November so ein Traumwetter war, war ich diesmal leicht gekleidet losgeflogen - und prompt ist es kälter als im Ländle. Würde mich nicht überraschen, wenn ich eine Erkältung mitschleppe…
+Aber dafür habe ich diesmal sogar etwas Zeit, mir die Stadt anschauen. Wahnsinnggemütliche kleine Bars wie die Eclectica, supertolle Restaurants wie die Muscleria, etc. Die letzten zwei Tage war ich mit Barcelonesen unterwegs, heute mit Kai, einem Erasmusstudenten, und seiner Schwester Rosa....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-04-09 00:00:00 +0000 UTC'>April 9, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Barcelona II" href="https://simia.net/posts/barcelona-ii/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Kebab Connection
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>aus der Reihe Filme in 50 Worten
+Montag, Sneak im Metropol. Eine der Regeln der Sneak: ein Film, der eine Preview bekommt, kommt nicht in der Sneak. Wurde Montags gebrochen.
+Zum Glück. Weil den Film hätte ich sonst nicht gesehen. Dem Titel nach erwartete ich eine platte Komödie über Türken der zweiten Generation, die voll auf cooler Lan, blöde Sprüche, und zwischen den Knöcheln hängende Hosen stehen. Stattdessen: ein witziger Film, mit einer glaubhaften Geschichte, der Klischees nicht nur bedient, sondern sie an den richtigen Stellen auch ernst nimmt und konsequent weitertreibt....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-04-06 00:00:00 +0000 UTC'>April 6, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Kebab Connection" href="https://simia.net/posts/kebab-connection/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>New OWL tools
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The KAON2 OWL Tools get more diverse and interesting. Besides the simple axiom and entity counter and dumper, the not so simple dlpconverter, and the syntactic transformer from XML/RDF to OWL/XML and back, you now also have a filter (want to extract only the subClassOf-Relations out of your ontology? Take filter), diff and merge (for some basic syntactic work with ontologies), satisfiable (which checks if the ontology can have a satisfying model), deo (turning SHOIN-ontologies in SHIN-ontologies by weakening, should be sound, but naturally not complete) and ded (removes some domain-related axioms, but it seems this one is still buggy)....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-04-06 00:00:00 +0000 UTC'>April 6, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to New OWL tools" href="https://simia.net/posts/new-owl-tools/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>MinCardinality
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>More on the Unique Name Assumption (UNA), because Andrew answered on it, with further arguments. He quotes Paul: &#34; The initial problem was cardinality and OWL Flight attempts to solve the problem with cardinality. Paul put it succinctly: “So what is the point of statements with the owl:minCardinality predicate? They can’t ever be false, so they don’t tell you anything! It’s kind of like a belt and braces when your belt is unbreakable....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-04-05 00:00:00 +0000 UTC'>April 5, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to MinCardinality" href="https://simia.net/posts/mincardinality/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>One Day in Europe
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Aus der Reihe Filme in 50 Worten
+Letzten Freitag war im Delphi eine kleine Premiere dieses Streifens, mitsamt Hauptdarstellern, Regisseur und so ein Krams. Das drumherum ist zwar nett, aber hier gehts trotzdem nur um den Film, und der war - trommelwirbel! - lustig, schnell, bildreich, musikalisch prima unterlegt, überzeugend gespielt, interessante Charaktere, und allerlei sonst.
+Vier Episoden in Moskau, Istanbul, Santiago de Compostela und Berlin erzählen von kleinen Ereignissen, die in Europa geschehen....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-04-05 00:00:00 +0000 UTC'>April 5, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to One Day in Europe" href="https://simia.net/posts/one-day-in-europe/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Hannover spielt
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Die diesjährige Hannover spielt 2005 war… langweilig.
+Die letzte Hannover spielt die ich besuchte war Mitte der 90er. Es waren damals um die 2000 Besucher da, zahlreiche Workshops liefen ständig und parallel, unzählige Ehrengäste gaben sich die Klinke in die Hand. War’s R. A. Salvatore, den ich damals sah? Viele Leute lernte ich damals kennen, die ich heute noch gerne und viel zu selten sehe. Es war toll.
+Über Jahre hinweg verplante ich es stets, nach Hannover zu fahren....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-04-04 00:00:00 +0000 UTC'>April 4, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Hannover spielt" href="https://simia.net/posts/hannover-spielt/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Pforzheim
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Soeben, beim ein paar Links zu Blogs verfolgen…
+Ich: “Schon wieder Pforzheim! Ich glaube, Pforzheim hat die größte Blogdichte der Welt…”
+WG-Mitbewohnerin: “Vielleicht haben die dort sonst nichts zu tun?”
+Ich bin mir auch ganz sicher, Pforzheimer haben alle ganz, ganz viel Humor… ;)
+Kommentare
+Rozana (1 April 2005 21:46)
+WG-Mitbewohnerin…</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-04-01 00:00:00 +0000 UTC'>April 1, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Pforzheim" href="https://simia.net/posts/pforzheim/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Ring 2
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Filme in 50 Worten
+Angst. Anspannung. Ring 2 ist die würdige Fortsetzung von Ring. Wie soll ich sagen? Kinder sind der größte Horror.
+Wir tauchen tiefer in die Geschichte von Samara ein, und wieder sehen wir, wie Rachel um ihren Sohn kämpft. Der Mut, den sie dabei aufbringt, grenzt ans unglaubwürdige - bis man sich vor Augen hält, dass sie um das blanke Leben ihres Kindes kämpft.
+Ring ist bislang der einzige Horror-Film, der mir überhaupt gefiel - und ich habe so manchen gesehen....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-03-31 00:00:00 +0000 UTC'>March 31, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Ring 2" href="https://simia.net/posts/ring-2/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://simia.net/page/44/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://simia.net/page/46/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

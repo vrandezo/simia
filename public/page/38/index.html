@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.119.0"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Simia</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://simia.net/index.xml">
+<link rel="alternate" type="application/json" href="https://simia.net/index.json">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Simia" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://simia.net/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Simia"/>
+<meta name="twitter:description" content=""/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Simia",
+  "url": "https://simia.net/",
+  "description": "",
+  "thumbnailUrl": "https://simia.net/favicon.ico",
+  "sameAs": [
+      "https://meta.wikipedia.com/wiki/User:Denny", "http://mas.to/@vrandecic", "https://github.com/vrandezo", "https://linkedin.com/in/vrandecic", "https://facebook.com/vrandezo", "https://www.youtube.com/@DennyVrande%C4%8Di%C4%87", "/index.xml"
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Nodix schon wieder angegriffen
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Nachdem die Nodix-Seiten schon vor ein paar Wochen Opfer eines Angriffs wurden, hat es uns diesmal fies erwischt. Gab es letztes Mal nur ein Defacement, wurden wir diesmal vollständig gelöscht (nur ein perl-Script wurde hochgeladen, mit spanischen Kommentaren, die, laut Übersetzung, recht fies waren. Aber unpersönlich).
+Tja, das bedeutet dass, bis ich etwas Zeit finde, die Nodix-Seiten nur teilweise funktionstüchtig sind. Die DSA4 Werkzeug-Seiten sind ganz weg, ebenso Something*Positive. Nutkidz hat eine weiße Seite, nakit-arts ist halbwegs auf den Beinen, Semantic Nodix läuft großteils schon, Nodix selber ist eher schlecht als recht wieder da....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-12-01 00:00:00 +0000 UTC'>December 1, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Nodix schon wieder angegriffen" href="https://simia.net/posts/nodix-schon-wieder-angegriffen/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Annotating axioms in OWL - Reloaded
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Yesterday I sent a lengthy mail to the OWL-ED Mailinglist] about how to annotate axioms. Peter Patel-Schneider himself, first author of the OWL Semantics specification, told me in nice words that my solution sucked heavily, by pointing out that the semantics of annotations in OWL are a tiny bit different than I thought. Actually, they are not at all as I thought. So, in the evening hours, instead of packing my stuff for a trip, I tried to solve the problem anew....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-11-25 00:00:00 +0000 UTC'>November 25, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Annotating axioms in OWL - Reloaded" href="https://simia.net/posts/annotating-axioms-in-owl-reloaded/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Annotating axioms in OWL
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This was sent to the OWLED-List by me, that prepares to come up with an OWL 1.1 recommendation. The week before, Alan Rector suggested to add the possibility to annotate axioms in OWL, which is currently not possible. There is many a good use for that, like provenance, trust, and son on. But the discussion wasn’t too fruitful, so I suggested the following solution.
+After it came up in discussion last week, I hoped an elegant solution for annotating axioms would arise....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-11-24 00:00:00 +0000 UTC'>November 24, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Annotating axioms in OWL" href="https://simia.net/posts/annotating-axioms-in-owl/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Job at the AIFB
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Are you interested in the Semantic Web? (Well, probably yes or else you wouldn’t read this). Do you want to work at the AIFB, the so called Semantic Web Machine? (It was Sean Bechhofer who gave us this name, at the ISWC 2005) Maybe this is your chance…
+Well, if you ask me, this is the best place to work. The offices are nice, the colleagues are great, our impact is remarkable - oh well, it’s loads of fun to work here, really....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-11-21 00:00:00 +0000 UTC'>November 21, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Job at the AIFB" href="https://simia.net/posts/job-at-the-aifb/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Semantic Web Gender Issue
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Well, at least they went quite a way. With Google Base one can create new types of entities, entities themselves, and search for them. I am not too sure about the User Interface yet, but it’s surely one of the best actually running onbig amounts of data. Nice query refinement, really.
+But heck, there’s one thing that scares me off. I was looking today for all the people interested in the Semantic Web, and there are already some in....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-11-19 00:00:00 +0000 UTC'>November 19, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Semantic Web Gender Issue" href="https://simia.net/posts/semantic-web-gender-issue/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>What is a good ontology?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>You know? Go ahead, tell me!
+I really want to know what you think a good ontology is. And I will make it the topic of my PhD: Ontology Evaluation. But I want you to tell me. And I am not the only one who wants to know. That’s why Mari Carmen, Aldo, York and I have submitted a proposal for a workshop on Ontology Evaluation, and happily it got accepted....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-11-15 00:00:00 +0000 UTC'>November 15, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to What is a good ontology?" href="https://simia.net/posts/what-is-a-good-ontology/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Regenbogen
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Ich bin gerade in Galway, und hier regnet es ständig. Wirklich. Zwar meist nur kurz, aber doch halt immer wieder neu.
+Dafür wurde ich heute mit einem schier unglaublichen Regenbogen belohnt: er ging wirklich über den ganzen Horizont, ein vollständiger Bogen! So was habe ich noch nie gesehen. Das Bild ist untertrieben, deutlich, in Wirklichkeit schien er noch viel heller.
+Besonders spannend war, dass er kaum zwei-, dreihundert Meter entfernt aus dem Wasser zu steigen schien....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-11-12 00:00:00 +0000 UTC'>November 12, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Regenbogen" href="https://simia.net/posts/regenbogen/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>ISWC impressions
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The ISWC 2005 is over, but I’m still in Galway, hanging around at the OWL Experiences and Direction Workshop. The ISWC was a great conference, really! Met so many people from the Summer School again, heard a surprisingly number of interesting talks (there are some conferences, where one boring talk follows the other, that’s definitively different here) and got some great feedback on some work we’re doing here in Karlsruhe....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-11-11 00:00:00 +0000 UTC'>November 11, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to ISWC impressions" href="https://simia.net/posts/iswc-impressions/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>KAON2 and Protégé
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>KAON2 is the Karlsruhe Ontology infrastructure. It is an industry strength reasoner for OWL ontologies, pretty fast and comparable to reasoners like Fact and Racer, who gained from years of development. Since a few days KAON2 also implements the DIG Interface! Yeah, now you can use it with your tools! Go and grab KAON2 and get a feeling for how good it fulfills your needs.
+Here’s a step to step description of how you can use KAON2 with Protégé (other DIG based tools should be pretty the same)....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-11-01 00:00:00 +0000 UTC'>November 1, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to KAON2 and Protégé" href="https://simia.net/posts/kaon2-and-prot-g/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Noch eine Blume: die Tulpe
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Überraschend: auf n-tv lief gerade ein Bericht über die Geschichte der Tulpe. Tulpen! Das kann doch nicht interessant werden.
+Oh doch! Ich will nicht alles aus der Sendung wiederholen, aber Tulpen führten vielen hunder Jahren zu einem ersten Zusammenbruch der holländischen Börse. Zwar waren auch die allgemein bekannten einfarbigen Blüten, mit ihren kräftigen Farben, beliebt, doch wirklich teuer waren die mehrfarbigen Blüten wie die hier dargestellte Semper Augusta. 10.000 Gulden wurde für sie bezahlt....</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-10-30 00:00:00 +0000 UTC'>October 30, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to Noch eine Blume: die Tulpe" href="https://simia.net/posts/noch-eine-blume-die-tulpe/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://simia.net/page/37/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://simia.net/page/39/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

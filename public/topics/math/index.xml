@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>math on Simia</title>
+    <link>https://simia.net/topics/math/</link>
+    <description>Recent content in math on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/topics/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Centillion to the power of a centillion, or a googolplex?</title>
+      <link>https://simia.net/posts/centillion-to-the-power-of-a-centillion-or-a-googolplex/</link>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/centillion-to-the-power-of-a-centillion-or-a-googolplex/</guid>
+      <description>Computers are good with numbers.
+&amp;ldquo;what&amp;rsquo;s bigger, centillition to the power of a centillion, or a googolplex?&amp;rdquo;
+I am glad that Google gives me a richly sourced and well reasoned answer, linked below:
+&amp;ldquo;A googolplex is vastly bigger than a centillion to the power of a centillion.&amp;rdquo;
+The Math
+Centillion: In the short scale, a centillion is 10^303 (a 1 followed by 303 zeros) Centillion to the power of a centillion: (10^303)^(10^303) which is roughly 10^(10^305.</description>
+    </item>
+    
+    <item>
+      <title>Additions with unique digits: a tale of puzzling and AI</title>
+      <link>https://simia.net/posts/additions-with-unique-digits-a-tale-of-puzzling-and-ai/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/additions-with-unique-digits-a-tale-of-puzzling-and-ai/</guid>
+      <description>The other day, Markus Krötzsch and I were catching up when one of his kids came in. She told us about a puzzle her math teacher gave her:
+How many integer sums are there where the equation uses each digit at most once?
+The simplest example is 1+2=3, but 12+47=59 also works. On the other hand, 1+9=10 isn’t a solution because the digit ‘1’ appears twice (in the first number and the sum).</description>
+    </item>
+    
+  </channel>
+</rss>

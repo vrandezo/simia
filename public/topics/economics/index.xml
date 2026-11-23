@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>economics on Simia</title>
+    <link>https://simia.net/topics/economics/</link>
+    <description>Recent content in economics on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/topics/economics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mega-IPOs</title>
+      <link>https://simia.net/posts/mega-ipos/</link>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/mega-ipos/</guid>
+      <description>There are more than 15 trillion (!) dollar invested in index funds. Starting in a few days and going on until the fall of next year, more than half a trillion dollar of that money will be pulled out from the existing company shares in numerous indexes and used to buy SpaceX, OpenAI, and Anthropic shares from their existing share owners. (Most of it will start happening in about a year, when the S&amp;amp;P500 lets SpaceX join.</description>
+    </item>
+    
+    <item>
+      <title>Question about Economics (as a discipline)</title>
+      <link>https://simia.net/posts/question-about-economics-as-a-discipline/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/question-about-economics-as-a-discipline/</guid>
+      <description>Serious and honest question, and I&amp;rsquo;m not trying to diss on a different discipline: I don&amp;rsquo;t have much experience reading papers in economics. And I saw that paper &amp;ldquo;AI, Human Cognition and Knowledge Collapse&amp;rdquo;, on a topic that I find very interesting, written by Acemoğlu et al. Now, Acemoğlu is a Nobel prize winner and MIT professor, so I would assume that paper is among the best economics would offer on that subject.</description>
+    </item>
+    
+  </channel>
+</rss>

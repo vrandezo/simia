@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>My Erdös Number | Simia</title>
+<meta name="keywords" content="">
+<meta name="description" content="After reading a post by Ora and one by Tim Finin, I tried to figure my own Erdös Number out. First, taking Ora&rsquo;s path, I came up with an Erdös of 7:
+Paul Erdös - Stephan Hedeniemi - Robert Tarjan - David Karger - Lynn Stein - Jim Hendler - Steffen Staab - Denny Vrandečić
+But then I looked more, and with Tim&rsquo;s path I could cut it down to 6:">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/posts/my-erdoes-number/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="My Erdös Number" />
+<meta property="og:description" content="After reading a post by Ora and one by Tim Finin, I tried to figure my own Erdös Number out. First, taking Ora&rsquo;s path, I came up with an Erdös of 7:
+Paul Erdös - Stephan Hedeniemi - Robert Tarjan - David Karger - Lynn Stein - Jim Hendler - Steffen Staab - Denny Vrandečić
+But then I looked more, and with Tim&rsquo;s path I could cut it down to 6:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://simia.net/posts/my-erdoes-number/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2006-02-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2006-02-26T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="My Erdös Number"/>
+<meta name="twitter:description" content="After reading a post by Ora and one by Tim Finin, I tried to figure my own Erdös Number out. First, taking Ora&rsquo;s path, I came up with an Erdös of 7:
+Paul Erdös - Stephan Hedeniemi - Robert Tarjan - David Karger - Lynn Stein - Jim Hendler - Steffen Staab - Denny Vrandečić
+But then I looked more, and with Tim&rsquo;s path I could cut it down to 6:"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://simia.net/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "My Erdös Number",
+      "item": "https://simia.net/posts/my-erdoes-number/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "My Erdös Number",
+  "name": "My Erdös Number",
+  "description": "After reading a post by Ora and one by Tim Finin, I tried to figure my own Erdös Number out. First, taking Ora\u0026rsquo;s path, I came up with an Erdös of 7:\nPaul Erdös - Stephan Hedeniemi - Robert Tarjan - David Karger - Lynn Stein - Jim Hendler - Steffen Staab - Denny Vrandečić\nBut then I looked more, and with Tim\u0026rsquo;s path I could cut it down to 6:",
+  "keywords": [
+    
+  ],
+  "articleBody": "After reading a post by Ora and one by Tim Finin, I tried to figure my own Erdös Number out. First, taking Ora’s path, I came up with an Erdös of 7:\nPaul Erdös - Stephan Hedeniemi - Robert Tarjan - David Karger - Lynn Stein - Jim Hendler - Steffen Staab - Denny Vrandečić\nBut then I looked more, and with Tim’s path I could cut it down to 6:\n*Paul Erdös - Aviczir Fraenkl - Yaacov Yesha - Yelena Yesha - Tim Finin\nSteffen Staab - Denny Vrandečić* The point that unnerved me most was that the data was actually there. Not only a subscription-only database for mathematical papers (why the heck is the metadata subscription only?), but there’s DBLP, there’s the list of Erdös 1 and 2 people on the Erdös Number project, there’s Flink, and still, I couldn’t mash up the data. This syntactic web sucks.\nThe only idea that brought me further - without spending even more time with that - was a Google search for “my erdös number” “semantic web”, in the hope to find some collegues in my field that already have found and published their own Erdös number. And yep, this worked quite fine, and showed me two further, totally disjunctive paths to the one above:\n*Paul Erdös - Charles J. Coulborn - A. E. Brouwer - Peter van Emde Boas\nZhsisheng Huang - Peter Haase - Denny Vrandečić* and\nPaul Erdös - Menachem Magidor - Karl Schlechta - Franz Baader - Ian Horrocks - Sean Bechhofer - Denny Vrandečić\nSo that’s and Erdös of 6 on at least 3 totally different paths. Nice.\nWhat surprises me - isn’t this scenario obviously a great training project for the Semantic Web? Far easier than Flink, I suppose, and still interesting for a wider audience as well, like Mathematicians and Noble Laureates? (Oh, OK, not them, they get covered manually here).\nUpdate\nI wrote the post quite a time ago. A colleague of mine notified me in the meantime that I have a Erdös of only 4 by the following path:\nPaul Erdös - E. Rodney Canfield - Guo-Quiang Zhang - Markus Krötzsch - Denny Vrandečić\nWow. It’s the social web that gave the best answer.\n2019 Update\nAnother update, after more than a dozen years: I was informed that I have now an Erdös number of 3 by the following path:\nPaul Erdös - Anthony B. Evans - Pascal Hitzler - Denny Vrandečić\nI would be very surprised if this post requires any further updates.\n",
+  "wordCount" : "422",
+  "inLanguage": "en",
+  "datePublished": "2006-02-26T00:00:00Z",
+  "dateModified": "2006-02-26T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://simia.net/posts/my-erdoes-number/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Simia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://simia.net/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://simia.net/">Home</a>&nbsp;»&nbsp;<a href="https://simia.net/posts/">Posts</a></div>
+    <h1 class="post-title">
+      My Erdös Number
+    </h1>
+    <div class="post-meta"><span title='2006-02-26 00:00:00 +0000 UTC'>February 26, 2006</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>After reading a post by
+<a href="http://www.lassila.org/blog/archive/2005/10/erdoes_numbers.html">Ora</a>
+and one by <a href="http://ebiquity.umbc.edu/blogger/?p=361">Tim Finin</a>, I tried
+to figure my own Erdös Number out. First, taking Ora&rsquo;s path, I came up
+with an Erdös of 7:</p>
+<p><em>Paul Erdös - Stephan Hedeniemi - Robert Tarjan - David Karger - Lynn
+Stein - Jim Hendler - Steffen Staab - Denny Vrandečić</em></p>
+<p>But then I looked more, and with Tim&rsquo;s path I could cut it down to 6:</p>
+<p>*Paul Erdös - Aviczir Fraenkl - Yaacov Yesha - Yelena Yesha - Tim Finin</p>
+<ul>
+<li>Steffen Staab - Denny Vrandečić*</li>
+</ul>
+<p>The point that unnerved me most was that the data was actually there.
+Not only a subscription-only database for mathematical papers (why the
+heck is the metadata subscription only?), but there&rsquo;s
+<a href="http://www.informatik.uni-trier.de/~ley/db/">DBLP</a>, there&rsquo;s the <a href="http://www.oakland.edu/enp/thedata.html">list
+of Erdös 1 and 2 people</a> on the
+<a href="http://www.oakland.edu/enp/">Erdös Number project</a>, there&rsquo;s
+<a href="http://flink.semanticweb.org/">Flink</a>, and still, I couldn&rsquo;t mash up
+the data. This syntactic web sucks.</p>
+<p>The only idea that brought me further - without spending even more time
+with that - was a Google search for <em>&ldquo;my erdös number&rdquo; &ldquo;semantic web&rdquo;</em>,
+in the hope to find some collegues in my field that already have found
+and published their own Erdös number. And yep, this worked quite fine,
+and showed me two further, totally disjunctive paths to the one above:</p>
+<p>*Paul Erdös - Charles J. Coulborn - A. E. Brouwer - Peter van Emde Boas</p>
+<ul>
+<li>Zhsisheng Huang - Peter Haase - Denny Vrandečić*</li>
+</ul>
+<p>and</p>
+<p><em>Paul Erdös - Menachem Magidor - Karl Schlechta - Franz Baader - Ian
+Horrocks - Sean Bechhofer - Denny Vrandečić</em></p>
+<p>So that&rsquo;s and Erdös of 6 on at least 3 totally different paths. Nice.</p>
+<p>What surprises me - isn&rsquo;t this scenario obviously a great training
+project for the Semantic Web? Far easier than Flink, I suppose, and
+still interesting for a wider audience as well, like Mathematicians and
+Noble Laureates? (Oh, OK, not them, they get covered manually
+<a href="http://www.oakland.edu/enp/erdpaths.html">here</a>).</p>
+<p><strong>Update</strong></p>
+<p>I wrote the post quite a time ago. A colleague of mine notified me in
+the meantime that I have a Erdös of only 4 by the following path:</p>
+<p><em>Paul Erdös - E. Rodney Canfield - Guo-Quiang Zhang - Markus Krötzsch -
+Denny Vrandečić</em></p>
+<p>Wow. It&rsquo;s the social web that gave the best answer.</p>
+<p><strong>2019 Update</strong></p>
+<p>Another update, after more than a dozen years: I was informed that I
+have now an Erdös number of 3 by the following path:</p>
+<p><em>Paul Erdös - Anthony B. Evans - Pascal Hitzler - Denny Vrandečić</em></p>
+<p>I would be very surprised if this post requires any further updates.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://simia.net/posts/zurueck-aus-sheffield/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Zurück aus Sheffield</span>
+  </a>
+  <a class="next" href="https://simia.net/posts/eon2006-deadline-extension/">
+    <span class="title">Next »</span>
+    <br>
+    <span>EON2006 deadline extension</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

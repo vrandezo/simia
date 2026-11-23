@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>anectode on Simia</title>
+    <link>https://simia.net/tags/anectode/</link>
+    <description>Recent content in anectode on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/tags/anectode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fresh bread</title>
+      <link>https://simia.net/posts/fresh-bread/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/fresh-bread/</guid>
+      <description>&amp;ldquo;A loaf of bread please&amp;rdquo;
+&amp;ldquo;I&amp;rsquo;m sorry, I can&amp;rsquo;t cut it because it&amp;rsquo;s still hot.&amp;rdquo;
+&amp;ldquo;GIVE. IT. TO. ME.&amp;rdquo;</description>
+      <content:encoded><![CDATA[<p>&ldquo;A loaf of bread please&rdquo;</p>
+<p>&ldquo;I&rsquo;m sorry, I can&rsquo;t cut it because it&rsquo;s still hot.&rdquo;</p>
+<p>&ldquo;GIVE. IT. TO. ME.&rdquo;</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

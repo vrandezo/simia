@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wikifunctions on Simia</title>
+    <link>https://simia.net/tags/wikifunctions/</link>
+    <description>Recent content in Wikifunctions on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 31 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/tags/wikifunctions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wikipedia is an encyclopedia</title>
+      <link>https://simia.net/posts/wikipedia-is-an-encyclopedia/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/wikipedia-is-an-encyclopedia/</guid>
+      <description>Just happy to post that Wikifunctions can now create some simple sentences in multiple languages. More information on the Abstract Wikipedia newsletter.</description>
+      <content:encoded><![CDATA[<p>Just happy to post that Wikifunctions can now create some simple
+sentences in multiple languages. More information on the <a href="https://www.wikifunctions.org/wiki/Wikifunctions:Status_updates/2025-07-26">Abstract
+Wikipedia
+newsletter</a>.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Get Morse code from text</title>
+      <link>https://simia.net/posts/get-morse-code-from-text/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/get-morse-code-from-text/</guid>
+      <description>On Wikifunctions we have a function that translates text to Morse code. Go ahead, try it out.
+I am stating that mostly in order to see if we can get Google to index the function pages on Wikifunctions, because we initially accidentally had them all set to not be indexed.</description>
+      <content:encoded><![CDATA[<p>On <a href="https://www.wikifunctions.org">Wikifunctions</a> we have a function
+that <a href="https://www.wikifunctions.org/view/en/Z10944">translates text to Morse
+code</a>. Go ahead, try it
+out.</p>
+<p>I am stating that mostly in order to see if we can get Google to index
+the function pages on Wikifunctions, because we initially accidentally
+had them all set to not be indexed.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Happy New Year, 2023!</title>
+      <link>https://simia.net/posts/happy-new-year-2023/</link>
+      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/happy-new-year-2023/</guid>
+      <description>For starting 2023, I will join the Bring Back Blogging challenge. The goal is to write three posts in January 2023.
+Since I have been blogging on and off the last few years anyway, that shouldn&amp;rsquo;t be too hard.
+Another thing this year should bring is to launch Wikifunctions, the project I have been working on since 2020. It was a longer ride than initially hoped for, but here we are, closer to launch than ever.</description>
+      <content:encoded><![CDATA[<p>For starting 2023, I will join the <a href="https://bringback.blog">Bring Back
+Blogging</a> challenge. The goal is to write three
+posts in January 2023.</p>
+<p>Since I have been blogging on and off the last few years anyway, that
+shouldn&rsquo;t be too hard.</p>
+<p>Another thing this year should bring is to launch Wikifunctions, the
+project I have been working on since 2020. It was a longer ride than
+initially hoped for, but here we are, closer to launch than ever. The
+<a href="https://wikifunctions.beta.wmflabs.org/wiki/Wikifunctions:Main_Page">Beta</a>
+is available online, and even though not everything works yet, I was
+already able to impress my kid with the <a href="https://wikifunctions.beta.wmflabs.org/wiki/Z10268">function to reverse a
+text</a>.</p>
+<p>Looking forward to this New Year 2023, a number that to me still sounds
+like it is from a science fiction novel.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Building a Multilingual Wikipedia</title>
+      <link>https://simia.net/posts/building-a-multilingual-wikipedia/</link>
+      <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/building-a-multilingual-wikipedia/</guid>
+      <description>Communications of the ACM published my paper on &amp;ldquo;Building a Multilingual Wikipedia&amp;rdquo;, a short description of the Wikifunctions and Abstract Wikipedia project that we are currently working on at the Wikimedia Foundation.
+https://cacm.acm.org/magazines/2021/4/251343-building-a-multilingual-wikipedia/fulltext </description>
+      <content:encoded><![CDATA[<p>Communications of the ACM published my paper on &ldquo;Building a Multilingual
+Wikipedia&rdquo;, a short description of the Wikifunctions and Abstract
+Wikipedia project that we are currently working on at the Wikimedia
+Foundation.</p>
+<ul>
+<li><a href="https://cacm.acm.org/magazines/2021/4/251343-building-a-multilingual-wikipedia/fulltext">https://cacm.acm.org/magazines/2021/4/251343-building-a-multilingual-wikipedia/fulltext</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Starting Abstract Wikipedia</title>
+      <link>https://simia.net/posts/starting-abstract-wikipedia/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/starting-abstract-wikipedia/</guid>
+      <description>I am very happy about the Board of the Wikimedia Foundation having approved the proposal for the multilingual Wikipedia aka Abstract Wikipedia aka Wikilambda aka we&amp;rsquo;ll need to find a name for it.
+In order to make that project a reality, I will as of next week join the Foundation. We will be starting with a small, exploratory team, which will allow us to have plenty of time to continue to socialize and discuss and refine the idea.</description>
+      <content:encoded><![CDATA[<p>I am very happy about the Board of the Wikimedia Foundation having
+approved the proposal for the multilingual Wikipedia aka Abstract
+Wikipedia aka Wikilambda aka we&rsquo;ll need to find a name for it.</p>
+<p>In order to make that project a reality, I will as of next week join the
+Foundation. We will be starting with a small, exploratory team, which
+will allow us to have plenty of time to continue to socialize and
+discuss and refine the idea. Being able to work on this full time and
+with a team should allow us to make significant progress. I am very
+excited about that.</p>
+<p>I am sad to leave Google. It was a great time, and I learned a lot about
+running *large* projects, and I met so many brilliant people, and I
+&hellip; seriously, it was a great six and a half years, and I will very much
+miss it.</p>
+<p>There is so much more I want to write but right now I am just super
+happy and super excited. Thanks everyone!</p>
+<ul>
+<li><a href="https://meta.wikimedia.org/wiki/Abstract_Wikipedia">Abstract Wikipedia on
+Meta</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

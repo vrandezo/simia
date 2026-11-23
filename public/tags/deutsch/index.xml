@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Deutsch on Simia</title>
+    <link>https://simia.net/tags/deutsch/</link>
+    <description>Recent content in Deutsch on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/tags/deutsch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Niobaras Foliant</title>
+      <link>https://simia.net/posts/niobaras-foliant/</link>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/niobaras-foliant/</guid>
+      <description>Im Informatikunterricht an meiner Schule oder in der Informatik AG, also wohl so in der 10. Klasse, vielleicht um 1993 oder so, lernten wir die Turtle Programmierbibliothek kennen, ich glaube damals in Pascal. In der Schule fingen wir dann damit an, einfache Fraktale wie die Koch-Kurve oder die Drachenkurve zu erstellen.
+Ich war zu jener Zeit ein großer Fan des Rollenspiels Das Schwarze Auge und dessen Welt Aventurien, und besonders die 1990 erschienene Encyklopaedia Aventurica hatte es mir angetan.</description>
+      <content:encoded><![CDATA[<p>Im Informatikunterricht an meiner Schule oder in der Informatik AG, also
+wohl so in der 10. Klasse, vielleicht um 1993 oder so, lernten wir die
+<a href="https://de.wikipedia.org/wiki/Turtle-Grafik">Turtle
+Programmierbibliothek</a>
+kennen, ich glaube damals in Pascal. In der Schule fingen wir dann damit
+an, einfache Fraktale wie die
+<a href="https://de.wikipedia.org/wiki/Koch-Kurve">Koch-Kurve</a> oder die
+<a href="https://de.wikipedia.org/wiki/Drachenkurve">Drachenkurve</a> zu erstellen.</p>
+<p>Ich war zu jener Zeit ein großer Fan des Rollenspiels Das Schwarze Auge
+und dessen Welt Aventurien, und besonders die 1990 erschienene
+<a href="https://de.wiki-aventurica.de/wiki/Enzyklopaedia_Aventurica_(1990)">Encyklopaedia
+Aventurica</a>
+hatte es mir angetan. Neben vielen anderen Artikeln zu Aventurien,
+beschrieben darin Hadmar von Wieser und Oliver Richtberg den
+Aventurischen Sternenhimmel, und er war anders als der irdische:
+Sternbilder zogen mit unterschiedlicher Geschwindigkeit über den
+Nachthimmel, manche, wie die Sternbilder der Zwölfgötter, drehten sich
+mit dem Jahr mit, andere wie der Drache, brauchten 33 Jahre für eine
+Umdrehung, wieder andere, wie der Elfenstern, schossen alle vier Tage
+einmal um den Nordstern.</p>
+<p>Bewaffnet mit einem Geodreieck und am Schul-PC begann ich die
+Sternbilder in Pascal nachzuarbeiten. Winkel für Winkel, Strecke für
+Strecke, und dann folgte ich der Beschreibung in der Enzyklopaedia so
+genau wie ich konnte. Ich nannte das Programm “Niobaras Foliant”, und es
+war in der Lage, den Sternenhimmel für eine beliebige aventurische Nacht
+nachzuzeichnen. Es war damals ein MS-DOS Programm.</p>
+<p>Etwas später kaufte ich mir Visual Studio, Microsoft’s
+Programmierumgebung für den PC, und programmierte das nochmal nach, mit
+einer besseren grafischen Benutzeroberfläche (was Visual Studio wirklich
+leicht machte). Ich muss ehrlich zugeben, ich weiß nichtmal mehr ob ich
+das in Basic oder in C++ nachprogrammierte (irgendwo muss ich den
+Quelltext von all denen noch rumliegen haben, aber ich habe seit vielen
+Jahren auch keinen Windowsrechner mehr). Und das lief dann auf Windows.
+Und das Programm habe ich dann auch auf ein paar DSA Webseiten
+angeboten.</p>
+<p>Ich habe über Jahre immer wieder Komplimente zu dem Programm erhalten,
+aber die letzten zwanzig Jahre auch nicht mehr angefasst.</p>
+<p>Michael Nock hat mich vor ein paar Wochen gefragt, ob er das Programm
+neu auflegen könnte. Ich habe mich über die Frage sehr gefreut, und
+Michael hat hervorragende Arbeit geleistet. Das Programm ist vollständig
+in HTML und JavaScript und läuft also überall im Browser. Und man kann
+es runterladen und es läuft komplett lokal, ohne dass es Internetzugriff
+braucht. Man kann den <a href="https://www.ulisses-ebooks.de/de/product/593389/foliant-sternenhimmel-kalender-und-horoskope">den neuen Folianten bei Ulisses
+runterladen</a>
+für einen Preis den man selbst wählt (auch frei).</p>
+<p>Michaels Version hat reichlich Verbesserungen: so sind die Veränderungen
+des Sternenhimmels gerade durch die Sternenfall-Kampagne aber auch
+andere Ereignisse nachvollziehbar, und man kann alles editieren – selbst
+die Sternbilder selbst. Auch Horoskope sind verfügbar, verschiedene
+Kalendersysteme (wie auch im ursprünglichen Programm), und noch so viel
+mehr.</p>
+<p>Ich bin Michael sehr dankbar, dass er das Programm wiederbelebt hat und
+einer neuen Generation (na ja, und der alten auch) zur Verfügung stellt.
+Großartige Arbeit, ich bin geehrt, dass die alte Idee immer noch lebt.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Zur Ontologischen Bestimmung Neuronaler Netze</title>
+      <link>https://simia.net/posts/zur-ontologischen-bestimmung-neuronaler-netze/</link>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/zur-ontologischen-bestimmung-neuronaler-netze/</guid>
+      <description>2003, 2004 schrieb ich als Philosophiestudent eine Hausarbeit über Neuronale Netze, Turingvollständigkeit, und die Frage, was Künstliche Intelligenz und den Menschen ausmachen. Damals ging es um Ray Kurzweils Visionen, die Grenzen künstlicher Intelligenz und die Möglichkeit, den menschlichen Geist auf einem Computer nachzubilden. Mehr als zwanzig Jahre später, im Zeitalter von LLMs und generativer KI, habe ich die Arbeit wiederveröffentlicht. Manche meiner Argumente würde ich heute anders formulieren, einige Aussagen korrigieren, aber ein paar Gedanken sind vielleicht interessant.</description>
+      <content:encoded><![CDATA[<p>2003, 2004 schrieb ich als Philosophiestudent eine Hausarbeit über
+Neuronale Netze, Turingvollständigkeit, und die Frage, was Künstliche
+Intelligenz und den Menschen ausmachen. Damals ging es um Ray Kurzweils
+Visionen, die Grenzen künstlicher Intelligenz und die Möglichkeit, den
+menschlichen Geist auf einem Computer nachzubilden. Mehr als zwanzig
+Jahre später, im Zeitalter von LLMs und generativer KI, habe ich die
+Arbeit wiederveröffentlicht. Manche meiner Argumente würde ich heute
+anders formulieren, einige Aussagen korrigieren, aber ein paar Gedanken
+sind vielleicht interessant. Für die meisten wahrscheinlich nicht.</p>
+<p>Für mich war diese Arbeit immer mit dem folgenden Gedanken verbunden:
+<em>eine Rechnung wird durch einen Computer nicht simuliert, sondern die
+Rechnung findet tatsächlich statt</em>.</p>
+<p>Ich finde den Gedanken immer noch interessant und wichtig. Wenn ich die
+Arbeit aber lese, finde ich, dass die Arbeit diesen Gedanken weder
+wirklich gut ausarbeitet, noch die Folgen davon reflektiert. Stattdessen
+tastet sie sich an viele anderen Fragen ein wenig ran, ohne wirklich
+voranzukommen. Na gut. Ich war ja auch erst Mitte 20.</p>
+<ul>
+<li><a href="/pages/ontologische_bestimmung_neuronaler_netze/">Ontologische Bestimmung Neuronaler
+Netze</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Die Bedingungen für das Evernet</title>
+      <link>https://simia.net/posts/die-bedingungen-fuer-das-evernet/</link>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/die-bedingungen-fuer-das-evernet/</guid>
+      <description>Zuerst veröffentlicht auf dieser Website am 26. März 2001. Ich bin ein unverbesserlicher Optimist, wie man in Zukunft, wenn man es nicht ohnehin schon weiß, an meinen Visionen bemerken wird. Personen, die vor zukünftigen Entwicklungen warnen, gibt es ohnehin genug, also ergreife ich das Wort für all&amp;rsquo; jene, denen die Zukunft gar nicht schnell genug kommen kann.
+Zu dieser Zukunft gehört für mich das Evernet. Den Begriff machte der Autor Thomas Friedman in seinem Buch &amp;lsquo;The Lexus and the Olive Tree&amp;rsquo; bekannt, und obwohl ähnlich, haben die meisten Leuten, wenn sie diesen Begriff verwenden, doch eine andere Vorstellung davon.</description>
+      <content:encoded><![CDATA[<ul>
+<li><em>Zuerst veröffentlicht auf dieser Website am 26. März 2001.</em></li>
+</ul>
+<p>Ich bin ein unverbesserlicher Optimist, wie man in Zukunft, wenn man es
+nicht ohnehin schon weiß, an meinen Visionen bemerken wird. Personen,
+die vor zukünftigen Entwicklungen warnen, gibt es ohnehin genug, also
+ergreife ich das Wort für all&rsquo; jene, denen die Zukunft gar nicht schnell
+genug kommen kann.</p>
+<p>Zu dieser Zukunft gehört für mich das Evernet. Den Begriff machte der
+Autor Thomas Friedman in seinem Buch &lsquo;The Lexus and the Olive Tree&rsquo;
+bekannt, und obwohl ähnlich, haben die meisten Leuten, wenn sie diesen
+Begriff verwenden, doch eine andere Vorstellung davon.</p>
+<p>Die meine möchte ich im folgenden kurz vorstellen.</p>
+<p>Das Evernet ist eine logische Fortführung des Internets. Die Anfänge
+können wir schon sehen, die ersten Schritte in diese Richtung sind
+getan. Dazu gehören mobile Geräte, die etwa das Wap-Protokoll verstehen,
+dazu gehören Flughäfen, Kongresshallen und Hotels, die ihren Besuchern
+überall Zugang zum Netz über ein BlueTooth-Netzwerk anbieten. Hier soll
+es aber nicht um die technischen Details gehen, sondern darum, was man
+alles damit erreichen kann.</p>
+<p>Wer heute ins Netz geht, muss meist einem viele tausend Mark teuren
+Rechner anwerfen, sich ins Netz einwählen und dann kann er los in die
+nahezu unendliche Welt der Daten. Um aber schnell das TV-Programm zu
+durchsuchen, um herauszufinden, zu welcher Zeit doch noch die
+Wiederholung der Fernsehserie kommt, oder um schnell die Schlagzeilen
+der Tagesschau durchzulesen, dafür ist das Internet, so wie wir es
+kennen, einfach nicht geeignet. Wie kann man das ändern?</p>
+<p>Dazu müssen gleich mehrere Entwicklungen zusammenkommen: statt einen PC,
+denn man hochfährt, sollte es Geräte geben, die sofort bedienbar sind,
+wie wir es vom Fernsehen, vom Telefon oder vom Buch her kennen. Keine
+oder kaum Wartezeit erhöht die Akzeptanz ungemein. Diese Geräte sollten
+auch ständig mit dem Netz angeschlossen sein - entsprechend benötigt man
+unbedingt sogenannte Flatrates. Wieviel würden wir wohl fernsehen, wenn
+wir nicht einmal im Monat die Grundgebühr zahlen müssten, sondern pro
+gesehene Minute? Wie hoch wäre dann unsere Akzeptanz für Werbung, für
+Verlängerungen von Shows, für Änderungen im Programm?</p>
+<p>Um also dem Internet zur nächsten Evolutionsstufe zu verhelfen benötigen
+wir dringend Pauschaltarife und stabile Rechnersysteme und Geräte. Erst
+dann wird ein kleiner, günstiger und robuster Bildschirm mit einfachen
+Bedienelementen die Fernsehzeitschrift und wohl auch die Tageszeitung
+und das Wochenmagazin im Wohnzimmer ersetzen können. Gerade
+Zeitschriften, die das Fernsehprogramm abdrucken, sind ein vollständig
+und verlustfrei ersetzbares Medium. Papier ist dafür eigentlich
+ungeeignet.</p>
+<p>Man stelle sich stattdessen einen kleinen, stabilen Bildschirm vor,
+vielleicht so groß wie die bisherige Programmzeitschrift. Das Gerät weiß
+auf alle Fälle, welche Sender wir überhaupt empfangen können, zeigt uns
+also nicht die Programme der exotischen Sender. Wir können ihn zudem
+auch weiter personalisieren und ihm auch erzählen, welche Sendungen wir
+mögen. Das Gerät wird die entsprechenden Sendungen hervorheben. Zudem
+kann schaut sie auch nicht immer nur ein oder zwei Wochen in die
+Zukunft, sondern gleich soweit, wie die Fernsehanstalten geplant haben.
+Wir werden mit diesem Gerät nie wieder einen Film mit unserem
+Lieblingsdarsteller verpassen, nie wieder eine Diskussion zu einem
+bestimmten Thema. Gleichzeitig können wir auch die zeitlichen Rahmen
+geschickter anpassen, statt die jeweilige Seite umständlich durch
+Blättern zu suchen, kann stets das aktuelle Programm als erstes zu
+sehen sein. Bewertungen von Fernsehfilmen von Redakteuren, die widerum
+von uns bewertet werden, wie sehr wir mit deren Kritiken übereinstimmen,
+erlaubt uns ein auf uns zugeschnittenes Bewertungssystem für Filme. Auch
+der wöchentliche Papiermüll, der durch die Zeitschriften in Millionen
+von Haushalten verursacht wird, entfällt. Bewahren sie mal ihre eigenen
+Tageszeitungen, Zeitschriften und Fernsehprogramme für nur einen Monat
+auf, und dann rechnen sie auf ein Jahr und eine Stadt hoch.</p>
+<p>Auch Nachschlagewerke wie der Fischer Weltalmanach oder Enzyklopädien
+sind nicht für die Papierform geschaffen: ständig ändert sich etwas, und
+egal wie dick diese Bücher sind, nie enthalten sie alles. Das Netz
+bietet dagegen ein gewaltigen Fundus an Wissen an, und selbst solch
+renommierte Nachschlagewerke wie die <a href="https://www.britannica.com/">Enzyklopaedia
+Britannica</a> oder die <a href="https://www.wissen.de/">Bertelsmann
+Lexiktohek</a> sind inzwischen kostenlos im Netz zu
+benutzen, zudem mit Volltextsuche und logischen Verknüpfungen
+durchsuchbar. Wer will da noch die Bücher im Regal, außer zur
+Repräsentation, sprich: zum angeben?</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Die Handschuhe</title>
+      <link>https://simia.net/posts/die-handschuhe/</link>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/die-handschuhe/</guid>
+      <description>Deutsch, Märchen: ein Mann mit magischen Handschuhen kann Leben retten</description>
+      <content:encoded><![CDATA[<ul>
+<li><em><strong>Nur wer an sich selbst denken kann, kann auch an andere
+denken.</strong></em></li>
+</ul>
+<p>Leben zu retten, Krankheiten zu besiegen, Hunger zu stillen, Wilde zu
+besänftigen - all das lag in seiner Hand. Und das war tatsächlich so zu
+verstehen: er trug Handschuhe. Eine Berührung dieser Handschuhe
+vermochte all das Obige zu vollbringen, und noch einiges mehr. Er wurde
+gefeiert als großer Retter, die Kirchen und Sekten beteten ihn als ein
+Wunder an, und all das wurde dadurch, daß er für seine Hilfe kein
+Entgelt verlangte, noch gestärkt.</p>
+<p>Er hatte Hunderten geholfen, Tausende und Abertausende glücklich gemacht
+und unzähligen Millionen neue Hoffnung gegeben. Neben ihm verblassten
+die Propheten und Gottessöhne vergangener Epochen, und sein Wort,
+welches eine Botschaft von Frieden und Freundschaft in die Welt trug,
+wog mehr als das Wort der Wissenschaftler und Politiker.</p>
+<p>Bloß sich selber konnte er nicht helfen, nicht glücklich machen und neue
+Hoffnung geben. Er war nicht krank. Das hätte er ertragen. Er konnte
+nicht fühlen.</p>
+<p>Dieselben Handschuhe, die der Segen der Welt waren, und die, wenn man
+den Propheten einiger Sekten Glauben schenken darf, ein neues Zeitalter
+herbeibringen werden, waren für ihn ein Fluch wie er schlimmer nicht
+hätte sein können. Er konnte nicht fühlen. Und für einen Blinden, wie
+er es einer war, bedeutete das Fühlen eine ganze Welt der Erlebnisse,
+die ihm sonst verschlossen bleibt. Die Welt wird ihrer Form beraubt, ist
+nur noch ein wiederhallendes und riechendes Etwas ohne Formen, ohne
+Struktur.</p>
+<p>Aber um diese Welt wäre es ihm auch nicht schade. Doch seine Welt hatte
+er auch verloren. Weder konnte er seine Frau fühlen, noch seine Kinder.
+Er hat seine Kinder noch nie gefühlt. Nur ihre Stimmen kannte er.
+Spukgespenster, wirre Ansammlungen von Schwingungen, nichts greifbares,
+nichts bemerkbares. Und seine Frau, eine verblassende Erinnerung an eine
+Zeit, in der zwar die Welt wie immer war und nahe einer Katastrophe,
+aber in der er eine Welt hatte, die er fühlen konnte. Eine Welt, an der
+er sich trotz allem halten konnte. Eine Welt die war. Nicht eine Welt,
+die er annahm.</p>
+<p>Würde er die Handschuhe abnehmen, könnte er wieder fühlen. Doch dann
+würden sie ihre Macht verlieren. Und sein Glück musste doch
+zurückstehen hinter dem Glück der Welt. Er würde als Held in die
+Geschichte eingehen. Aber das kümmerte ihn nicht. Er würde als Retter
+der Welt in Jahrtausenden bekannt sein. Aber das kümmerte ihn nicht. Er
+hatte einer Fünfjährigen ihrem angefahrenen Hund das Leben gerettet. Das
+kümmerte ihn. Und deshalb zog er die Handschuhe nicht aus.</p>
+<p>Das ging immer so weiter. Er wurde älter und trauriger. Immer mehr
+Menschen kamen zu ihm, immer mehr verdankten ihm sein Leben. Immer mehr
+wurde alles zu einem abgedroschenem Ereignis, so dass er zwar Leute
+heilte, nicht mehr aber versuchte die Welt zu verbessern und Frieden und
+Freundschaft unter die Menschen zu bringen. Tag für Tag, Monat für
+Monat, und schließlich Jahr für Jahr.</p>
+<p>Immer so weiter.</p>
+<hr>
+<p>Eines Tages war seine Tochter sehr krank. Er war nicht besorgt, er
+wusste ja, dass er sie mit einer Berührung heilen konnte. Also ging er
+zu seiner Tochter ans Krankenbett und legte ihr die Hand auf die
+Schulter.</p>
+<p>Doch nichts geschah. Die Tochter blieb krank.</p>
+<p>Die Ärzte waren sofort besorgt, ob die Wunderkraft der Handschuhe nicht
+nachgelassen habe. Doch schnell fand man heraus, dass sie nach wie vor
+arbeiteten, besser sogar als je zuvor.</p>
+<p>Doch ihn interessierte das nicht. Er war besorgt um seine Tochter, und
+wusste nicht, was er tun sollte. In den letzten Jahren hatte er selten
+etwas gefühlt, und so traf es ihn diesmal um so härter. Wie ein Orkan
+der in einer windstillen Zone wütet.</p>
+<p>Am nächsten Tag saß er den ganzen Tag bei seiner Tochter. Er wusste
+nicht, was er tun sollte und war vollkommen hilflos. Da erschien eine
+Fee.</p>
+<p>&ldquo;He, Alter Mann, was seid Ihr denn so traurig?&rdquo;, fragte ihn die Fee. Er
+drehte sich in die Richtung, von der er die Stimme vernahm, um, und
+fragte, wer da sei. &ldquo;Eine Fee bin ich, und wer seid Ihr?&rdquo; Knapp
+beantwortete er die Frage und schilderte, was ihm geschehen. &ldquo;Soso, nun
+denn, ich habe die Lösung für dein Problem&rdquo;, sagte die Fee in Art der
+Feen, denn diese vermögen alles zu machen, worauf er sofort wieder
+Hoffnung fand. &ldquo;Du musst sie nur berühren!&rdquo; Da aber ließ er alle
+Hoffnung fahren, und ward noch trauriger als zuvor. Die Fee machte sich
+nunmehr auch noch lustig über ihn. &ldquo;Als hätte ich das nicht schon längst
+getan. Dutzende Male habe ich sie berührt, aber nichts half&rdquo;, entgegnete
+er.</p>
+<p>&ldquo;Falsch!&rdquo;, warf die Fee ein. &ldquo;Kein einziges Mal hast du sie berührt,
+Alter Mann.&rdquo; Er schien verwirrt. Aber natürlich hatte er sie berührt.
+Doch es half nicht. &ldquo;Aber ich habe sie doch berührt&rdquo;, begann er
+kläglich, doch bevor er seinen Satz zu Ende bringen konnte, sagte die
+Fee kopfschüttelnd: &ldquo;Ich dachte du seist blind, nicht taub. Du hast
+deine Tochter nie berührt.&rdquo; Und da verstand der Mann.</p>
+<p>Langsam zog er seine Handschuhe aus. Erschrocken über die Vorgänge
+betrachteten ihn die Ärzte, wie er dies tat, doch keiner schaffte es,
+ihn aufzuhalten. Und als er schließlich beide Handschuhe ausgezogen
+hatte und man beide verschrumpelten Hände sehen könnte, beugte sich der
+Mann über seine Tochter und umarmte sie.</p>
+<p>An jenem Tag wurde nicht nur seine Tochter gesund, sondern auch er wurde
+gesund, all die Bitterkeit war von ihm gewichen.</p>
+<p>Und auch wenn er nicht mehr die Leben retten, die Krankheiten besiegen,
+den Hunger stillen und die Wilden besänftigen konnte, so konnte er doch
+mit gutem Herzen die Nachricht von Frieden und Freundschaft in die Welt
+tragen - und siehe da: schon bald gab es immer weniger Menschen, die
+seine Macht gebraucht hätten.</p>
+<hr>
+<p><em>Ursprünglich veröffentlicht Mitte der 1990er in der Schülerzeitung des
+Geschwister-Scholl-Gymnasiums Stuttgart. Im Internet zuerst
+veröffentlicht auf meiner Site am 5. Juni 2001. Die Geschichte war
+inspiriert von einer Geschichte die in dem Film &ldquo;Garp und wie er die
+Welt sah</em> erzählt wird.''</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Die Legende von Castle Darkmore</title>
+      <link>https://simia.net/posts/die-legende-von-castle-darkmore/</link>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/die-legende-von-castle-darkmore/</guid>
+      <description>Deutsch, Schauergeschichte: angeblich lebt ein Geist in diesem verlassenen Schloss in Schottland</description>
+      <content:encoded><![CDATA[<p><em>Nie und nimmer hätte ich es für möglich gehalten, dass es tatsächlich
+eine Welt gibt, die so anders ist, als das, was wir kennen.</em></p>
+<p><em>Wenn Du diese Geschichte gelesen hast, wirst Du meine Verwunderung und
+meinen Unglauben vielleicht verstehen - denn in einer Welt voller
+Geister und Hexerei schienen wir bisher nicht gelebt zu haben.</em></p>
+<p><em>Doch all das änderte sich für mich an einem Abend, den ich in
+Schottland verbracht hatte, und an dem mir diese ganz andere, und doch
+unsere Welt, offenbar wurde&hellip;</em></p>
+<hr>
+<p>Im letzten Sommer besuchte ich eine Freundin von mir, Jasmin, die in
+Schottland studierte. Ich hatte sie vor einigen Jahren im Urlaub
+kennengelernt und sie seitdem nicht mehr gesehen. Sie studierte in
+Edinburgh und lebte zeitweise über die Semesterferien bei ihren
+Verwandten in Inverness. Ich wurde also nach Schottland eingeladen, und
+da ich schon immer mal den Ben Nevis oder das sagenumwoben Loch Ness
+sehen wollte, ging ich auf die Einladung ein und reiste hin. Die Fahrt
+verging ruhig und ohne besondere Zwischenfälle, lediglich die Fähre bei
+Calais hatte eine Stunde Verspätung.</p>
+<p>In Inverness angekommen hatte ich zunächst einige ruhige Tage. Inverness
+ist ein anschaulicher Ort mit kaum mehr als 30000 Einwohnern, für unsere
+Maßstäbe also ein unbedeutendes Provinznest. Dennoch hatte ich eine
+angenehme Zeit und amüsierte mich. Ich hatte mir auch einige Male Loch
+Ness angeschaut, doch leider nicht das berüchtigte Ungeheuer gesehen
+(dafür aber einige interessante Souvenirs entdeckt: es gibt dort nämlich
+&ldquo;Ungeheuerbrunftschreipfeifen&rdquo; oder etwa bestimmtes Lockfutter für
+Monster. Auch besuchte ich ein kleines Privatmuseum, in dem neben so
+unglaublichen Dingen wie Zähnen und Hautstücken von Nessie noch
+wissenschaftliche Testergebnisse und viele Zeugenaussagen (vor kurzem
+erst gab es den 1500. Augenzeugen) und andere Sachen zu begutachten
+waren. Allerdings musste ich enttäuscht feststellen, dass ich keinen
+echten Beweis für das Monster gesehen hatte).</p>
+<p>Eines Nachmittags stellte mir Jasmin Devon McAdams vor, ein Mitstudent
+mit auffällig schwarzen Haaren und irgendwie deplaziert wirkenden,
+grünen Augen, der in Augustin, einem kleinen Ort am Südende des Sees
+aufgewachsen ist und sich hier wie in seiner Westentasche auskennt. Er
+schlug vor, dass wir uns das alte Schloss am westlichen Ufer des Sees
+mal anschauen könnten. Er würde uns gerne führen.</p>
+<p>Da ich bereits auf der Hinfahrt das Schloss bemerkt hatte, willigte ich
+ein, und zwei Tage später saßen Jasmin, Devon und ich in seinem Wagen
+und waren unterwegs nach Castle Darkmore.</p>
+<hr>
+<p>Schloss Darkmore schien wie ein ausgehöhlter, zahnloser Schädel über die
+Weiten des Loch Ness zu schauen, es zu bewachen und dem Monster
+zuzuschauen. Wir betraten das Schloss durch das halb verfallen Tor und
+waren im Schlosshof. Nur wenige der Erker standen noch aufrecht, und
+auch ein großer Teil der Mauer ließ einen Blick in die schöne, grüne
+Landschaft der Umgebung zu. Devon beschrieb uns einige Kleinigkeiten,
+als wir das Schloss näher inspizierten.</p>
+<p>&ldquo;Wollt ihr die Legende hören, die sich um dass Schloss rankt?&rdquo;, fragte
+uns Devon, als ihm die Informationen auszugehen schienen. Ich bejahte
+seine Frage sofort, ich war schon immer interessiert an alten Legenden
+und Märchen.</p>
+<p>&ldquo;Nun gut.&rdquo;, fing Devon an, &ldquo;Einst lebte hier ein mächtiger und edler
+Ritter, der das ganze Gebiet um das Loch Ness bewachte, und der den
+stolzen Familiennamen McGalahad trug, war er doch ein direkter
+Abkömmling des großen Galahad, der dereinst mit König Artus als ein
+Ritter der Tafelrunde auszog, den heiligen Gral zu finden&hellip;</p>
+<p><em>McGalahad schritt auf und ab, sein rabenschwarzes Haar flatterte im
+Wind, den er durch seine eigene Bewegung verursachte. Er war nervös.
+Bisher war er nur selten nervös geworden, aber je älter er wurde, umso
+öfter geschah dies.</em></p>
+<p><em>Er wurde alt. Er hatte immer noch keine Frau fürs Leben gefunden, und
+erst recht noch keinen Erben für sein kleines Reich. Früher, ja früher
+waren ihm die Frauen nachgerannt, er hatte in wildem Kampf Jungfrauen
+und Prinzessinnen aus den Klauen von Straßenräubern und Dunklen Rittern
+gerettet. Oft hatte er wilde Nächte, doch war er stets darauf bedacht,
+keine Kinder zu bekommen, weil er sich nicht reif dazu fühlte. Und auch
+weil er noch ungebunden durch die Welt ziehen wollte, um weiter
+Abenteuer zu erleben und Heldentaten zu vollbringen.</em></p>
+<p><em>Und so kam es, dass er nie die Frau fürs Leben fand, denn als er
+ruhiger wurde, waren alle Frauen seines Alters vergeben, und die
+Jüngeren samt und sonders nicht an einem so alten Ritter interessiert.</em></p>
+<p><em>Zunächst störte dies den Ritter nicht, doch keine Aufgabe löst sich von
+alleine, wenn man sie nur lange genug vor sich herschiebt, und so auch
+diese nicht. Zudem war dies eine jener Aufgaben, die - da zu lange
+aufgeschoben - schließlich zu Leid führen würde. Je älter er wurde desto
+dringender erschien es ihm, einen Erben haben zu müssen, auf dass die
+alte und stolze Linie der McGalahads nicht auf ewig erlöschen möge -
+denn er war der Letzte der McGalahads.</em></p>
+<p><em>Tag für Tag wurde der Ritter verzweifelter, verbitterter, und verlor
+mehr und mehr die Regeln, die ein Held beherzigen sollte, aus dem
+Gedächtnis und so kam es, dass auch sein einst so edles Gemüt verdarb.</em></p>
+<p><em>So kam es, dass er eines Tages einfach nach Augustin ritt, welches zu
+seinem Lande gehörte, die nächste hübsche Frau - eine Schönheit mit
+Augen strahlend wie Smaragde - die in seinen Blick geriet, nahm, die
+Nacht mit ihr verbrachte und ihr, ohne dass sie es wollte, die Unschuld
+raubte.</em></p>
+<p><em>Doch das Schicksal ließ den Ritter nicht unbestraft, hatte er doch in
+seiner Unachtsamkeit die Tochter des Kräuterweibs gewählt, und so, als
+sie von des Ritters Untat vernahm, legte das Kräuterweib, die auch eine
+Hexe war, einen uralten Fluch auf den Ritter, der sagte, dass er der
+Letzte sein wird vom Blute des Galahad, der diese Welt verlassen
+sollte.</em></p>
+<p><em>Der Ritter besann sich und hasste sich selbst ob seiner Tat, doch
+selbst die tiefste Reue vermag nichts ungeschehen machen. Als er den
+Fluch der Hexe vernahm, überfiel ihn der Kummer und schließlich starb er
+vor Gram.</em></p>
+<p>&ldquo;Dieser Teil der Legende&rdquo;, so versicherte mir Devon, &ldquo;ist die reine
+Wahrheit, und man kann ihn im alten Buch der Chronik vom Castle Darkmore
+nachlesen. Doch jener Teil, der die Geschichte so richtig interessant
+macht, ist wahrscheinlich vim Volk dazuerfunden worden, denn angeblich
+soll es sich danach wie folgt zugetragen haben&hellip;&rdquo;</p>
+<p><em>Doch nun schien es so, als ob sich der Fluch der Hexe nicht
+bewahrheiten sollte: ihre Tochter war, wie man bald erkannte, schwanger
+und erwartete ein Kind des verfluchten Ritters. Und wenige Monate später
+wurde ihr das Kind geboren, ein wunderschönes Mädchen mit den
+rabenschwarzen Haaren des Ritters und den smaragdgrünen Augen der
+Mutter.</em></p>
+<p><em>Doch nur auf den ersten Blick schien der Fluch nicht in Erfüllung
+getreten zu sein: wenige Monate nach der Geburt des Kindes machte sich
+eine kleine Gruppe von Holzfällern und Jägern auf den Weg zu Schloß
+Darkmore, um einige Wertsachen zu holen, so daß das Kind ein angenehmes
+Leben führen könne.</em></p>
+<p><em>Und so kam an jenem Tag die schreckliche Wahrheit ans Licht: Ein Geist
+bewohne das Alte Schloss, der Geist des Ritters McGalahad, tot zwar,
+doch so lange an diese Welt gebunden, bis der Letzte seiner Nachkommen
+sterbe, so daß er schließlich als Allerletzter seiner Familie diese Welt
+verlassen und seinen Frieden finden könne. Er bat die Gruppe, das Kind
+umzubringen, doch keiner brachte es über das Herz, und so lebte das
+Kind, wurde groß, heiratete und gründete eine Familie, und die Legende
+sagt, dass auch heute noch Nachkommen des verfluchten Ritters in
+Augustin leben sollen.</em></p>
+<p><em>Und heute, zwölf Jahrhunderte nach dem Tod des Ritters, soll sein Geist
+nachts immer noch durch das Schloss ziehen und nach Möglichkeiten und
+Mitteln suchen, mit denen er seine eigenen Nachkommen umbringen kann, so
+dass er endlich eines Tages seinen Frieden finden kann.</em></p>
+<p>Mir zog ein kalter Schauer über den Rücken. Während Devon die Geschichte
+erzählt hatte, war es etwas kühler geworden und die Sonne hing schon
+sehr tief und machte sich auf, hinter der hügeligen Landschaft des
+westlichen Schottlands zu verschwinden.</p>
+<p>Wir fuhren zurück nach Inverness und vergaßen die Geschichte schnell
+wieder.</p>
+<hr>
+<p>Bis heute habe ich auch nicht an die Geschichte gedacht - doch als
+Jasmins Brief vor zwei Tagen ankam, erinnerte ich mich schnell wieder an
+die Legende.</p>
+<p>Man hatte Devon in der Nähe des Schlosses erdrosselt aufgefunden,
+irgendein Wahnsinniger muss ihm Ketten um den Hals gelegt haben und dann
+so die Kehle zerquetscht.</p>
+<p>Normalerweise würde mich das nicht weiter beunruhigen.</p>
+<p>Doch mein Familienstammbaum zeigt eine schottische Lady, die den
+Mädchennamen McAdams trug.</p>
+<hr>
+<p><em>Ursprünglich um 1992-1996 (?) in unserer Schülerzeitung veröffentlicht,
+dann am 27. März 2001 auf <a href="/topics/nodix/">Nodix</a>
+wiederveröffentlicht.</em></p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Vortrag an der Stadtbibliothek Stuttgart zu Wikidata</title>
+      <link>https://simia.net/posts/stuttgart/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/stuttgart/</guid>
+      <description>Vortrag an der Stadtbibliothek Stuttgart über Wikidata zum Wikipedia-Tag in Stuttgart zur Feier des 25. Jubiläumsjahres der Wikipedia</description>
+      <content:encoded><![CDATA[<p><a href="https://docs.google.com/presentation/d/1aEZnMY8q_Vo5x1Q_F0fAlS2rS35zQtKzp5DIo6qKc3M/edit?slide=id.g39eac51ae71_0_13602#slide=id.g39eac51ae71_0_13602">Vortrag an der Stadtbibliothek
+Stuttgart über Wikidata</a> zum Wikipedia-Tag in Stuttgart zur Feier des 25. Jubiläumsjahres der Wikipedia</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Oh! Dalmatien</title>
+      <link>https://simia.net/posts/oh-dalmatien/</link>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/oh-dalmatien/</guid>
+      <description>oh! Dalmatien von Doris Akrap erschien vor wenigen Wochen, ein sogenannter Insider-Guide, im Folio-Verlag. Darin enthalten sind drei Dutzend kurze Artikel, jeder etwa drei Seiten lang, mit Geschichten aus und zu Dalmatien. Zum Dalmatinischem Essen und Trinken, zur Dalmatinischen Lebensweise, der lokalen Sprache, den Winden der Region und welchen Einfluss sie auf das Gemüt haben, interessante Anekdoten zur Kultur und zur Geschichte.
+Die Schreibweise ist durchgehend unterhaltsam und flott, die Geschichten hängen nicht zusammen und können in beliebiger Reihenfolge gelesen oder übersprungen werden, sie sind kurz, so das man sie in kurzen Pausen lesen kann &amp;ndash; die perfekte Reiselektüre für Dalmatien.</description>
+      <content:encoded><![CDATA[<p><strong>oh! Dalmatien</strong> von <a href="https://de.wikipedia.org/wiki/Doris_Akrap">Doris
+Akrap</a> erschien vor wenigen
+Wochen, ein sogenannter Insider-Guide, im
+<a href="https://www.folioverlag.com/">Folio-Verlag</a>. Darin enthalten sind drei
+Dutzend kurze Artikel, jeder etwa drei Seiten lang, mit Geschichten aus
+und zu Dalmatien. Zum Dalmatinischem Essen und Trinken, zur
+Dalmatinischen Lebensweise, der lokalen Sprache, den Winden der Region
+und welchen Einfluss sie auf das Gemüt haben, interessante Anekdoten zur
+Kultur und zur Geschichte.</p>
+<p>Die Schreibweise ist durchgehend unterhaltsam und flott, die Geschichten
+hängen nicht zusammen und können in beliebiger Reihenfolge gelesen oder
+übersprungen werden, sie sind kurz, so das man sie in kurzen Pausen
+lesen kann &ndash; die perfekte Reiselektüre für Dalmatien.</p>
+<p>Besonders gefallen hat mir das Einweben der
+Immigrationskindererfahrungen der Autorin, deren Echo ich in meiner
+eigenen Familiengeschichte fühlen konnte. Wieviel ihrem Vater das Haus
+in Dalmatien bedeutete. Wie sehr sie selbst daran hing und wie das Haus
+sie durch ihr Leben begleitete, auch über den Tod ihres Vaters hinaus.
+Die dramatische Familiengeschichte im zweiten Weltkrieg. Aber all das
+überschattet nicht die Leichtigkeit des Buches, und es bleibt eine
+unterhaltsame und dennoch lehreiche Sommerlektüre, die einen Einblick in
+diese wunderschöne Region erlaubt.</p>
+<p>Selbst der Artikel über Brač hat mir unerwarteter weise etwas völlig
+unbekanntes eröffnet, die Band <em><a href="https://hr.wikipedia.org/wiki/Valentino_Bo%C5%A1kovi%C4%87">Valentino
+Bošković</a></em>
+und ihre sehr absurde Musik und Mythologie.</p>
+<p>Das Buch hat sich für mich gelohnt, und ich kann es nur empfehlen!</p>
+<ul>
+<li><a href="https://www.folioverlag.com/Oh-Dalmatien/9783852569123">oh! Dalmatien im
+Folio-Verlag</a></li>
+<li><a href="https://ballaballa-balkan.de/episode/oh-dalmatien-im-gespraech-mit-doris-akrap">Episode des Podcasts <em>Balla Balla Balkan</em> mit dem Interview mit
+Doris Akrap zu dem
+Buch</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>The Ring verse in German</title>
+      <link>https://simia.net/posts/the-ring-verse-in-german/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/the-ring-verse-in-german/</guid>
+      <description>I finally got the Lord of the Rings in English. I never read it in its native English, only in a German translation, about thirty years ago.
+And already on the first page I am stumped: the ring verse seems to me sooo much better in German than in English. Now, it is absolutely possible that this is due to me having read it as an impressionable teenager and having carried the translation with me for three decades and thus developed fondness and familiarity with it, but I think it&amp;rsquo;s more than that.</description>
+      <content:encoded><![CDATA[<p>I finally got the Lord of the Rings in English. I never read it in its
+native English, only in a German translation, about thirty years ago.</p>
+<p>And already on the first page I am stumped: the ring verse seems to me
+sooo much better in German than in English. Now, it is absolutely
+possible that this is due to me having read it as an impressionable
+teenager and having carried the translation with me for three decades
+and thus developed fondness and familiarity with it, but I think it&rsquo;s
+more than that.</p>
+<p>Here are the verses in English, German, and a literal back-translation
+of the German to English:</p>
+<ul>
+<li><em>Three Rings for the Elven-kings under the sky,</em>
+<em>Seven for the Dwarf-lords in their halls of stone,</em>
+<em>Nine for Mortal Men doomed to die,</em>
+<em>One for the Dark Lord on his dark throne</em>
+<em>In the Land of Mordor where the Shadows lie.</em>
+<em>One Ring to rule them all,</em>
+<em>One Ring to find them,</em>
+<em>One Ring to bring them all,</em>
+<em>and in the darkness bind them</em>
+<em>In the Land of Mordor where the Shadows lie.</em></li>
+</ul>
+<p>German translation by von Freymann:</p>
+<ul>
+<li><em>Drei Ringe den Elbenkönigen hoch im Licht,</em>'
+<em>Sieben den Zwergenherrschern in ihren Hallen aus Stein,</em>
+<em>Den Sterblichen, ewig dem Tode verfallen, neun,</em>
+<em>Einer dem dunklen Herrn auf dunklem Thron</em>
+<em>Im Lande Mordor, wo die Schatten drohn.</em>
+<em>Einen Ring, sie zu knechten, sie all zu finden,</em>
+<em>ins Dunkle zu treiben und ewig zu binden</em>
+<em>Im Lande Mordor, wo die Schatten drohn.</em></li>
+</ul>
+<p>Back-translation of her translation by me:</p>
+<ul>
+<li><em>Three Rings for the Elven kings high in the light,</em>
+<em>Seven for the Dwarf-lords in their halls of stone,</em>
+<em>For the mortals, eternally doomed to death, nine,</em>
+<em>One for the Dark Lord on dark throne</em>
+<em>In the Land of Mordor, where the Shadows loom.</em>
+<em>One Ring, to enslave them, to find them,</em>
+<em>to drive to Darkness, and forever bind them</em>
+<em>In the Land of Mordor, where the Shadows loom.</em></li>
+</ul>
+<p>The differences are small, but I find the selection of words by the
+translator to be stronger and more evocative than Tolkien&rsquo;s original.
+Which is amazing. Thanks to the great Ebba-Margareta von Freymann for
+her wonderful translation of the poems!</p>
+<p>Originally, the publisher Klett hat trouble with translating Tolkien&rsquo;s
+poems, but Ebba-Margareta had been, for many years working on the
+translation of poems by Tolkien, and by using her translations, Klett
+did a great service to the book for the German-speaking world.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Das Mädchen Doch</title>
+      <link>https://simia.net/posts/das-maedchen-doch/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/das-maedchen-doch/</guid>
+      <description>Sie sagten ihrer Mutter
+Kinder werde sie nie haben
+Und als sie geboren wurde
+Nannte ihre Mutter sie
+Doch
+Sie sagten sie sei schwach
+Und klein und krank
+Und dass sie nicht
+Lange zu leben habe
+Doch
+Ihre Mutter hoffte
+Das sie in einer Welt aufwuchs
+In der alle gleich behandelt wurden
+Aber leider
+Doch
+Sie sagten Mathe und Autos
+Seien nichts für Mädchen
+Dass sie sich interessiert
+Für Puppen und für Kleidung</description>
+      <content:encoded><![CDATA[<p>Sie sagten ihrer Mutter<br>
+Kinder werde sie nie haben<br>
+Und als sie geboren wurde<br>
+Nannte ihre Mutter sie<br>
+Doch</p>
+<p>Sie sagten sie sei schwach<br>
+Und klein und krank<br>
+Und dass sie nicht<br>
+Lange zu leben habe<br>
+Doch</p>
+<p>Ihre Mutter hoffte<br>
+Das sie in einer Welt aufwuchs<br>
+In der alle gleich behandelt wurden<br>
+Aber leider<br>
+Doch</p>
+<p>Sie sagten Mathe und Autos<br>
+Seien nichts für Mädchen<br>
+Dass sie sich interessiert<br>
+Für Puppen und für Kleidung<br>
+Doch</p>
+<p>Sie sagten die Welt<br>
+Ist wie sie ist<br>
+Und sie zu ändern<br>
+Sei nichts für kleine kranke Mädchen<br>
+Doch</p>
+<p>Sie sagten gut dass Du darüber sprachst<br>
+Wir sollten darüber nachdenken<br>
+Lass uns jetzt darüber debattieren<br>
+Und wir (nicht Du) entscheiden dann<br>
+Doch</p>
+<p>Sie sagten man kann nicht alles haben<br>
+Man muss sich entscheiden<br>
+Aber so selbstsüchtig<br>
+Ich meine, keine Kinder zu wollen<br>
+Doch</p>
+<p>Sie sagten sie sei unanständig<br>
+So ein Leben sei nicht richtig<br>
+Benannten sie mit unanständigen Worten<br>
+Was sie sich denn erlaube<br>
+Doch</p>
+<p>Sie sagten das geht doch nicht<br>
+So ein Leben sei kein Leben<br>
+Das ist jetzt schon sehr anders<br>
+Das ist nicht einfach nur Neid<br>
+Doch</p>
+<p>Sie sagten wir sind halt nicht so<br>
+Und wollen auch nicht so sein<br>
+Wir sind glücklich wie wir sind<br>
+Und deswegen darfst du glücklich nicht sein<br>
+Doch</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Ina Kramer (1948-2023)</title>
+      <link>https://simia.net/posts/ina-kramer-1948-2023/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/ina-kramer-1948-2023/</guid>
+      <description>1990 erschien die erste aventurische Regionalkarte &amp;ldquo;im 3D Effekt&amp;rdquo;, wie es damals beworben wurde, &amp;ldquo;Das Bornland&amp;rdquo; im Abenteuer &amp;ldquo;Stromaufwärts&amp;rdquo; von Michelle Schwefel. Später im Jahr erschien dann die Spielhilfe &amp;ldquo;Das Königreich am Yaquir&amp;rdquo;, in dem die Karte zum Lieblichen Feld war.
+Ich habe stundenlang diese Karten angestarrt. Sie waren so unglaublich detailliert. So wunderschön. Ich war sprachlos, wie schön diese Karten waren. Ich kannte nichts was die Qualität dieser Karten hatte, nicht nur bezüglich Karten für Rollenspielwelten und Fantasywelten, sondern überhaupt.</description>
+      <content:encoded><![CDATA[<p>1990 erschien die erste aventurische Regionalkarte &ldquo;im 3D Effekt&rdquo;, wie
+es damals beworben wurde, &ldquo;Das Bornland&rdquo; im Abenteuer &ldquo;Stromaufwärts&rdquo;
+von Michelle Schwefel. Später im Jahr erschien dann die Spielhilfe &ldquo;Das
+Königreich am Yaquir&rdquo;, in dem die Karte zum Lieblichen Feld war.</p>
+<p>Ich habe stundenlang diese Karten angestarrt. Sie waren so unglaublich
+detailliert. So wunderschön. Ich war sprachlos, wie schön diese Karten
+waren. Ich kannte nichts was die Qualität dieser Karten hatte, nicht nur
+bezüglich Karten für Rollenspielwelten und Fantasywelten, sondern
+überhaupt.</p>
+<p>Es war ein frecher Traum, sich vorzustellen, ganz Aventurien in diesem
+Format, eins zu einer million, zu haben, und dennoch, innerhalb eines
+guten Jahrzehnts war der Traum erfüllt, Box für Box, Publikation für
+Publikation.</p>
+<p>Wir verdanken dieses Meisterwerk, Aventurien im Massstab von
+1:1.000.000, der Autorin und Grafikerin Ina Kramer. Ina&rsquo;s Bilder und vor
+allem Porträts und Karten in den DSA Publikationen der späten 80er und
+den 90er haben für mich mein Bild von DSA und wie ich mir Aventurien
+vorstellte geprägt wie sonst nur Caryad. Ob das Porträt von Kaiser Hal,
+Haldana von Ilmenstein, Prinz Brin, so viele andere. Neben ihren Bildern
+schrieb sie auch vielerlei Texte, vor allem Romane.</p>
+<p>Das Rad ist zerbrochen. Am 10. Februar 2023 ist Ina Kramer im Alter von
+74 Jahren gestorben.</p>
+<p>Ina, vielen Dank für Deine Werke. Ich durfte Ina ein paar Mal treffen,
+auf Konventen und manchen anderen Gelegenheiten. Ihre Werke haben für
+mich einen wichtigen Teil meines Lebens mit Bildern und Karten erfüllt.
+Ich glaube auch, dass Inas Karten mein lebenslanges Interesse an
+Landkarten weckte.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Karl-Heinz Witzko</title>
+      <link>https://simia.net/posts/karl-heinz-witzko/</link>
+      <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/karl-heinz-witzko/</guid>
+      <description>Ich hatte unglaublich gutes über das DSA Abenteuer &amp;ldquo;Jenseits des Lichts&amp;rdquo; gehört. Aber auch, dass es sehr schwer zu spielleiten sei. Ich sprach Karl-Heinz Witzko darauf an, den Autor des Abenteuers, und er sagte, er würde es für mich leiten. Wir müssten nur eine Zeit finden.
+Wann auch immer wir uns trafen, versprachen wir uns gegenseitig, Zeit dafür zu finden. Ich hatte das Buch gekauft, aber natürlich nicht gelesen, und war immer sehr gespannt darauf, was es wohl mit dem Abenteuer auf sich hatte.</description>
+      <content:encoded><![CDATA[<p>Ich hatte unglaublich gutes über das DSA Abenteuer &ldquo;<a href="https://de.wiki-aventurica.de/wiki/Jenseits_des_Lichts">Jenseits des
+Lichts</a>&rdquo; gehört.
+Aber auch, dass es sehr schwer zu spielleiten sei. Ich sprach Karl-Heinz
+Witzko darauf an, den Autor des Abenteuers, und er sagte, er würde es
+für mich leiten. Wir müssten nur eine Zeit finden.</p>
+<p>Wann auch immer wir uns trafen, versprachen wir uns gegenseitig, Zeit
+dafür zu finden. Ich hatte das Buch gekauft, aber natürlich nicht
+gelesen, und war immer sehr gespannt darauf, was es wohl mit dem
+Abenteuer auf sich hatte.</p>
+<p>Karli hat zu DSA seine ganz einzigartige Stimme beigetragen. Ein Werk
+wie DSA, eine Welt wie Aventurien, entstammt nicht aus dem Kopf einer
+einzigen Person, sondern hunderte schufen und trugen bei. Und Karli&rsquo;s
+Stimme hatte ihren ganz eigenen Humor, und erweiterte die Welt um
+Perspektiven und Eigenheiten die sonst nie entdeckt worden wären. Ich
+habe seine Romane mit viel Schmunzeln gelesen, seine Solos sehr gerne
+und wiederholt gespielt und erforscht, nur sein einziges
+Gruppenabenteuer kannte ich nicht. Nach seiner Zeit bei DSA schrieb
+Karli weitere Romane und erschuf weitere Welten.</p>
+<p>Am 29. September 2022 ging Karli von uns. Der Name Karl-Heinz Witzko
+wurde aus dem <em>&ldquo;Buch der Anwesenden&rdquo;</em> gestrichen, und ins <em>&ldquo;Buch der
+Abwesenden&rdquo;</em> eingetragen. Altem Brauch auf Maraskan folgend werden Karli
+nun die Sechszehn Ratschläge mit auf dem Weg gegeben, und die Sechszehn
+Forderungen gestellt. Ich hätte gerne gehört oder gelesen, was Karli aus
+diesen gemacht hätte.</p>
+<p>Danke für Deine Worte. Danke für Deine Zeit. Danke für Deinen Humor.</p>
+<p>Heute schlug ich &ldquo;Jenseits des Lichts&rdquo; auf und fing an zu lesen.</p>
+<ul>
+<li><a href="https://de.wikipedia.org/wiki/Karl-Heinz">Witzko Karl-Heinz Witzko auf der Deutschen
+Wikipedia</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Jochen Witte</title>
+      <link>https://simia.net/posts/jochen-witte/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/jochen-witte/</guid>
+      <description>Jochen Witte war ein Freund meiner Schulzeit. Ich habe viel von ihm gelernt, er konnte all diese praktischen Sachen zu denen ich nie einen Zugang hatte und von denen ich oft wünschte, ich könnte sie. Von ihm lernte ich, was eine gute Soundanlage braucht und warum Subwoofer groß sein müssen und was Subwoofer überhaupt sind. Zusammen schleppten wir schwere Boxen, um Unterstufendiscos und Abischerze und Vorträge zu ermöglichen. Von ihm lernte ich die Vorzüge des Gaffertapes kennen, und dass es nicht nur silbernes Klebeband ist.</description>
+      <content:encoded><![CDATA[<p>Jochen Witte war ein Freund meiner Schulzeit. Ich habe viel von ihm
+gelernt, er konnte all diese praktischen Sachen zu denen ich nie einen
+Zugang hatte und von denen ich oft wünschte, ich könnte sie. Von ihm
+lernte ich, was eine gute Soundanlage braucht und warum Subwoofer groß
+sein müssen und was Subwoofer überhaupt sind. Zusammen schleppten wir
+schwere Boxen, um Unterstufendiscos und Abischerze und Vorträge zu
+ermöglichen. Von ihm lernte ich die Vorzüge des Gaffertapes kennen, und
+dass es nicht nur silbernes Klebeband ist. Er war der erste, der mir
+Mangas und Anime ein wenig näherbrachte, insbesondere hatte er eine
+Leidenschaft für Akira. Er ließ mich das erste Mal die elektronische
+Musik von Chris Hülsbeck und Jean-Michel Jarre hören. Er las ASM, ich
+las Power Play. Wir spielten eine zeitlang DSA miteinander. Er war der
+erste den ich kannte mit einem Pager. Er wirkte stets so als konnte er
+alles reparieren, und es war gut so jemanden zu kennen.</p>
+<p>Gleichzeitig waren einige meiner Freunde und ich ihm gegenüber nicht
+immer freundlich, oh nein, im Gegenteil, manchmal war ich geradewegs
+grausam. Ich mache mich über seine Brille lustig oder sein Gewicht, und
+konnte Punkte damit sammeln, über ihn Witze zu machen. Ich wusste es war
+falsch. Wir waren ja schon die Außenseiter in der Klasse, und ich
+versuchte ihn zum Außenseiter der Außenseiter zu machen. Meine einzige
+Entschuldigung ist, dass wir Kinder waren, und ich noch nicht die Stärke
+hatte, besser zu sein. Ich lernte viel daraus, und wollte nie wieder so
+sein. Mit der Zeit verstand ich mich besser. Wo diese Grausamkeit
+herkam. Und das es nicht an Jochen lag, sondern in mir. Ich schäme mich
+für vieles was ich tat. Ich weiß nicht, ob ich mich jemals bei ihm
+entschuldigt habe.</p>
+<p>Und dennoch glaube ich waren wir Freunde.</p>
+<p>Nach der Schulzeit verloren wir uns aus den Augen. Er studierte Chemie
+in Esslingen, wir trafen uns hin und wieder im Movie Dick zur Sneak
+Preview. Er zog nach Staig im Alb-Donau-Kreis und fand sich als Goth
+wieder. Aber über die Jahre hinweg, gerieten wir hin und wieder in
+Kontakt.</p>
+<p>Eine unserer gemeinsamen Erinnerungen war, wie wir zusammen zu einem
+Vortrag von Erich von Däniken fuhren. Es war mein Auto. Wir hatten einen
+Platten, und während er es zum Laufen brachte - wie gesagt, er konnte
+alles reparieren - fragte er mich, wann ich denn das letzte Mal nach dem
+Öl geschaut habe. Ich muss so belämmert reingeschaut haben, dass er nur
+noch lachen konnte. Die Antwort war &ldquo;Nie&rdquo;, und er sah es in meinem
+Gesicht. Jedesmal wenn wir uns trafen, sprach er mich auf diesen Abend
+an.</p>
+<p>Jochen half mir beim Umzug nach Karlsruhe. Das Gästebett passte nicht
+richtig zusammen. Er sagte er könnte es festziehen, aber ich würde es
+nie wieder auseinander bekommen. Es wird schwierig, damit umzuziehen.
+Ich sagte, das ist OK, ist ja nur ein billiges IKEA Gästebett Couch
+Dings. Ich habe nicht vor, damit umzuziehen, versicherte ich ihm.</p>
+<p>Ich zog damit von Karlsruhe nach Berlin. Von Berlin nach Alameda.
+Innerhalb von Alameda. Von Alameda nach Berkeley. Es hat den
+Umzugshelfern jedesmal Kopfzerbrechen bereitet, genau wie Jochen
+versprochen hatte. Letzte Woche brach ein Stück ab. Ich sitze jetzt
+darauf und schreibe das hier. Nach fast einem Jahrzehnt sollte ich es
+wohl endlich austauschen.</p>
+<p>Das letzte mal trafen wir uns ganz zufällig 2017 am Stuttgarter Bahnhof.
+Ich war überhaupt nur ein Mal im letzen halben Jahrzehnt wieder in
+Deutschland. Und da, am Bahnhof, traf ich ihn. Es war schön, Jochen
+wiederzusehen, und wir redeten als ob wir uns immer noch täglich sehen
+würden, wie zwanzig Jahre zuvor. Als ob das Abitur erst gestern war.</p>
+<p>Diese Woche erfuhr ich von Michael, dass Jochen verstorben ist. Er starb
+nur wenige Monate nach unserem zufälligen Treffen, im April 2018. Er
+wurde nur vierzig Jahre alt.</p>
+<p>Es tut mir leid.</p>
+<p>Und noch viel mehr: Danke.</p>
+<p>Ruhe in Frieden, Jochen Witte.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Der Name Zdenko</title>
+      <link>https://simia.net/posts/der-name-zdenko/</link>
+      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/der-name-zdenko/</guid>
+      <description>Heute sah ich dass der Artikel Zdenko - mein eigentlicher Name
+auf der Englischen Wikipedia verändert wurde. Jemand hatte die Bedeutung des Namens von dem, was ich für richtig hielt (slawische Form von Sidonius) zu etwas was ich nie zuvor gehört habe (Koseform von Zdeslav) verändert, aber nicht die Quelle angepasst. Ich dachte, das wird eine schnelle Korrektur, habe aber dennoch in die Quelle geschaut - und, schau an, die Quelle sagte weder das eine noch das andere, sondern behauptete der Name stammt von dem slawischen Wort zidati, bauen, errichten.</description>
+      <content:encoded><![CDATA[<p>Heute sah ich dass der Artikel
+<a href="https://en.wikipedia.org/wiki/Zdenko">Zdenko</a> - mein eigentlicher Name</p>
+<ul>
+<li>auf der Englischen Wikipedia verändert wurde. Jemand hatte die
+Bedeutung des Namens von dem, was ich für richtig hielt (<em>slawische Form
+von Sidonius</em>) zu etwas was ich nie zuvor gehört habe (<em>Koseform von
+Zdeslav</em>) verändert, aber nicht die Quelle angepasst. Ich dachte, das
+wird eine schnelle Korrektur, habe aber dennoch in die Quelle geschaut -
+und, schau an, die Quelle sagte weder das eine noch das andere, sondern
+behauptete der Name stammt von dem slawischen Wort <em>zidati</em>, bauen,
+errichten.</li>
+</ul>
+<p>Das führte mich zu einer zweitstündigen Odyssee durch verschiedene
+Quellen des 19. und 20. Jahrhunderts, wo ich Belege für alle drei
+Bedeutungen finden konnte - außerdem Quellen, die behaupteten, dass der
+Name von dem Slawischen Wort <em>zdenac</em>, Brunnen, abgeleitet ist, dass
+auch der Name <em>Sidney</em> von <em>Sidonius</em> stamme, und eine Hessische Quelle
+die vehement darüber schimpfte, dass doch <em>Zdenko</em> und <em>Sidonius</em> nichts
+miteinander zu tun haben (auch die Slowenische Wikipedia sagt, dass die
+Namen <em>Zdenko</em> und <em>Sidonius</em> zwar einen gemeinsamen Namenstag haben,
+aber nicht der gleiche Name sind). Dafür aber führt die gleiche Quelle
+aus, dass der im Osthessischen gebrauchte Name <em>Denje</em> wohl von <em>Zdenka</em>
+kommt (so nah an <em>Denny</em>!)</p>
+<p>Denje gefällt mir als Name.</p>
+<p>Kurzgesagt: wenn Du denkst, Etymologie sei kompliziert, sei gewarnt:
+Anthroponomastik ist deutlich schlimmer!</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Bosparans Fall</title>
+      <link>https://simia.net/posts/bosparans-fall/</link>
+      <pubDate>Fri, 04 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/bosparans-fall/</guid>
+      <description>Deutsch, fantasy, Das Schwarze Auge: die Geschichte der Hela-Horas</description>
+      <content:encoded><![CDATA[<p><em><strong>Ein Mann gegen das Imperium. Eine Frau gegen die Götter.</strong></em></p>
+<p>“Wann werdet Ihr zurückkehren, Vater?” “So die Götter es wollen, werden
+wir vor dem Winter wieder in Bosparan sein. Solange geben wir das Reich
+in Eure Hände, Hela.”</p>
+<p><em>So die Götter es wollen…</em></p>
+<hr>
+<p>Die Speerspitze glitzerte kränklich mit purpurnem Gift. Sein Gott hat es
+ihm eingeflüstert. Sein Gott will es so, hat es so befohlen. Das
+Diamantene Sultanat würde untergehen, so war es bestimmt, und seine Hand
+musste dafür sorgen, dass der siegreiche Feldherr nicht zurückkehrte.</p>
+<hr>
+<p>“Eure Majestät — Seine Horaskaiserliche Majestät — Der Horas ist nicht
+mehr. Die Wunde konnte nicht geheilt werden. Die Medicusse, die Magier,
+die Geweihten der Peraine — sie konnten nichts tun — die Götter haben
+Ihn zu sich befohlen — ”</p>
+<p>Hela starrte den Haushofmeister an. Auf ihrer makellosen Stirn zeigte
+sich plötzlich ein Riss. Ein Augenlid. Es öffnete sich. Ein drittes
+Auge, auf ihrer Stirn. Schwarz wie ein Onyx. Der Haushofmeister
+kreischte, seine Augen quollen hervor. Flammen stießen aus den Augen
+heraus, er brach zusammen und eine Flammenlohe loderte aus seinem
+Körper.</p>
+<p><em>Die Götter haben Ihn zu sich befohlen.</em></p>
+<p>Hela lehnte sich zurück. Sie herrschte nun. Sie war Horas. Und ihr Reich
+umfasste den ganzen Kontinent, vom endlosen Ozean im Süden bis zur
+Schneeöde im Norden, von der Küste des Lieblichen Feldes bis zum
+Perlenmeer. Sie war die mächtigste Herrscherin dieser Welt. Wie ihr
+Vater zuvor.</p>
+<p>Und offenbar war das nicht genug.</p>
+<hr>
+<p>Was war zuerst? Das Edikt ihres Urgroßvaters, oder die Zwölfgötter?</p>
+<p>Natürlich ist jeder einzelne der Zwölfgötter älter als das Edikt. Aber
+die Tatsache, dass es zwölf sind? Dass es eben diese Götter sind? Warum
+nicht Ankhatep statt Firun? Warum zwölf, warum nicht neun, acht, oder
+sechs? Gar nur eine?</p>
+<p>Was war zuerst? Die zwölf Erzdämonen, oder die zwölf Götter? Spiegelten
+die einen die anderen? Hatte Silem die zwölf Erzdämonen durch das Edikt
+womöglich erst erschaffen? Was war mit den Dämonen, die keinem der
+Gegenzwölf folgten, und auch nicht dem ohne Namen? So viele von ihnen
+sind gerufen worden, so viele selbst beschworen, beherrscht, befohlen.
+Doch die Antworten waren verwirrend und widersprüchlich. Eine der
+Erzdämoninnen, Charypta, schien einst eine Göttin gewesen zu sein. Die
+alten Quellen in Aureliani bestätigten dies. Oder waren das alles Lügen?
+Die wenigen Wahrheiten waren nur noch verwirrender. Und alle wollten sie
+ihre Seele. Ihre Seele für die Wahrheit. Nein! Dieser Preis war zu
+hoch. Ihre Seele gehört Ihr allein, Ihr, keinem Dämon, keinem Gott.</p>
+<p>Eine Wahrheit hatte sie erhalten. Vaters Tod. Einer der Götter gab den
+Befehl. Sie wusste nicht, welcher, doch welche Rolle spielte das schon?
+Ihr Leben war ihnen genauso ausgeliefert. Ihres, und das jedes anderen
+Menschen.</p>
+<p>Silem, warum? Warum diese Zwölf? Haben sie mit Euch geschachert,
+Urgroßvater? Wie sah Euer Handel aus? Was habt Ihr erhalten,
+Urgroßvater? Musstet Ihr dafür diese Bücher vernichten? Das Wissen über
+die Theurgie. In den Tagen nach dem Edikt brannten die Tempel jener
+Götter, die nicht zu den Zwölfen gehörten. Und in diesen Feuern brannte
+auch manches mehr. Uraltes Wissen, in Aureliani geschrieben, für immer
+aus Aventurien verbannt. Warum, Silem? Was wurde Euch dafür gegeben?</p>
+<p>Wie dem auch sei. Das Edikt ist keine hundert Jahre alt. So kurz erst
+her, und doch waren die alten Götter schon verschwunden. Eben wirkten
+sie noch Wunder, wurden in Tempeln angebetet, und halfen ihren
+Geweihten, und nun sind sie nicht mehr. Ras’Ragh. Ankhatep. Numinor.
+Vergessen. Verloren. Verweht.</p>
+<p>Wer sagt, dass was mit diesen Göttern geschah, nicht auch den Zwölfen
+wiederfahren mag? Wer sagt, dass wir Menschen die Götter brauchen? Kann
+es vielmehr sein, dass die Götter uns brauchen?</p>
+<p>Ist es möglich, dass wir unser eigenes Schicksal beherrschen können,
+statt es den Göttern anzuvertrauen? Kann der Mensch sich von den Göttern
+befreien?</p>
+<hr>
+<p>“Sprecht, Drakhard.”</p>
+<p>Der Geisterschmied trug seine weit bekannte, vielfarbig schillernde
+Metallrüstung, darunter ein feines Kettenhemd, beides ein Beweis seiner
+einzigartigen Fähigkeiten. Er lächelte und hielt einen Ring hoch. Hela
+flüsterte einen <em>Odem</em> und wenige Momente später hob sie ihre
+Augenbraue.</p>
+<p>Drakhard erkannte ihren Spruch, grinste, und zog den Ring auf. Ein
+Sonnenstrahl stieß aus dem Ring und fiel auf den Boden, so hell wie die
+stärksten Mittagssonne anfang Praios.</p>
+<p>Hela trat zu Drakhard, ergriff seine Hand. Sie schob ihre Krone zurück,
+nur ein wenig. Drakhard grinste zunächst stolz, doch dann sah er das
+Dritte Auge auf der Stirn der Horas. Alle drei Augen fixierten den Ring.
+Das Auge schloss sich wieder. Die Horas rückte ihre Krone wieder zurecht
+und schaute ihn erstaunt an.</p>
+<p>“Der Ring ist nicht magisch”, stellte sie fest.</p>
+<p>Drakhard atmete schwer. Er konnte nicht glauben, was er eben gesehen
+hatte. Was war —</p>
+<p>“Wer hat diesen Ring erschaffen?”, fragte die Horas.</p>
+<p>“Ich.” Drakhard versuchte nicht zu lange zu zögern. Er musste sich
+konzentrieren. Er ertappte sich dabei auf die Krone der Horas zu
+starren, auf jene Stelle wo eben noch —</p>
+<p>“Wie, wenn nicht mit Magie? Ist der Ring geweiht?”</p>
+<p>Drakhard schüttelte den Kopf. “Horaskaiserliche Majestät, ihr habt
+Recht, karmale Kraft zu vermuten. Doch es ist keine Weihe. Niemand
+flehte Praios um das Wunder an, diesen Ring zu segnen und zu weihen.”</p>
+<p>Ein Lächeln legte sich auf das Gesicht der Horas. Endlich. “Praios wurde
+nicht gebeten. Er wurde gezwungen.”</p>
+<p>Drakhard nickte.</p>
+<hr>
+<p>“Die jetzt zu euch spricht, ist Hela-Horas, eure Herrin! Wir befehlen
+euch, euch nicht in unsere Angelegenheiten zu mischen. Wenn ihr gegen
+uns aufbegehren wollt, kommt herab und löscht die Flammen!” Ihre Stimme
+schallte in den strahlend blauen Himmel über Bosparan.</p>
+<p>Die Menschen in den Straßen und Plätzen Bosparans riefen ihren Namen.
+Ihre Begeisterung fegte durch die Stadt. Ja! Seht zu, wie wir die
+Fesseln der Götter abwerfen! Versteht, dass diese Acht aus Gareth hier
+für unsere Freiheit brennen! Schickt den Zwölfen ein Zeichen! Unser
+Schicksal gehört in unsere Hände!</p>
+<p>Sie spürte das Donnern Rondras. Sie spürte die Flut Efferds. Sie spürte
+die Gerechtigkeit Praios. Sie spürte die schiere Kraft Ingerimms.
+Hammerschläge, Blendstrahlen, Donnerblitze, Sturmböen, all sie
+donnerten, hämmerten, tosten, brannten gegen das Schild welches sie
+aufgebaut hatte. Keiner der Zwölf wird sie heute aufhalten. Sie hatte es
+befohlen! Sie hielt die Götter auf, sie allein!</p>
+<p>Sie war Horas. Kaiserin über Aventurien. Botin des Lichts. Trägerin des
+rechten und des linken Szepter. Magistra Maxima. Meisterin der Dämonen.
+Herrin über die Götter. Befreierin der Menschheit.</p>
+<p>Sie war Herrin über ihr eigenes Schicksal.</p>
+<hr>
+<p><strong>Aventurischer Hintergrund.</strong> Vor etwas mehr als tausend Jahren ließ
+sich Hela, die Herrscherin des Bosparanischen Reiches, als das Imperium
+im absoluten Zenith seiner Macht steht, zur Göttin ausrufen, gar zur
+Herrin über alle Götter. Die Götter bestraften dies mit Bosparans Fall,
+dem Untergang des Imperiums. Aus dessen Trümmern erbaute Raul der Große
+das Neue Reich, das heute noch das größte Reiche Aventuriens ist.</p>
+<p><strong>Irdischer Hintergrund.</strong> Ich habe in den letzten Tagen <a href="http://www.daniel-joedemann.de/">Daniel
+Jödemanns</a> Romane “<a href="http://www.wiki-aventurica.de/wiki/Die_letzte_Kaiserin">Die letzte
+Kaiserin</a>” und
+“<a href="http://www.wiki-aventurica.de/wiki/Der_erste_Kaiser">Der erste
+Kaiser</a>” gelesen,
+und wurde gut unterhalten. Ich will die beiden Romane hier aber nicht
+rezensieren oder gar kritisieren, sondern lediglich eine Alternative
+skizzieren, die jetzt aus naheliegenden Gründen ohnehin nicht mehr
+geschrieben werden kann.</p>
+<p>Die beiden Romane sind die ersten DSA-Romane die ich in langer Zeit
+gelesen habe. Ich habe sie gezielt gelesen, weil ich genau diese
+Geschichte selber schreiben wollte: vor ziemlich genau zwanzig Jahren
+schickte ich Ulrich Kiesow ein Expose für zwei Romane — einer zum Leben
+von Geron dem Einhändigen, einer zu Bosparans Fall. Er erlitt zu dieser
+Zeit seinen ersten Herzinfarkt, davon erfuhr ich ein paar Monate später
+in einer freundlichen Antwort, welche zudem die Vorschläge ablehnte.
+Angesichts meiner Schreiberfahrung und der Qualität meiner damaligen
+Arbeit — ich war noch Teenager — war das mit Sicherheit eine gute
+Entscheidung.</p>
+<p>In meinem Konzept für “Bosparans Fall” war Hela nicht nur die
+(schließlich tragische) Protagonistin des Romans, sondern auch deren
+Heldin. Raul hatte ich nie ausreichend ausgearbeitet, weil ich ihn nie
+sonderlich interessant fand (mit Recht ein weiterer Grund, warum mein
+Vorschlag abgelehnt wurde). Daniel hingegen gibt Raul die Hauptrolle in
+seinen Büchern, und gibt ihm wunderbar passend die Rolle des
+Heldenkaisers.</p>
+<p>Hela hingegen blieb in Daniels Büchern leider enttäuschend blass: ihre
+Motivation ist nie nachvollziehbar sondern höchstens Karikatur, es
+werden interessante Schwächen eingeführt — die Epilepsie und die
+Stimmen — doch spielen diese gar keine Rolle in ihrer Niederlage, oder
+in den Büchern überhaupt.</p>
+<p>Raul war für mich — und so erscheint es auch in Daniels Romanen — nur
+ein Agent der Götter. Er ist kein Revolutionär. Das Neue Reich ist nur
+eine Fortschreibung des späten Bosparanischen Reiches. Hela hingegen war
+die Revolutionärin, sie wollte die bestehende Ordnung verändern. Raul
+wollte sie erhalten, so wie sie war, bevor Hela auf den Plan trat.</p>
+<p>Mit diesem Text will ich zumindest Hela ein wenig verständlicher und
+interessanter skizzieren, und sie ein wenig mehr die Rolle spielen
+lassen die sie meiner Meinung nach verdient hat.</p>
+<hr>
+<p><em>Nein!</em> Sie starrte auf die vier gleißenden Figuren auf dem
+Schlachtfeld. Das war unmöglich! Sie konnten nicht eingreifen, sie
+<em>durften</em> nicht eingreifen! Nicht sie selbst. <em>Das Mysterium von Kha
+verbietet es!</em></p>
+<p>Die Erzdämonen wandelten leibhaftig auf Aventurien. Sie hatte sie
+gerufen! Sie hatte sie <em>beherrscht!</em> Sie hatte den Göttern befohlen,
+nicht einzugreifen, sie hatte einen Schild um Brig-Lo gelegt.</p>
+<p>Doch diese Vier brachen das Weltengesetz. Der erste, der vorderste von
+ihnen, goldgleißend, blickte zu ihr. Blickte ihr ins Gesicht. Blickte
+ihr in die Seele. Sein Szepter fuhr durch Agrimoth. Dieser zersplitterte
+in siebzehntausende Teile. Gleißende Sonnenstrahlen zerstießen die
+Splitter zu Staub. Helles Licht verbrannte den Staub und verwandelte
+diesen zu nichts, bevor er sich auf die Schöpfung legen konnte. Praios
+blickte in Helas drei Augen und befahl.</p>
+<p>Sie hielt stand. Sie fühlte Praios Zorn darüber dass die Seele seines
+Lichtboten nicht gehorchte, nicht in Flammen und Licht zerfiel. Sie
+fühlte seinen Befehl zu vergehen, und sie antwortete.</p>
+<p><em>Nein!</em></p>
+<p>Das Licht verlosch, die Vier waren nicht mehr zu sehen.</p>
+<p><em>Ihr mögt das Weltengesetz brechen, aber Kha wird einen Preis verlangen.
+Ich bin Kha’Sâr! Ich werde Khas Gesetz vollstrecken.</em></p>
+<p>Sie schaute auf das Schlachtfeld. Die Erzdämonen waren nicht mehr auf
+dieser Welt. Ihre Truppen waren zerschlagen. Die Aufständischen
+richteten ein Gemetzel an, opferten das Blut ihrer Truppen dankbar den
+Göttern. Den Göttern, die eingriffen, sich selbst zu schützen.</p>
+<p>“Rückzug!”, befahl sie, und die Prätorianer folgten.</p>
+<p><em>Ihr könnt diese Schlacht gewinnen. Aber nicht die Welt. Nicht für die
+Ewigkeit. Andere werden Uns folgen. Andere werden verstehen, was hier
+geschah. Die Menschen werden ihre Freiheit erstreiten. Vielleicht nicht
+heute, vielleicht nicht durch Uns. Aber eines Tages werden wir frei
+sein.</em></p>
+<hr>
+<p>Erstveröffentlicht auf
+<a href="https://medium.com/@vrandezo/bosparans-fall-d4b8a9dd2843">Medium</a> am 4.
+September 2015.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

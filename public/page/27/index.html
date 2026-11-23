@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.119.0"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Simia</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://simia.net/index.xml">
+<link rel="alternate" type="application/json" href="https://simia.net/index.json">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Simia" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://simia.net/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Simia"/>
+<meta name="twitter:description" content=""/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Simia",
+  "url": "https://simia.net/",
+  "description": "",
+  "thumbnailUrl": "https://simia.net/favicon.ico",
+  "sameAs": [
+      "https://meta.wikipedia.com/wiki/User:Denny", "http://mas.to/@vrandecic", "https://github.com/vrandezo", "https://linkedin.com/in/vrandecic", "https://facebook.com/vrandezo", "https://www.youtube.com/@DennyVrande%C4%8Di%C4%87", "/index.xml"
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Doktorfeier
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>English - Deutsch
+English The defense of my thesis on Ontology Evaluation is scheduled for Tuesday, June 8 2010 at 5:30 PM. The defense will be in English. Participation for the defense is conditionally public – conditionally due to the size of the room and the goodwill of the examination board. The defense will be in Room 004 at the Kollegium am Schloss, Building 20.11. Do not enter when late!...</p>
+  </div>
+  <footer class="entry-footer"><span title='2010-05-20 00:00:00 +0000 UTC'>May 20, 2010</span></footer>
+  <a class="entry-link" aria-label="post link to Doktorfeier" href="https://simia.net/posts/doktorfeier/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Popculture in logics
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>You ⊑ ∀need.Love (Lennon, 1967) ⊥ ≣ compare.You (Nelson, 1985) Cowboy ⊑ ∃sing.SadSadSong (Michaels, 1988) ∀t : I ⊑ love.You (Parton, 1973) ∄better.Time ⊓ ∄better­­­­­­­⁻¹.Time (Dickens, 1859) {god} ⊑ Human ⊨ ? (Bazilian, 1995) Bad(X)? (Jackson, 1987) ⃟(You ⊑ save.I) (Gallagher, 1995) Dreamer(i). ∃x : Dreamer(x) ∧ (x ≠ i). ⃟ ∃t: Dreamer(you). (Lennon, 1971) Spoon ⊑ ⊥ (Wachowski, 1999) ¬Cry ← ¬Woman (Marley, 1974) ∄t (Poe, 1845) Solutions: Turn around your monitor to read them....</p>
+  </div>
+  <footer class="entry-footer"><span title='2009-12-19 00:00:00 +0000 UTC'>December 19, 2009</span></footer>
+  <a class="entry-link" aria-label="post link to Popculture in logics" href="https://simia.net/posts/popculture-in-logics/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>My horoscope for today
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Here’s my horoscope for today:
+You may be overly concerned with how your current job prevents you from reaching your long-term goals. The Sun’s entry into your 9th House of Big Ideas can work against your efficiency by distracting you with philosophical discussions about the purpose of life. These conversations may be fun, but they should be kept to a minimum until you finish your work.
+(from Tarot.com via iGoogle)...</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-10-22 00:00:00 +0000 UTC'>October 22, 2008</span></footer>
+  <a class="entry-link" aria-label="post link to My horoscope for today" href="https://simia.net/posts/my-horoscope-for-today/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>England eagerly lacking cofidence
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>My Google Alerts just send me the following news alert about Croatia. At least the reporters checked all their sources :)
+England players lacking confidence against Croatia International Herald Tribune - France AP ZAGREB, Croatia: England’s players confessed to a lack of confidence when they took on football’s No. 186-ranked nation in their opening World Cup …
+England eager to break Croatia run Reuters UK - UK By Igor Ilic ZAGREB (Reuters) - England hope to put behind their gloomy recent experiences against Croatia when they travel to Zagreb on Wednesday for an …</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-09-08 00:00:00 +0000 UTC'>September 8, 2008</span></footer>
+  <a class="entry-link" aria-label="post link to England eagerly lacking cofidence" href="https://simia.net/posts/england-eagerly-lacking-cofidence/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Beating the Second Law
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Yihon Ding has an interesting blogpost taking analogies to the laws of thermodynamics and why this means trouble for the Semantic Web.
+I disagree in one aspect: I think it is possible to invest the amount of human power to the system and to still keep it going. I can’t nail it down exactly – I didn’t read “Programming the Universe” yet, so I can’t really discuss it, but the feeling goes along the following lines: the value of a network increases superlinearly, if not even quadratic (Metcalfe’s Law), whereas the amount of information increases sublinearly (due to redundancies in human knowledge)....</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-08-12 00:00:00 +0000 UTC'>August 12, 2008</span></footer>
+  <a class="entry-link" aria-label="post link to Beating the Second Law" href="https://simia.net/posts/beating-the-second-law/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Blogging from an E90
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>After pondering it for far too long, I finally got a new mobile phone: a Nokia E90. It is pretty big and heavy, but I don’t mind really. I am looking at it as a light-weight laptop replacement. But I am not sure I will learn to love the keyboard, really. Experimenting.
+But since it has a full keyboard, programming in Python is indeed an option. I had Python on my previous phone too, but heck, T9 is not cool to type code....</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-05-28 00:00:00 +0000 UTC'>May 28, 2008</span></footer>
+  <a class="entry-link" aria-label="post link to Blogging from an E90" href="https://simia.net/posts/blogging-from-an-e90/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>One world. One web.
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I am in Beijing at the opening of the WWW2008 conference. Like all WWWs I was before, it is amazing. The opening ceremony was preceded by a beautiful dance, combining tons of symbols. First a woman in a traditional Chinese dress, then eight dancers in astronaut uniforms, a big red flag with “Welcome to Beijing” on it (but not on the other side, when he came back), and then all of them together… beautiful....</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-04-23 00:00:00 +0000 UTC'>April 23, 2008</span></footer>
+  <a class="entry-link" aria-label="post link to One world. One web." href="https://simia.net/posts/one-world-one-web/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Certificate of Coolness
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Now that the Cool URIs for the Semantic Web note by Richard and Leo have been published – congratulation guys! – I am sure looking forward if anyone will create a nice badge and a procedure to get official Certificates of Coolness. Pretty please?
+On a different note: I know, I should have blogged from New Zealand. It sure was beautiful Maybe I will still blog about it a bit later....</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-04-10 00:00:00 +0000 UTC'>April 10, 2008</span></footer>
+  <a class="entry-link" aria-label="post link to Certificate of Coolness" href="https://simia.net/posts/certificate-of-coolness/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Coming to New Zealand
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Yes! Three weeks of vacation in New Zealand, which is rumoured to be quite a beauty. This also means: three weeks no work, no projects, no thesis, no Semantic We…
+Oh, almost. Actually I will enjoy to have the opportunity to give a talk on Semantic Wikipedia while staying in Auckland. If you’re around, you may want to come by.
+It is on February 22nd, 1pm-2pm at the AUT. You may want to tell Dave Parry that you’re coming, he is my host....</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-02-16 00:00:00 +0000 UTC'>February 16, 2008</span></footer>
+  <a class="entry-link" aria-label="post link to Coming to New Zealand" href="https://simia.net/posts/coming-to-new-zealand/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Charlie Wilson&#39;s War
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Ein einfacher Kongressmann (Tom Hanks). Eine sehr rechte reiche Texanering (Julia Roberts). Ein äußerst guter CIA Agent (Philip Seymour Hoffman). Und Sowjets die in Afghanistan einmarschieren, im Kalten Krieg. Amerika muss sich wehren, auch am Hindukusch!
+Der Film behandelt den afghanischen Krieg (den aus den 1980er Jahren), und es geht um sehr ernste Themen. Zudem beruht er auf wahren Ereignissen. Dennoch verpackt er es in abstrusen Witz, liefert uns charmante Antihelden, und deutet schließlich auch an, wie es zum nächsten Afghanistankrieg kommen konnte (den aus den 2000er Jahren), doch ist das kaum das Thema in diesem Film....</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-01-29 00:00:00 +0000 UTC'>January 29, 2008</span></footer>
+  <a class="entry-link" aria-label="post link to Charlie Wilson&#39;s War" href="https://simia.net/posts/charlie-wilson-s-war/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://simia.net/page/26/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://simia.net/page/28/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

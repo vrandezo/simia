@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Todo on Simia</title>
+    <link>https://simia.net/tags/todo/</link>
+    <description>Recent content in Todo on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 21 Mar 2005 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/tags/todo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Philosophische Grundlagen</title>
+      <link>https://simia.net/posts/philosophische-grundlagen/</link>
+      <pubDate>Mon, 21 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/philosophische-grundlagen/</guid>
+      <description>I had a talk on Philosophical Foundations of Ontologies last week at the AIFB. I prepared it in German (and thus, all the slides were in German) and just before I started I got asked if I may give the talk in English.
+Having never heard a single lesson in philosophy in English and having read English philosophy only on Wikipedia before, I said yes. Nevertheless, the talk was very well perceived, and so I decided to upload it.</description>
+      <content:encoded><![CDATA[<p>I had a talk on Philosophical Foundations of Ontologies last week at the
+<a href="AIFB" title="wikilink">AIFB</a>. I prepared it in German (and thus, all the
+slides were in German) and just before I started I got asked if I may
+give the talk in English.</p>
+<p>Having never heard a single lesson in philosophy in English and having
+read English philosophy only on Wikipedia before, I said yes.
+Nevertheless, the talk was very well perceived, and so I decided to
+upload it. It&rsquo;s pure evil PowerPoint, no <a href="http://www.meyerweb.com/eric/tools/s5/">semantic slides
+format</a>, and I didn&rsquo;t yet manage
+to translate it to English. If anyone can offer me some help with that -
+I simply don&rsquo;t know many of the technical terms, and I don&rsquo;t have ready
+access to the sources - I would be very happy! Just drop me a note,
+please.</p>
+<p><a href="http://semantic.nodix.net/download/philode.ppt">Philosophische Grundlagen der Ontologie (PowerPoint, ca. 4,5
+MB)</a></p>
+<p><em>Broken link</em></p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

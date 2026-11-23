@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Annotating axioms in OWL - Reloaded | Simia</title>
+<meta name="keywords" content="">
+<meta name="description" content="Yesterday I sent a lengthy mail to the OWL-ED Mailinglist] about how to annotate axioms. Peter Patel-Schneider himself, first author of the OWL Semantics specification, told me in nice words that my solution sucked heavily, by pointing out that the semantics of annotations in OWL are a tiny bit different than I thought. Actually, they are not at all as I thought. So, in the evening hours, instead of packing my stuff for a trip, I tried to solve the problem anew.">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/posts/annotating-axioms-in-owl-reloaded/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Annotating axioms in OWL - Reloaded" />
+<meta property="og:description" content="Yesterday I sent a lengthy mail to the OWL-ED Mailinglist] about how to annotate axioms. Peter Patel-Schneider himself, first author of the OWL Semantics specification, told me in nice words that my solution sucked heavily, by pointing out that the semantics of annotations in OWL are a tiny bit different than I thought. Actually, they are not at all as I thought. So, in the evening hours, instead of packing my stuff for a trip, I tried to solve the problem anew." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://simia.net/posts/annotating-axioms-in-owl-reloaded/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2005-11-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2005-11-25T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Annotating axioms in OWL - Reloaded"/>
+<meta name="twitter:description" content="Yesterday I sent a lengthy mail to the OWL-ED Mailinglist] about how to annotate axioms. Peter Patel-Schneider himself, first author of the OWL Semantics specification, told me in nice words that my solution sucked heavily, by pointing out that the semantics of annotations in OWL are a tiny bit different than I thought. Actually, they are not at all as I thought. So, in the evening hours, instead of packing my stuff for a trip, I tried to solve the problem anew."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://simia.net/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Annotating axioms in OWL - Reloaded",
+      "item": "https://simia.net/posts/annotating-axioms-in-owl-reloaded/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Annotating axioms in OWL - Reloaded",
+  "name": "Annotating axioms in OWL - Reloaded",
+  "description": "Yesterday I sent a lengthy mail to the OWL-ED Mailinglist] about how to annotate axioms. Peter Patel-Schneider himself, first author of the OWL Semantics specification, told me in nice words that my solution sucked heavily, by pointing out that the semantics of annotations in OWL are a tiny bit different than I thought. Actually, they are not at all as I thought. So, in the evening hours, instead of packing my stuff for a trip, I tried to solve the problem anew.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Yesterday I sent a lengthy mail to the OWL-ED Mailinglist] about how to annotate axioms. Peter Patel-Schneider himself, first author of the OWL Semantics specification, told me in nice words that my solution sucked heavily, by pointing out that the semantics of annotations in OWL are a tiny bit different than I thought. Actually, they are not at all as I thought. So, in the evening hours, instead of packing my stuff for a trip, I tried to solve the problem anew. Let’s see where the problem will be this time.\nPeter, you were right, I was wrong. I took a thorough look at the Semantics, and I had to learn that my understanding of annotations was totally screwed. I thought they would be like comments in C++ or Prolog, but instead they are rather like a second ABox over (almost) the whole universe. This surprised me a lot.\nBut still, I am not that good at giving up, and I think my solution pretty much works syntactically. Now we need only a proper Semantics to get a few things right.\nWhat would be the problem? Let’s make an example. I need some kind of Syntax to give axioms name. I will just take Name\":\" Axiom. This is no proposal for the Abstract Syntax extension, this is just for now.\nAxiom1: SubClassOf(Human Mortal) Axiom2: Individual(Socrates type(Human)) Do they entail the following?\nAxiom3: Individual(Scorates type(Mortal)) Well, pitily they don’t. Because the Axiom3 has a name, Axiom3, that is not entailed by Axiom1 and Axiom2. Their contents would be entailed, but the name of the axiom would not.\nI guess, this is the problem Peter saw. So, can we solve it?\nWell, yes, we can. But it’s a bit tricky.\nFirst, we need the notion of Combined Inverse Functional Properties, CIFP. A CIFP has several dimensions. A CIFP with dimension 1 ist a normal Inverse Functional Property. A CIFP with dimension 2 over the properties R, S can be represented with the following rule: a R c, a S d, b R c, b S d -\u003e a = b. This means, in a two dimensional space I can identify an individual with the help of two roles. More on this here: http://lists.w3.org/Archives/Public/semantic-web/2005Feb/0095.html\nSecond, we extend the semantics of OWL. Every axiom entails reifying annotations. This means:\nSubClassOf(Human Mortal) entails\nIndividual(Statement1 type(rdf:statement) annotation(rdf:subject Human) annotation(rdf:property owl:SubClassOf) annotation(rdf:object Mortal)) or, in N3:\nHuman owl:subClassOf Mortal. entails\nStatement1 rdf:type rdf:statement. Statement1 rdf:subject Human. Statement1 rdf:property owl:subClassOf. Statement1 rdf:object Mortal. rdf:subject rdf:type owl:AnnotationProperty. rdf:predicate rdf:type owl:AnnotationProperty. rdf:object rdf:type owl:AnnotationProperty. Third, we have to state that we have a 3D-CIFP for statements over rdf:subject, rdf:property and rdf:object*. This is to ensure that Statement1 always maps to the same element in the universe, even though an OWL API could give it a blank node, or a different URI everytime (mind you, I am not suggesting to extend the OWL language with CIFPs, I just say that it is used here in order to state that all triples with the same subject, object and predicate actually is the same triple).\nFourth, the above statement also entails\nIndividual(Axiom1 type(owl11:axiom) annotation(owl11:consistsOf Statement1)) or, in N3:\nAxiom1 rdf:type owl11:axiom. Axiom1 owl11:consistsOf Statement1. owl11:consistsOf rdf:type owl:AnnotationProperty. Fifth, owl11:consistsOf needs to be an n-dimensional CIFP with n being the number of triples the original axiom got translated to (in this case, happy us!, n=1).\nThis assures that an axiom is always the same, whatever it’s name is, as long as it expresses the same thing. Thus, in our example, Axiom3 would indeed be entailed by Axiom1 and Axiom2. So, even if two editors load an ontology an annotate an axiom, they could later interchange and find each others annotation attached to the correct axiom.\nThis is only a rough sketch of the way, and yes, I see that the Interpretation gets filled up with a lot of annotations, but I still think that this is quite easy to implement, actually. Both the OWL API by Bechhofer and Volz and the KAON2 API by Motik offer access to axioms on an ontology level, and also offer the possibility to check if they are the same anyway, if I remember correctly (which is basically a shortcut for the whole semantic entailment and CIFP-stuff proposed earlier). All they need is a further field containing the URI of the axiom.\nAs said, this looks far more nasty than it actually is, and for most practical reasons it won’t do much harm. Now we finally can annotate axioms, yeeeha!\nMerrily awaiting Peter to acknowledge that this is a brilliant solution :) Or else tell me I did it all wrong again, so that I have to think over the weekend how to solve this problem again.\nCheers, denny\n*What I mean with that is the following rule: a=b :- a rdf:subject s, a rdf:property p, a rdf:object o, b rdf:subject s, b rdf:property p, b rdf:object o\n",
+  "wordCount" : "819",
+  "inLanguage": "en",
+  "datePublished": "2005-11-25T00:00:00Z",
+  "dateModified": "2005-11-25T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://simia.net/posts/annotating-axioms-in-owl-reloaded/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Simia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://simia.net/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://simia.net/">Home</a>&nbsp;»&nbsp;<a href="https://simia.net/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Annotating axioms in OWL - Reloaded
+    </h1>
+    <div class="post-meta"><span title='2005-11-25 00:00:00 +0000 UTC'>November 25, 2005</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p><em>Yesterday I sent a <a href="http://lists.mindswap.org/pipermail/owl/2005-November/000034.html">lengthy
+mail</a>
+to the <a href="http://lists.mindswap.org/mailman/listinfo/owl">OWL-ED
+Mailinglist</a>] about
+<a href="Annotating_axioms_in_OWL" title="wikilink">how to annotate axioms</a>. <a href="http://www-db.research.bell-labs.com/user/pfps/">Peter
+Patel-Schneider</a>
+himself, first author of the <a href="http://www.w3.org/TR/owl-semantics/">OWL Semantics
+specification</a>, told me in <a href="http://lists.mindswap.org/pipermail/owl/2005-November/000035.html">nice
+words</a>
+that my solution sucked heavily, by pointing out that <a href="http://www.w3.org/TR/owl-semantics/direct.html">the semantics of
+annotations in OWL</a> are
+a tiny bit different than I thought. Actually, they are not at all as I
+thought. So, in the evening hours, instead of packing my stuff for a
+trip, I tried to solve the problem anew. Let&rsquo;s see where the problem
+will be this time.</em></p>
+<p>Peter, you were right, I was wrong. I took a thorough look at the
+Semantics, and I had to learn that my understanding of annotations was
+totally screwed. I thought they would be like comments in C++ or Prolog,
+but instead they are rather like a second ABox over (almost) the whole
+universe. This surprised me a lot.</p>
+<p>But still, I am not that good at giving up, and I think my solution
+pretty much works syntactically. Now we need only a proper Semantics to
+get a few things right.</p>
+<p>What would be the problem? Let&rsquo;s make an example. I need some kind of
+Syntax to give axioms name. I will just take <em>Name&quot;:&quot; Axiom.</em> This is no
+proposal for the Abstract Syntax extension, this is just for now.</p>
+<pre><code>Axiom1: SubClassOf(Human Mortal)
+Axiom2: Individual(Socrates type(Human))
+</code></pre>
+<p>Do they entail the following?</p>
+<pre><code>Axiom3: Individual(Scorates type(Mortal))
+</code></pre>
+<p>Well, pitily they don&rsquo;t. Because the Axiom3 has a name, Axiom3, that is
+not entailed by Axiom1 and Axiom2. Their contents would be entailed, but
+the name of the axiom would not.</p>
+<p>I guess, this is the problem Peter saw. So, can we solve it?</p>
+<p>Well, yes, we can. But it&rsquo;s a bit tricky.</p>
+<p>First, we need the notion of Combined Inverse Functional Properties,
+CIFP. A CIFP has several dimensions. A CIFP with dimension 1 ist a
+normal Inverse Functional Property. A CIFP with dimension 2 over the
+properties R, S can be represented with the following rule: a R c, a S
+d, b R c, b S d -&gt; a = b. This means, in a two dimensional space I can
+identify an individual with the help of two roles. More on this here:
+<a href="http://lists.w3.org/Archives/Public/semantic-web/2005Feb/0095.html">http://lists.w3.org/Archives/Public/semantic-web/2005Feb/0095.html</a></p>
+<p>Second, we extend the semantics of OWL. Every axiom entails reifying
+annotations. This means:</p>
+<pre><code>SubClassOf(Human Mortal)
+</code></pre>
+<p>entails</p>
+<pre><code>Individual(Statement1 type(rdf:statement)
+annotation(rdf:subject Human)
+annotation(rdf:property owl:SubClassOf)
+annotation(rdf:object Mortal))
+</code></pre>
+<p>or, in N3:</p>
+<pre><code>Human owl:subClassOf Mortal.
+</code></pre>
+<p>entails</p>
+<pre><code>Statement1 rdf:type rdf:statement.
+Statement1 rdf:subject Human.
+Statement1 rdf:property owl:subClassOf.
+Statement1 rdf:object Mortal.
+rdf:subject rdf:type owl:AnnotationProperty.
+rdf:predicate rdf:type owl:AnnotationProperty.
+rdf:object rdf:type owl:AnnotationProperty.
+</code></pre>
+<p>Third, we have to state that we have a 3D-CIFP for statements over
+rdf:subject, rdf:property and rdf:object*. This is to ensure that
+Statement1 always maps to the same element in the universe, even though
+an OWL API could give it a blank node, or a different URI everytime
+(mind you, I am not suggesting to extend the OWL language with CIFPs, I
+just say that it is used here in order to state that all triples with
+the same subject, object and predicate actually is the same triple).</p>
+<p>Fourth, the above statement also entails</p>
+<pre><code>Individual(Axiom1 type(owl11:axiom)
+annotation(owl11:consistsOf Statement1))
+</code></pre>
+<p>or, in N3:</p>
+<pre><code>Axiom1 rdf:type owl11:axiom.
+Axiom1 owl11:consistsOf Statement1.
+owl11:consistsOf rdf:type owl:AnnotationProperty.
+</code></pre>
+<p>Fifth, owl11:consistsOf needs to be an n-dimensional CIFP with n being
+the number of triples the original axiom got translated to (in this
+case, happy us!, n=1).</p>
+<p>This assures that an axiom is always the same, whatever it&rsquo;s name is, as
+long as it expresses the same thing. Thus, in our example, Axiom3 would
+indeed be entailed by Axiom1 and Axiom2. So, even if two editors load an
+ontology an annotate an axiom, they could later interchange and find
+each others annotation attached to the correct axiom.</p>
+<p>This is only a rough sketch of the way, and yes, I see that the
+Interpretation gets filled up with a lot of annotations, but I still
+think that this is quite easy to implement, actually. Both the OWL API
+by Bechhofer and Volz and the KAON2 API by Motik offer access to axioms
+on an ontology level, and also offer the possibility to check if they
+are the same anyway, if I remember correctly (which is basically a
+shortcut for the whole semantic entailment and CIFP-stuff proposed
+earlier). All they need is a further field containing the URI of the
+axiom.</p>
+<p>As said, this looks far more nasty than it actually is, and for most
+practical reasons it won&rsquo;t do much harm. Now we finally can annotate
+axioms, yeeeha!</p>
+<p>Merrily awaiting Peter to acknowledge that this is a brilliant solution
+:) Or else tell me I did it all wrong again, so that I have to think
+over the weekend how to solve this problem again.</p>
+<p>Cheers, denny</p>
+<p> *What I mean with that is the following rule: a=b :- a rdf:subject s,
+a rdf:property p, a rdf:object o, b rdf:subject s, b rdf:property p, b
+rdf:object o</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://simia.net/posts/annotating-axioms-in-owl/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Annotating axioms in OWL</span>
+  </a>
+  <a class="next" href="https://simia.net/posts/nodix-schon-wieder-angegriffen/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Nodix schon wieder angegriffen</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web on Simia</title>
+    <link>https://simia.net/topics/web/</link>
+    <description>Recent content in Web on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/topics/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Web attacked by AI</title>
+      <link>https://simia.net/posts/the-web-attacked-by-ai/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/the-web-attacked-by-ai/</guid>
+      <description>The Web I grew up with and that grew up with me was already slowly fading. The Web of many people and organizations having their own small website. Capitalism and convenience lead to a concentration onto a small number of platforms and apps, but mostly these platforms let the rest be. People and small organizations and groups could still have their little website.
+But the ongoing indiscriminate onslaught of AI bots on everything with an URL is just actively killing the web and its open nature.</description>
+    </item>
+    
+  </channel>
+</rss>

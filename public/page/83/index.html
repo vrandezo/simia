@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.119.0"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Simia</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://simia.net/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Simia" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://simia.net/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Simia"/>
+<meta name="twitter:description" content=""/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Simia",
+  "url": "https://simia.net/",
+  "description": "",
+  "thumbnailUrl": "https://simia.net/favicon.ico",
+  "sameAs": [
+      "https://meta.wikipedia.com/wiki/User:Denny", "http://mas.to/@vrandecic", "https://github.com/vrandezo", "https://linkedin.com/in/vrandecic", "https://facebook.com/vrandezo", "https://www.youtube.com/@DennyVrande%C4%8Di%C4%87"
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>November 2005
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to November 2005" href="https://simia.net/posts/november-2005/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Nun mit Impressum
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Und weiter am Nodix rumbasteln. Nun erfährt, endlich dem deutschen Gesetz gemäß, jede Seite auch einen Link zum Impressum. Damit sollte ich zumindest von dieser Art von Abmahnungen geschützt sein… :) Übrigens, willkommen in 2004! Ich hoffe, ihr hattet alle einen guten Rutsch, und kommt langsam wieder zu Kräften. Viel Spaß jedenfalls im neuen Jahr!, mit oder auch, wenn es denn sein muss, ohne Nodix…</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Nun mit Impressum" href="https://simia.net/posts/nun-mit-impressum/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Nutkidz sind wieder da!
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Auf nutkidz.de finden sich die ersten drei Folgen der nutkidz wieder online! Nach dem Angriff auf Nodix mussten die Sicherheitskopien von meinem alten Rechner im Keller geholt werden. Jetzt ist die Technik erneuert: es gibt einen nutkidz-feed, so dass man sich auch mit seinem RSS-Reader den Webcomic ins Haus holen kann! So einfach sollte jeder Webcomic zu lesen sein.
+In den nächsten Tagen werden die weiteren Folgen relativ bald aufeinander kommen, ich plane auf mindestens zwei oder drei täglich....</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Nutkidz sind wieder da!" href="https://simia.net/posts/nutkidz-sind-wieder-da/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>October 2004
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to October 2004" href="https://simia.net/posts/october-2004/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>October 2006
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to October 2006" href="https://simia.net/posts/october-2006/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>One Day in Europe
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Aus der Reihe Filme in 50 Worten
+Letzten Freitag war im Delphi eine kleine Premiere dieses Streifens, mitsamt Hauptdarstellern, Regisseur und so ein Krams. Das drumherum ist zwar nett, aber hier gehts trotzdem nur um den Film, und der war - trommelwirbel! - lustig, schnell, bildreich, musikalisch prima unterlegt, überzeugend gespielt, interessante Charaktere, und allerlei sonst.
+Vier Episoden in Moskau, Istanbul, Santiago de Compostela und Berlin erzählen von kleinen Ereignissen, die in Europa geschehen....</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to One Day in Europe" href="https://simia.net/posts/one-day-in-europe/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Oscars
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>So, heute Nacht gibt es endlich wieder Oscars. Es war ein tolles Kinojahr! Und hier kommen meine persönlichen Favoriten, damit ich auch morgen noch kraftvoll blamieren kann (in Klammern findet Ihr, sofern es sich von meinem Favoriten unterscheidet, den Kandidaten, den ich gewählt hätte, und den ich am liebsten gewinnen sähe - dummerweise unterscheidet er sich von dem Kandidaten, den ich am wahrscheinlichsten halte):
+Nicht-adaptiertes Drehbuch: Lost in Translation Adaptiertes Drehbuch: The Lord of the Rings: The Return of the King Visuelle Effekte: The Lord of the Rings: The Return of the King Sound mixing: The Lord of the Rings: The Return of the King Tonschnitt: Pirates of the Caribbean: The Curse of the Black Pearl (Finding Nemo) Animierter Kurzfilm: zwar nix gesehen, dennoch tippe ich auf Boundin’ und hoffe auf Destino Bester Song: Annie Lennox für Into the West in The Lord of the Rings: The Return of the King Filmmusik: The Lord of the Rings: The Return of the King Makeup: The Lord of the Rings: The Return of the King Schnitt: City of God Kostüme: The Last Samurai (The Lord of the Rings: The Return of the King) Cinematography: Master and Commander: The Far Side of the World (City of God) Art direction: The Lord of the Rings: The Return of the King Bester Zeichentrickfilm: Finding Nemo Weibliche Nebenrolle: Renee Zellweger in Cold Mountain (Marcia Gay Harden in Mystic River) Weibliche Hauptrolle: Charlize Theron in Monster (Diane Keaton in Something’s Gotta Give - hier soll nochmal erwähnt werden, dass Keisha Castle-Hughes’ Nominierung für Whale Rider einfach unglaublich ist!...</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Oscars" href="https://simia.net/posts/oscars/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Oscars - die Auswertung
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Na, ich habe doch gestern gar nicht so schlecht gelegen. Von 20 Tipps lagen 17 richtig, zudem stimmten meine Voraussagen bei allen wichtigen Oscars mit den Tatsachen überein. Spitze! Also, nächstes Jahr hier wieder vorbeischneien, wenn ich wieder mit prophetischen Gaben die Oscars prophezeie…Ich meine, zwei meiner drei Fehltipps habe ich auch nur dem Gedanken zu verdanken “Der Herr der Ringe kann ja nicht alle Nominierungen verwirklichen!”
+Er kann.</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Oscars - die Auswertung" href="https://simia.net/posts/oscars-die-auswertung/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Pagerank hoch
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>So, endlich wieder weiter an Nodix gebastelt. Nachdem ich gestern ganz fleißig war, und an meiner Hausarbeit konzentriert gearbeitet habe, gönnte ich mir zum Abschluss des Tages noch ein wenig an Nodix zu basteln. Hierbei wurde die erste Ebene der neuen Hierarchie endlich auch eingeführt. Heißt das, es gibt irgendwelche Änderungen?
+Tatsächlich, nein. Immer noch werdet ihr beim Navigieren durch Nodix furchtbar verwirrt durch die Gegend irren, tut mir leid. Erst wenn alles fertig ist, wird sich Nodix wieder angenehm lesen lassen, angenehmer als je zuvor....</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Pagerank hoch" href="https://simia.net/posts/pagerank-hoch/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Pah!
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Geht nicht auf diese Seite. Schaut euch auf gar keinen Film das grausige Foto von mir an. Das eigentlich Foto, dass ich dann auch für meine neue Webseite verwendet habe sieht nämlich viel besser aus. Ignoriert also diese Seite. Kapiert?
+Habe es hingegen tatsächlich endlich geschafft, hinter den Link über Denny, der schon seit Anfangszeiten von Nodix vorhanden ist, auch mal Inhalt zu bringen. Die Seite verweist jetzt auf die äußerst schreibfreundliche Seite denny....</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Pah!" href="https://simia.net/posts/pah/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://simia.net/page/82/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://simia.net/page/84/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 <a href="https://simia.net/">Simia</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

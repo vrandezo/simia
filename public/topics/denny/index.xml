@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Denny on Simia</title>
+    <link>https://simia.net/topics/denny/</link>
+    <description>Recent content in Denny on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://simia.net/topics/denny/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Denny</title>
+      <link>https://simia.net/pages/denny/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/pages/denny/</guid>
+      <description>English Denny Vrandečić (actually Zdenko) is working on Abstract Wikipedia at the Wikimedia Foundation and is a visiting professor at King&amp;rsquo;s College London. Previously he worked at Google on the Google Knowledge Graph, has been at the Institute AIFB at the KIT (Karlsruhe Institue of Technology) and at Wikimedia Deutschland, where he founded Wikidata. He also was an elected member of the Board of Trustees of the Wikimedia Foundation, which runs Wikipedia.</description>
+    </item>
+    
+  </channel>
+</rss>

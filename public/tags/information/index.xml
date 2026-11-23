@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>information on Simia</title>
+    <link>https://simia.net/tags/information/</link>
+    <description>Recent content in information on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/tags/information/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Confused about information theory</title>
+      <link>https://simia.net/posts/confused-about-information-theory/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/confused-about-information-theory/</guid>
+      <description>If I understand information theory right, then, given &amp;ldquo;Socrates is human&amp;rdquo; and &amp;ldquo;all humans are mortals&amp;rdquo;, there is no information in &amp;ldquo;Socrates is mortal&amp;rdquo;, as it can be derived from the given statements. But what about the computational cost of deriving conclusions from statements? Does information not capture or consider that at all?
+Aquinas said that angels immediately know all the consequences of their knowledge. But humans do not.
+Just to give an obvious example, in cryptography, the public key is known.</description>
+      <content:encoded><![CDATA[<p>If I understand information theory right, then, given &ldquo;Socrates is
+human&rdquo; and &ldquo;all humans are mortals&rdquo;, there is no information in
+&ldquo;Socrates is mortal&rdquo;, as it can be derived from the given statements.
+But what about the computational cost of deriving conclusions from
+statements? Does information not capture or consider that at all?</p>
+<p>Aquinas said that angels immediately know all the consequences of their
+knowledge. But humans do not.</p>
+<p>Just to give an obvious example, in cryptography, the public key is
+known. The private key is derivable from the public key, but the
+computational cost is so hight that it seems obvious that the private
+key is information, and in fact quite valuable information.</p>
+<p>So it seems that between information and compute there should be some
+theory that connects them, but I can&rsquo;t remember having come across
+anything like that? What am I missing?</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Finding God through Information Theory</title>
+      <link>https://simia.net/posts/finding-god-through-information-theory/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/finding-god-through-information-theory/</guid>
+      <description>I found that surprising: Luciano Floridi, one of the most-cited living philosophers, started studying information theory because young Floridi, still Catholic, concluded that God&amp;rsquo;s manifestation to humanity must be an information process. He wanted to understand God&amp;rsquo;s manifestation through the lens of information.
+He didn&amp;rsquo;t get far in answering that question, but he did become the leading expert in the Philosophy of Information, and an expert in Digital Ethics (and also, since then, an agnostic).</description>
+      <content:encoded><![CDATA[<p>I found that surprising: Luciano Floridi, one of the most-cited living
+philosophers, started studying information theory because young Floridi,
+still Catholic, concluded that God&rsquo;s manifestation to humanity must be
+an information process. He wanted to understand God&rsquo;s manifestation
+through the lens of information.</p>
+<p>He didn&rsquo;t get far in answering that question, but he did become the
+leading expert in the Philosophy of Information, and an expert in
+Digital Ethics (and also, since then, an agnostic).</p>
+<p>Post scriptum: The more I think about it, the more I like the idea.
+Information theory is not even one of these vague, empirical disciplines
+such as Physics, but more like Mathematics and Logics, and thus
+unavoidable. Any information exchange, i.e. communication, must follow
+its rules. Therefore the manifestation of God, i.e. the way God chooses
+to communicate themselves to us, must also follow information theory. So
+this should lead to some necessary conditions on the shape of such a
+manifestation.</p>
+<p>It&rsquo;s a bright idea. I am not surprised it didn&rsquo;t go anywhere, but I
+still like the idea.</p>
+<p>Could have at least engendered a novel Proof for the Existence of God.
+They have certainly come from more surprising corners.</p>
+<p>Source: <a href="https://philosophy.fireside.fm/1">https://philosophy.fireside.fm/1</a></p>
+<p>More about <a href="https://en.wikipedia.org/wiki/Luciano_Floridi">Luciano Flordi on
+Wikipedia</a>.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

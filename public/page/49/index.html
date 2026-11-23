@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.119.0"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Simia</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://simia.net/index.xml">
+<link rel="alternate" type="application/json" href="https://simia.net/index.json">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Simia" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://simia.net/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Simia"/>
+<meta name="twitter:description" content=""/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Simia",
+  "url": "https://simia.net/",
+  "description": "",
+  "thumbnailUrl": "https://simia.net/favicon.ico",
+  "sameAs": [
+      "https://meta.wikipedia.com/wiki/User:Denny", "http://mas.to/@vrandecic", "https://github.com/vrandezo", "https://linkedin.com/in/vrandecic", "https://facebook.com/vrandezo", "https://www.youtube.com/@DennyVrande%C4%8Di%C4%87", "/index.xml"
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>What&#39;s in a name - Part 3
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Last time we merrily published our first statement for the Semantic Web:
+http://www.imdb.com/title/tt0088247/ http://purl.org/dc/elements/1.1/creator &#34;James Cameron&#34;. A fellow Semantic Web author didn’t like the number-encoded IMdb-URI, but found a much more compelling one and then published the following statement:
+http://en.wikipedia.org/wiki/The_Terminator http://purl.org/dc/elements/1.1/date &#34;1984-10-26&#34;. A third one sees those and, in order to foster integration of data offers helpfully the following statement:
+http://www.imdb.com/title/tt0088247/ owl:sameAs http://en.wikipedia.org/wiki/The_Terminator. And now they live merrily ever after. Or do you hear the thunder of doom rolling?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-01-05 00:00:00 +0000 UTC'>January 5, 2005</span></footer>
+  <a class="entry-link" aria-label="post link to What&#39;s in a name - Part 3" href="https://simia.net/posts/what-s-in-a-name-part-3/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Pah!
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Geht nicht auf diese Seite. Schaut euch auf gar keinen Film das grausige Foto von mir an. Das eigentlich Foto, dass ich dann auch für meine neue Webseite verwendet habe sieht nämlich viel besser aus. Ignoriert also diese Seite. Kapiert?
+Habe es hingegen tatsächlich endlich geschafft, hinter den Link über Denny, der schon seit Anfangszeiten von Nodix vorhanden ist, auch mal Inhalt zu bringen. Die Seite verweist jetzt auf die äußerst schreibfreundliche Seite denny....</p>
+  </div>
+  <footer class="entry-footer"><span title='2004-12-29 00:00:00 +0000 UTC'>December 29, 2004</span></footer>
+  <a class="entry-link" aria-label="post link to Pah!" href="https://simia.net/posts/pah/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>What&#39;s in a name - Part 2
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>How to give a resource a name, an URI? Let’s look at this statement:
+movie:Terminator dc:creator &#34;James Cameron&#34;. Happy with that? This is a valid RDF statement, and you understand what I wanted to say, and your RDF machine will be able to read and process it, too, so everything is fine.
+Well, almost. movie:Terminator is a QName, and movie: is just a shorthand prefix, a namespace, that actually has to be defined as something....</p>
+  </div>
+  <footer class="entry-footer"><span title='2004-12-29 00:00:00 +0000 UTC'>December 29, 2004</span></footer>
+  <a class="entry-link" aria-label="post link to What&#39;s in a name - Part 2" href="https://simia.net/posts/what-s-in-a-name-part-2/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Team America
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Ab morgen bin ich im Neandertal, und wer weiß schon, wie da die Internetverbindung ist. Also muss ich noch schnell einen Tipp für alle Kinogänger loswerden, zu einem Film, den niemand verpassen sollte - Team America!
+Ein Film mit Alec Baldwin, Liv Tyler, Matt Damon, Sean Penn, Michael Moore, Samuel L. Jackson, Kim Il-Yong, George Clooney und vielen anderen
+und das waren nur Nebenrollen! Das South Park Team macht einen bösen, bösen Film, mit schwärzesten Humor und einem Hauch an Kritik an gewissen amerikanischen imperialistischen Tendenzen....</p>
+  </div>
+  <footer class="entry-footer"><span title='2004-12-28 00:00:00 +0000 UTC'>December 28, 2004</span></footer>
+  <a class="entry-link" aria-label="post link to Team America" href="https://simia.net/posts/team-america/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>What&#39;s in a name - Part 1
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>There are tons of mistakes that may occur when writing down RDF statements. I will post a six part series of blog entries, starting with this one, about what can go wrong in the course of naming resources, why it is wrong, and why you should care - if at all. I’ll try to mix experience with pragmatics, usability with philosophy. And I surely hope that, if you disagree, you’ll do so in the comments or in your own blog....</p>
+  </div>
+  <footer class="entry-footer"><span title='2004-12-28 00:00:00 +0000 UTC'>December 28, 2004</span></footer>
+  <a class="entry-link" aria-label="post link to What&#39;s in a name - Part 1" href="https://simia.net/posts/what-s-in-a-name-part-1/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Dick werden...
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Was las mir Schwesterchen schönes vor? (ohne jedoch eine Quelle anzugeben)
+“Dick wird man nicht von dem, was man Heiligabend bis Neujahr isst, sondern von dem, was man Neujahr bis Heiligabend isst”
+Wahr gesprochen!</p>
+  </div>
+  <footer class="entry-footer"><span title='2004-12-27 00:00:00 +0000 UTC'>December 27, 2004</span></footer>
+  <a class="entry-link" aria-label="post link to Dick werden..." href="https://simia.net/posts/dick-werden/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Why we will win
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>People keep saying that the Semantic Web is just a hype. That we are just an unholy chimaera of undead AI researchers talking about problems solved by the database guys 15 years ago. And that our work will never make any impact in the so called real world out there.
+As I stated before: I’m a believer. I’m even a catholic, so this means I’m pretty good at ignoring hard facts about reality in order to stick to my beliefs, but it is different in this case: I slowly start to comprehend why Semantic Web technology will prevail and make life better for everyone out there....</p>
+  </div>
+  <footer class="entry-footer"><span title='2004-12-27 00:00:00 +0000 UTC'>December 27, 2004</span></footer>
+  <a class="entry-link" aria-label="post link to Why we will win" href="https://simia.net/posts/why-we-will-win/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Love is...
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>“Love is what’s in the room with you at Christmas if you stop opening presents and listen.”
+Angeblich aus einer Studie, in der 4- bis 8-jährige Kinder gefragt wurden, was Liebe ist. Herzallerliebst.
+Leider konnte ich die Originalstudie nicht finden - vielleicht schafft es jemand anderes ja - aber der Text wird ständig im Netz zitiert: hier, hier hier, hier oder hier, aber auch hier. Google findet über 60.000 Treffer… wahrscheinlich, dass der Text erfunden ist....</p>
+  </div>
+  <footer class="entry-footer"><span title='2004-12-22 00:00:00 +0000 UTC'>December 22, 2004</span></footer>
+  <a class="entry-link" aria-label="post link to Love is..." href="https://simia.net/posts/love-is/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Amazonempfehlung
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Ich bin von Amazons Empfehlungen wirklich begeistert. Mal ehrlich - welcher Buchhändler kennt heute noch seine Kunden so gut, dass er so treffende Vorschläge machen kann?
+Nur heute war ich etwas verdutzt, weil mir Leicht Verdientes Gold empfohlen wurde. Stimmt, eine wirklich hervorragende Anschaffung. Schließlich habe ich ja mitgeschrieben…</p>
+  </div>
+  <footer class="entry-footer"><span title='2004-12-21 00:00:00 +0000 UTC'>December 21, 2004</span></footer>
+  <a class="entry-link" aria-label="post link to Amazonempfehlung" href="https://simia.net/posts/amazonempfehlung/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Vier fehlende Posts
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Wahrscheinlich hat es ohnehin kein Mensch bemerkt, aber bei der Umstellung auf blogger.com bemerkte ich den Verlust von vier Posts: vom 5. November 2002, vom 5. und 18. Dezember 2002 und vom 23. Januar 2003.
+Habe sie wiedergefunden und eingestellt (Sicherheitskopien sind was feines). Dies ist übrigens Post Nummer 175 oder so, es scheint hier keine automatische Methode zu geben, das automatisch nachzuzählen. Gar nicht mal so viele, für knapp vier Jahre - Schwesterchen hat im Schönsten Blog von Welt in einem Monat fast 40 Einträge geschafft!...</p>
+  </div>
+  <footer class="entry-footer"><span title='2004-12-20 00:00:00 +0000 UTC'>December 20, 2004</span></footer>
+  <a class="entry-link" aria-label="post link to Vier fehlende Posts" href="https://simia.net/posts/vier-fehlende-posts/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://simia.net/page/48/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://simia.net/page/50/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

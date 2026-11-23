@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Semantic MediaWiki 0.6: Timeline support, ask pages, et al. | Simia</title>
+<meta name="keywords" content="">
+<meta name="description" content="It has been quite a while since the last release of Semantic MediaWiki, but there was enormous work going into it. Huge thanks to all contributors, especially Markus, who has written the bulk of the new code, reworked much of the existing, and pulled together the contributions from the other coders, and the Simile team for their great Timeline code that we reused. (I lost overview, because the last few weeks have seen some travels and a lot of work, especially ISWC2006 and the final review of the SEKT project I am working on.">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/posts/semantic-mediawiki-0-6-timeline-support-ask-pages-et-al/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Semantic MediaWiki 0.6: Timeline support, ask pages, et al." />
+<meta property="og:description" content="It has been quite a while since the last release of Semantic MediaWiki, but there was enormous work going into it. Huge thanks to all contributors, especially Markus, who has written the bulk of the new code, reworked much of the existing, and pulled together the contributions from the other coders, and the Simile team for their great Timeline code that we reused. (I lost overview, because the last few weeks have seen some travels and a lot of work, especially ISWC2006 and the final review of the SEKT project I am working on." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://simia.net/posts/semantic-mediawiki-0-6-timeline-support-ask-pages-et-al/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2006-11-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2006-11-18T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Semantic MediaWiki 0.6: Timeline support, ask pages, et al."/>
+<meta name="twitter:description" content="It has been quite a while since the last release of Semantic MediaWiki, but there was enormous work going into it. Huge thanks to all contributors, especially Markus, who has written the bulk of the new code, reworked much of the existing, and pulled together the contributions from the other coders, and the Simile team for their great Timeline code that we reused. (I lost overview, because the last few weeks have seen some travels and a lot of work, especially ISWC2006 and the final review of the SEKT project I am working on."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://simia.net/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Semantic MediaWiki 0.6: Timeline support, ask pages, et al.",
+      "item": "https://simia.net/posts/semantic-mediawiki-0-6-timeline-support-ask-pages-et-al/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Semantic MediaWiki 0.6: Timeline support, ask pages, et al.",
+  "name": "Semantic MediaWiki 0.6: Timeline support, ask pages, et al.",
+  "description": "It has been quite a while since the last release of Semantic MediaWiki, but there was enormous work going into it. Huge thanks to all contributors, especially Markus, who has written the bulk of the new code, reworked much of the existing, and pulled together the contributions from the other coders, and the Simile team for their great Timeline code that we reused. (I lost overview, because the last few weeks have seen some travels and a lot of work, especially ISWC2006 and the final review of the SEKT project I am working on.",
+  "keywords": [
+    
+  ],
+  "articleBody": "It has been quite a while since the last release of Semantic MediaWiki, but there was enormous work going into it. Huge thanks to all contributors, especially Markus, who has written the bulk of the new code, reworked much of the existing, and pulled together the contributions from the other coders, and the Simile team for their great Timeline code that we reused. (I lost overview, because the last few weeks have seen some travels and a lot of work, especially ISWC2006 and the final review of the SEKT project I am working on. I will blog on SEKT more as soon as some further steps are done).\nSo, what’s new in the second Beta-release of the Semantic MediaWiki? Besides about 2.7 tons of code fixes, usability and performance improvements, we also have a number of neat new features. I will outline just four of them:\nTimeline support: you know SIMILE’s Timeline tool? No? You should. It is like Google Maps for the fourth dimension. Take a look at the Timeline webpage to see some examples. Or at ontoworld’s list of upcoming events. Yes, created dynamically out of the wiki data. Ask pages: the simple semantic search was too simple, you think? Now we finally have a semantic search we dare not to call simple. Based on the existing Ask Inline Queries, and actually making them also fully functional, the ask pages allow to dynamically query the wiki knowledge base. No more sandbox article editing to get your questions answered. Go for the semantic search, and build your ask queries there. And all retrievable via GET. Yes, you can link to custom made queries from everywhere! Service links: now all attributes can automatically link to further resources via the service links displayed in the fact box. Sounds abstract? It’s not, it’s rather a very powerful tool to weave the web tighter together: service links specify how to connect the attributes data to external services that use that data, for example, how to connect geographic coordinates with Yahoo maps, or ontologies with Swoogle, or movies with IMdb, or books with Amazon, or … well, you can configure it yourself, so your imagination is the limit. Full RDF export: some people don’t like pulling the RDF together from many different pages. Well, go and get the whole RDF export here. There is now a maintenance script included which can be used via a cron job (or manually) to create an RDF dump of the whole data inside the wiki. This is really useful for smaller wikis, and external tools can just take that data and try to use it. By the way, if you have an external tool and reuse the data, we would be happy if you tell us. We are really looking forward to more examples of reuse of data from a Semantic MediaWiki installation! I am looking much forward to December, when I can finally join Markus again with the coding and testing. Thank you so very much for your support, interest, critical and encouraging remarks with regards to Semantic MediaWiki. Grab the code, update your installation, or take the chance and switch your wiki to Semantic MediaWiki.\nJust a remark: my preferred way to install both MediaWiki and Semantic MediaWiki is to pull it directly from the SVN instead of taking the releases. It’s actually less work and helps you tremendously in keeping up to date.\n",
+  "wordCount" : "568",
+  "inLanguage": "en",
+  "datePublished": "2006-11-18T00:00:00Z",
+  "dateModified": "2006-11-18T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://simia.net/posts/semantic-mediawiki-0-6-timeline-support-ask-pages-et-al/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Simia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://simia.net/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://simia.net/">Home</a>&nbsp;»&nbsp;<a href="https://simia.net/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Semantic MediaWiki 0.6: Timeline support, ask pages, et al.
+    </h1>
+    <div class="post-meta"><span title='2006-11-18 00:00:00 +0000 UTC'>November 18, 2006</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>It has been quite a while since the last release of <a href="Semantic_MediaWiki" title="wikilink">Semantic
+MediaWiki</a>, but there was enormous work
+going into it. Huge thanks to all contributors, especially
+<a href="Markus_Kr%C3%B6tzsch" title="wikilink">Markus</a>, who has written the bulk of the
+new code, reworked much of the existing, and pulled together the
+contributions from the other coders, and the <a href="http://simile.mit.edu/">Simile
+team</a> for their great
+<a href="http://simile.mit.edu/timeline/">Timeline</a> code that we reused. (I lost
+overview, because the last few weeks have seen some travels and a lot of
+work, especially ISWC2006 and the final review of the
+<a href="SEKT" title="wikilink">SEKT</a> project I am working on. I will blog on SEKT
+more as soon as some further steps are done).</p>
+<p>So, what&rsquo;s new in the second Beta-release of the Semantic MediaWiki?
+Besides about 2.7 tons of code fixes, usability and performance
+improvements, we also have a number of neat new features. I will outline
+just four of them:</p>
+<ul>
+<li><strong>Timeline support</strong>: you know <a href="http://simile.mit.edu/timeline/">SIMILE&rsquo;s
+Timeline</a> tool? No? You should. It
+is like Google Maps for the fourth dimension. Take a look at the
+<a href="http://simile.mit.edu/timeline/">Timeline webpage</a> to see some
+examples. Or at <a href="ontoworld" title="wikilink">ontoworld</a>&rsquo;s <a href="http://ontoworld.org/wiki/Upcoming_events">list of
+upcoming events</a>. Yes,
+created dynamically out of the wiki data.</li>
+<li><strong>Ask pages</strong>: the simple semantic search was too simple, you think?
+Now we finally have a semantic search we dare not to call simple.
+Based on the existing Ask Inline Queries, and actually making them
+also fully functional, the <a href="http://ontoworld.org/index.php?title=Special:ask&amp;query=%0A++%5B%5Bend+date%3A%3D%3E%7B%7BCURRENTYEAR%7D%7D-%7B%7BCURRENTMONTH%7D%7D-%7B%7BCURRENTDAY%7D%7D%5D%5D%0A++%5B%5Btitle%3A%3D%2A%7CName%5D%5D%0A++%5B%5Bhas+location+city%3A%3A%2A%7CCity%5D%5D%0A++%5B%5Bhas+location+country%3A%3A%2A%7CCountry%5D%5D%0A++%5B%5BStart+date%3A%3D%2A%5D%5D%0A++%5B%5BEnd+date%3A%3D%2A%5D%5D%0A&amp;sort=end+date&amp;order=ASC">ask
+pages</a>
+allow to dynamically query the wiki knowledge base. No more sandbox
+article editing to get your questions answered. Go for the semantic
+search, and build your ask queries there. And all retrievable via
+GET. Yes, you can link to custom made queries from everywhere!</li>
+<li><strong>Service links</strong>: now all attributes can automatically link to
+further resources via the <a href="http://ontoworld.org/wiki/Help:Service_links">service
+links</a> displayed in
+the fact box. Sounds abstract? It&rsquo;s not, it&rsquo;s rather a very powerful
+tool to weave the web tighter together: service links specify how to
+connect the attributes data to external services that use that data,
+for example, how to connect geographic coordinates with <a href="http://maps.yahoo.com/">Yahoo
+maps</a>, or ontologies with
+<a href="http://swoogle.umbc.edu/">Swoogle</a>, or movies with
+<a href="http://www.imdb.com/">IMdb</a>, or books with
+<a href="http://www.amazon.com/">Amazon</a>, or &hellip; well, you can configure it
+yourself, so your imagination is the limit.</li>
+<li><strong>Full RDF export</strong>: some people don&rsquo;t like pulling the RDF together
+from many different pages. Well, go and get <a href="http://ontoworld.org/RDF/">the whole RDF export
+here</a>. There is now a maintenance script
+included which can be used via a cron job (or manually) to <a href="http://ontoworld.org/wiki/Help:RDF_export#Exporting_all_data">create
+an RDF
+dump</a>
+of the whole data inside the wiki. This is really useful for smaller
+wikis, and external tools can just take that data and try to use it.
+By the way, if you have an external tool and reuse the data, we
+would be happy if you tell us. We are really looking forward to more
+examples of reuse of data from a Semantic MediaWiki installation!</li>
+</ul>
+<p>I am looking much forward to December, when I can finally join Markus
+again with the coding and testing. Thank you so very much for your
+support, interest, critical and encouraging remarks with regards to
+Semantic MediaWiki. <a href="http://ontoworld.org/wiki/Help:Installation">Grab the
+code</a>, update your
+installation, or take the chance and switch your wiki to Semantic
+MediaWiki.</p>
+<p>Just a remark: my preferred way to install both MediaWiki and Semantic
+MediaWiki is to pull it directly from the SVN instead of taking the
+releases. It&rsquo;s actually less work and helps you tremendously in keeping
+up to date.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://simia.net/posts/semantic-web-challenge-2006-winners/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Semantic Web Challenge 2006 winners</span>
+  </a>
+  <a class="next" href="https://simia.net/posts/zeitverschiebung/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Zeitverschiebung</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

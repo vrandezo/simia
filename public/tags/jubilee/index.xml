@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>jubilee on Simia</title>
+    <link>https://simia.net/tags/jubilee/</link>
+    <description>Recent content in jubilee on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/tags/jubilee/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>35th birthday of the Web</title>
+      <link>https://simia.net/posts/35th-birthday-of-the-web/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/35th-birthday-of-the-web/</guid>
+      <description>Celebrating the 35th birthday of the World Wide Web, a letter by its founder, Tim Berners-Lee.
+Discussing some of the issues of the Web of today: too much centralization, too much exploitation, too much disinformation, all made even more dire by the development of AI.
+What to do? Some of the solution the letter mentions are Mastodon, a decentralized social network, and Solid, a Web-standards-based data governance solution, but it recognizes that more is needed, &amp;ldquo;to back the morally courageous leadership that is rising, collectivise their solutions, and to overturn the online world being dictated by profit to one that is dictated by the needs of humanity.</description>
+      <content:encoded><![CDATA[<p>Celebrating the 35th birthday of the World Wide Web, a letter by its
+founder, Tim Berners-Lee.</p>
+<p>Discussing some of the issues of the Web of today: too much
+centralization, too much exploitation, too much disinformation, all made
+even more dire by the development of AI.</p>
+<p>What to do? Some of the solution the letter mentions are Mastodon, a
+decentralized social network, and Solid, a Web-standards-based data
+governance solution, but it recognizes that more is needed, &ldquo;to back the
+morally courageous leadership that is rising, collectivise their
+solutions, and to overturn the online world being dictated by profit to
+one that is dictated by the needs of humanity.&rdquo; I agree with that, but
+find it a bit vague.</p>
+<ul>
+<li><a href="https://webfoundation.org/2024/03/marking-the-webs-35th-birthday-an-open-letter/">Tim Berners-Lee on the 35th birthday of the Web, Web
+Foundation</a></li>
+</ul>
+<p>I first was terribly annoyed that the letter was <a href="https://medium.com/@timberners_lee/marking-the-webs-35th-birthday-an-open-letter-ebb410cc7d42">published on
+Medium</a>,
+as this is a symptom of the centralization of the Web. I say, completely
+conscious that I am <a href="https://www.facebook.com/vrandezo/posts/pfbid02NETG3TifKWkdtJ7X97DBjquYEYKuirh5Zgtay1MTD87B3NNLzt3d88Q3wAHjjmQXl">discussing it on
+Facebook</a>.
+Obviously, both of this should be happening on our own domains, and it
+also does: I link not to Medium, but to the Web Foundation site, and I
+also have this posted on my own site and on my Mastodon account. So, it
+is there, on the real Web, not just on the closed walled gardens of
+Facebook and on one of the megasites such as Medium. But there is no
+indication of engagement on the Web Foundation&rsquo;s post, whereas the
+Medium article records more than 10,000 reactions, and my Facebook post
+will also show more reactions than my Website (but the Mastodon page
+could be competitive with Facebook for me).</p>
+<p>I want to believe that Solid is the next important step, but <a href="https://blog.ldodds.com/2024/03/12/baffled-by-solid/">Leigh
+Dodds&rsquo;s recent post on
+Solid</a>, and
+particularly the discussion in the post, didn&rsquo;t inspire hope.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>20 years of editing Wikipedia</title>
+      <link>https://simia.net/posts/20-years-of-editing-wikipedia/</link>
+      <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/20-years-of-editing-wikipedia/</guid>
+      <description>Today it&amp;rsquo;s been exactly twenty years since I made my first edit to Wikipedia. It was about the island of Brač, in the German Wikipedia.
+Here is the version of the article I have created: Brač (as of May 11, 2003)</description>
+      <content:encoded><![CDATA[<p>Today it&rsquo;s been exactly twenty years since I made my first edit to
+Wikipedia. It was about the island of Brač, in the German Wikipedia.</p>
+<p>Here is the version of the article I have created: <a href="https://de.wikipedia.org/w/index.php?title=Bra%C4%8D&amp;oldid=123911">Brač (as of
+May 11, 2003)</a></p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>22 years of Wikipedia</title>
+      <link>https://simia.net/posts/22-years-of-wikipedia/</link>
+      <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/22-years-of-wikipedia/</guid>
+      <description>I was just reading a long discussion regarding the differences between Open Street Maps and Wikipedia / Wikidata, and one of the mappers complained &amp;ldquo;Wiki* cares less about accuracy than the fact that there is something that can be cited&amp;rdquo;, and calling Wikipedia / Wikidata contributions &amp;ldquo;armchair work&amp;rdquo; because we don&amp;rsquo;t go out into the world to check a fact, but rely on references.
+I understand the expressed frustration, but at the same time I&amp;rsquo;m having a hard time letting go of &amp;ldquo;reliability not truth&amp;rdquo; being a pillar of Wikipedia.</description>
+      <content:encoded><![CDATA[<p>I was just reading a long discussion regarding the differences between
+Open Street Maps and Wikipedia / Wikidata, and one of the mappers
+complained &ldquo;Wiki* cares less about accuracy than the fact that there is
+something that can be cited&rdquo;, and calling Wikipedia / Wikidata
+contributions &ldquo;armchair work&rdquo; because we don&rsquo;t go out into the world to
+check a fact, but rely on references.</p>
+<p>I understand the expressed frustration, but at the same time I&rsquo;m having
+a hard time letting go of &ldquo;reliability not truth&rdquo; being a pillar of
+Wikipedia.</p>
+<p>But this makes Wikipedia an inherently conservative project, because we
+don&rsquo;t reflect a change in the world or in our perception directly, but
+have to wait for reliable sources to put it in the record. There&rsquo;s
+something I was deeply uncomfortable with: so much of my life is devoted
+to a conservative project?</p>
+<p>Wikipedia is a conservative project, but at the same time it&rsquo;s a
+revolutionary project. Making knowledge free and making knowledge
+production participatory is politically and socially a revolutionary
+act. How can this seeming contradiction be brought to a higher level of
+synthesis?</p>
+<p>In the last few years, my discomfort with the idea of Wikipedia being
+conservative has considerably dissipated. One might think, sure, that
+happened because I&rsquo;m getting older, and as we get older, we get more
+conservative (there&rsquo;s, by the way, unfortunate data questioning this
+premise: maybe the conservative ones simply live longer because of
+inequalities). Maybe. But I like to think that the meaning of the word
+&ldquo;conservative&rdquo; has changed. When I was young, the word conservative
+referred to right wing politicians who aimed to preserve the values and
+institutions of their days. An increasingly influential part of todays
+right wing though has turned into a movement that does not conserve and
+preserve values such as democracy, the environment, equality, freedoms,
+the scientific method. This is why I&rsquo;m more comfortable with Wikipedia&rsquo;s
+conservative aspects than I used to be.</p>
+<p>But at the same time, that can lead to a problematic stasis. We need to
+acknowledge that the sources and references Wikipedia has been built on,
+are biased due to historic and ongoing inequalities in the world, due to
+different values regarding the importance of certain types of references
+in the world. If we truly believe that Wikipedia aims to provide
+everyone with access to the sum of all human knowledge, we have to
+continue the conversations that have started about oral histories, about
+traditional knowledges, beyond the confines of academic publications. We
+have to continue and put this conversation and evolution further into
+the center of the movement.</p>
+<p>Happy Birthday, Wikipedia! 22 years, while I&rsquo;m 44 - half of my life
+(although I haven&rsquo;t joined until two years later). For an entire
+generation the world has always been a world with free knowledge that
+everyone can contribute to. I hope there is no going back from that
+achievement. But just as democracy and freedom, this is not a value that
+is automatically part of our world. It is a vision that has to be lived,
+that has to be defended, that has to be rediscovered and regained again
+and again, refined and redefined. We (the collective we) must wrest it
+from the gatekeepers of the past (including me) to allow it to remain a
+living, breathing, evolving, ever changing project, in order to not see
+only another twenty two years, but for us to understand this project as
+merely a foundation that will accompany us for centuries.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Ten years of Wikidata</title>
+      <link>https://simia.net/posts/ten-years-of-wikidata/</link>
+      <pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/ten-years-of-wikidata/</guid>
+      <description>Today it&amp;rsquo;s ten years since Wikidata had launched. A few memories.
+It&amp;rsquo;s been an amazing time. In the summer of 2011, people still didn&amp;rsquo;t believe Wikidata would happen. In the fall of 2012, it was there.
+Markus Krötzsch and I were pushing for the idea of a Semantic Wikipedia since 2005. Semantic MediaWiki was born from that idea, Freebase and DBpedia launched in 2007, microformats in Wikipedia became a grassroots thing, but no one was working on the real thing at the Wikimedia Foundation.</description>
+      <content:encoded><![CDATA[<p>Today it&rsquo;s ten years since <a href="https://wikidata.org">Wikidata</a> had
+launched. A few memories.</p>
+<p>It&rsquo;s been an amazing time. In the summer of 2011, people still didn&rsquo;t
+believe Wikidata would happen. In the fall of 2012, it was there.</p>
+<p><a href="https://www.korrekt.org/page/Markus_Kr%C3%B6tzsch">Markus Krötzsch</a> and
+I were pushing for the idea of a <a href="https://meta.wikimedia.org/wiki/Wikimania05/Paper-MK2">Semantic
+Wikipedia</a> since
+2005. <a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki">Semantic
+MediaWiki</a>
+was born from that idea,
+<a href="https://en.wikipedia.org/wiki/Freebase_(database)">Freebase</a> and
+<a href="https://www.dbpedia.org/">DBpedia</a> launched in 2007, <a href="https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Microformats">microformats in
+Wikipedia</a>
+became a grassroots thing, but no one was working on the real thing at
+the <a href="https://wikimediafoundation.org/">Wikimedia Foundation</a>.</p>
+<p>With <a href="https://www.kcl.ac.uk/people/elena-simperl">Elena Simperl</a> at
+<a href="https://www.kit.edu/">KIT</a> we started the EU research project
+<a href="http://render-project.eu/">RENDER</a> in 2010, involving <a href="http://www.mathias-schindler.de/">Mathias
+Schindler</a> at <a href="https://www.wikimedia.de/">Wikimedia
+Deutschland</a>. It was about knowledge
+diversity on the Web, still an incredibly important topic. In RENDER, we
+developed ideas for the flexible representation of knowledge, and how to
+deal with contradicting and incomplete information. We analysed
+Wikipedia to understand the necessity of these ideas.</p>
+<p>In 2010, I was finishing my PhD at KIT, and got an invitation by
+<a href="https://www.isi.edu/~gil/">Yolanda Gil</a> to work at the
+<a href="https://www.isi.edu/">ISI</a> at University of Southern California for a
+half year sabbatical. There, Yolanda, Varun Ratnakar, Markus and I
+developed a prototype for Wikidata which received the third place in the
+ISWC Semantic Web Challenge that year.</p>
+<p>In 2011, the Wikimedia Data summit happened, invited by <a href="https://www.oreilly.com/tim/">Tim
+O&rsquo;Reilly</a> and organised by <a href="https://www.facesofopensource.com/danese-cooper/">Danese
+Cooper</a>, to the
+headquarters of O&rsquo;Reilly in Sebastopol, CA. There were folks from the
+Wikimedia Foundation, Freebase, DBpedia, Semantic MediaWiki, O&rsquo;Reilly,
+there was Guha, Mark Greaves, I think, and others. I think that&rsquo;s where
+it became clear that Wikidata would be feasible.</p>
+<p>It&rsquo;s also where I first met <a href="http://www.guha.com/cv.html">Guha</a> and
+where I admitted to him that I was kinda a fan boy. He invented MFC,
+RDF, had worked with <a href="https://cyc.com/leadership-team/">Douglas Lenat</a>
+on CYC, and later that year introduced
+<a href="https://schema.org/">Schema.org</a>. He&rsquo;s now working on <a href="https://blog.google/outreach-initiatives/sustainability/data-commons-sustainability/">Data
+Commons</a>.
+Check it out, it&rsquo;s awesome.</p>
+<p><a href="https://aim.pnnl.gov/staff/dr-mark-greaves">Mark Greaves</a>, a former
+DARPA program officer, who then was working for Paul Allen at Vulcan,
+had been supporting Semantic MediaWiki for several years, and he really
+wanted to make Wikidata happen. He knew my PhD was done, and that I was
+thinking about my next step. I thought it would be academia, but he
+suggested I should write up a project proposal for Wikidata.</p>
+<p>After six years advocating for it, I understood that someone would need
+to step up to make it happen. With the support and confidence of so many
+people - Markus Krötzsch, Elena Simperl, Mark Greaves, Guha, Jamie
+Taylor, Rudi Studer, John Giannandrea, and others - I drafted the
+proposal.</p>
+<p>The Board of the Wikimedia Foundation approved the proposal as a new
+Wikimedia project, but neither allocated the funding, nor directed the
+Foundation to do it. In fact, the Foundation was reluctant to take it
+on, unsure whether they would be able to host such a project development
+at that time. Back then, that was a wise decision.</p>
+<p><a href="https://social.coop/@eloquence">Erik Möller</a>, then CTO of the
+Foundation, was the driving force behind a major change: instead of
+turning the individual Wikipedias semantic, we would have a single
+Wikidata for all languages. Erik was also the one who had secured the
+domain for Wikidata. Many years prior.</p>
+<p>Over the next half year and with the help of the Wikimedia Foundation,
+we secured funding from AI2 (Paul Allen), Google (who had acquired
+Freebase in the meantime), and the Gordon and Betty Moore Foundation,
+1.3 million.</p>
+<p>Other funders backed out because I insisted on the Wikidata ontology to
+be entirely under the control of the community. They argued to have
+professional ontologists, or reuse ontologies, or to use DBpedia to seed
+Wikidata. I said no. I firmly believed, and still believe, that the
+ontology has to be owned, created and maintained by the community. I
+invited the ontologists to join the project as community members, but to
+the best of my knowledge, they never made significant contributions. We
+did miss out on quite a bit of funding, though.</p>
+<p>There we were. We had the funding and the project proposal, but no one
+to host us. We were even thinking of founding a new organisation, or
+hosting it at KIT, but due to the RENDER collaboration, Mathias
+Schindler had us talk with Pavel Richter, ED of Wikimedia Deutschland,
+and Pavel offered to host the development of Wikidata.</p>
+<p>For Pavel and Wikimedia Deutschland this was a big step: the development
+team would significantly increase WMDE (I think, almost double it in
+size, if I remember correctly), which would necessitate a sudden
+transformation and increased professionalisation of WMDE. But Pavel was
+ready for it, and managed this growth admirably.</p>
+<p>On April 1st 2012, we started the development of Wikidata. On October 29
+2012 we launched the site.</p>
+<p>The original launch was utterly useless. All you could do was creating
+new pages with Q IDs (the Q being a homage to Kamara, my wife),
+associated those Q IDs with labels in many languages, and connect to
+articles in Wikipedia, so called sitelinks. You could not add any
+statements yet. You could not connect items with each other. The
+sitelinks were not used anywhere. The labels were not used anywhere. As
+I said, the site was completely useless. And great fun, at least to me.</p>
+<p>QIDs for entities are still being often disparaged. Why QIDs? Why not
+just the English name? Isn&rsquo;t <code>dbp:Tokyo</code> much easier to understand than
+<code>Q1490</code>? It was an uphill battle ten years ago to overcome the
+anglocentricity of many people. Unfortunately, this has not changed
+much. I am thankful to the Wikimedia movement to be one of the places
+that encourages, values, and supports the multilingual approach of
+Wikidata.</p>
+<p>Over the next few months, the first few Wikipedias were able to access
+the sitelinks from Wikidata, and started deleting the sitelinks from
+their Wikipedias. This lead to a removal of more than 240 million lines
+of wikitext across the Wikipedias. 240 million lines that didn&rsquo;t need to
+be maintained anymore. In some languages, these lines constituted more
+than half of the content of the Wikipedia. In many languages, editing
+activity dropped dramatically at first, sometimes by 80%.</p>
+<p>But then something happened. Those edits were mostly bots. And with
+those bots gone, humans were suddenly better able to see each other and
+build a more meaningful community. In many languages, this eventually
+lead to an increased community activity.</p>
+<p>One of my biggest miscalculations when launching Wikidata was to
+entirely dismiss the possibility of a SPARQL endpoint. I thought that
+none of the existing open source triple stores would be performant
+enough. Peter Haase was instrumental in showing that I was wrong. Today,
+the SPARQL endpoint is an absolutely crucial piece of the Wikidata
+infrastructure, and is widely used to explore the dataset. And with its
+beautiful visualisations, I find it almost criminally underused.
+Unfortunately, the SPARQL endpoint is also the piece of infrastructure
+that worries us the most. The Wikimedia Foundation is working hard on
+figuring out the future for this service, and if you can offer
+substantial help, please reach out.</p>
+<p>Today, Wikidata has more than 1.4 billion statements about approximately
+100 million topics. It is by far the most edited Wikimedia project, with
+more edits than the English, German, and French Wikipedia together -
+even though they are each a decade older than Wikidata.</p>
+<p>Wikidata is widely used. Almost every time Wikipedia serves one of its
+24 billion monthly page views. Or during the pandemic in order to
+centralise the data about COVID cases in India to make them available
+across the languages of India. By large companies answering questions
+and fulfilling tasks with their intelligent assistants, be it Google or
+Apple or Microsoft. By academia, where you will find thousands of
+research papers using Wikidata. By numerous Open Source projects, by
+one-off analyses by data scientists, by small enterprises using the
+dataset, by student programmers exploring and playing with it on the
+weekend, by spreadsheet enthusiasts enriching their data, by scientists,
+librarians and curators linking their datasets to Wikidata, and thus to
+each other. Already, more than 7,000 catalogs are linked to Wikidata,
+and thus to each other, really and substantially establishing a Web of
+linked data.</p>
+<p>I will always remember the Amazon developer who approached me after a
+talk. He had used Wikidata to gather data about movies. I was surprised:
+Amazon owns imdb, why would they ever use anything else for movies? He
+said that imdb was great for what it had, but Wikidata complemented it
+in unexpected ways, offering many interesting connections between the
+movies and other topics which would be out of scope for imdb.</p>
+<p>Not to be misunderstood: knowledge bases such as imdb are amazing, and
+Wikidata does not aim to replace them. They often have a clear scope,
+have a higher quality, and almost always a better coverage in their
+field than Wikidata ever can hope to have, or aims to have. And that&rsquo;s
+OK. Wikidata&rsquo;s goal is not to replace these knowledge bases. But to
+provide the connecting tissue between the many knowledge bases out
+there. To connect them. To provide a common set of entities to work
+with. To turn the individual knowledge bases into a large interconnected
+Web of knowledge.</p>
+<p>I am still surprised that Wikidata is not known more widely among
+developers. It always makes me smile with joy when I see yet another
+developer who just discovered Wikidata and writes an excited post about
+it and how much it helped them. In the last two weeks, I stumbled upon
+two projects who used Wikidata identifiers where I didn&rsquo;t expect them at
+all, just used them as if it was the most normal thing in the world.
+This is something I hope we will see even more in the future. I hope
+that Wikidata will become the common knowledge base that is ubiquitously
+used by a large swarm of intelligent applications. Not only to make
+these applications be smarter, by knowing more about the world - but
+also by allowing these applications to exchange data with each other
+more effectively because they are using the same language.</p>
+<p>And most importantly: Wikidata has a healthy, large, and comparatively
+friendly and diverse community. It is one of the most active Wikimedia
+projects, only trailing the English Wikipedia, and usually similarly
+active as Commons.</p>
+<p>Last time I checked, more than 400,000 people have contributed to
+Wikidata. For me, that is easily the most surprising number about the
+project. If you had asked me in 2012 how many people would contribute to
+Wikidata, I would have sheepishly hoped for a few hundred, maybe a few
+thousand. And I would have defensively explained why that&rsquo;s OK. I am
+humbled and awestruck by the fact that several hundred thousand people
+have contributed to an open knowledge base that is available to
+everyone, and that everyone can contribute to.</p>
+<p>And that I think is the most important role that Wikidata plays. That it
+is a place that everyone can contribute to. That the knowledge base that
+everyone uses is not owned and gateguarded by any one company or
+government, but that it is a common good, that everyone can contribute
+to. That everyone with an internet connection can lend their voice to
+the sum of all knowledge.</p>
+<p>We all own Wikidata. We are responsible for Wikidata. And we all benefit
+from Wikidata.</p>
+<p>It has been an amazing ten years. I am looking forward to many more
+years of Wikidata, and to the many new roles that it will play in the
+years to come, and to the many people who will contribute to it.</p>
+<p>Shoutout to the brilliant team that started the work on Wikidata: Lydia
+Pintscher, Abraham Taherivand, Daniel Kinzler, Jeroen De Dauw, Katie
+Filbert, Tobias Gritschacher, Jens Ohlig, John Blad, Daniel Werner,
+Henning Snater, and Silke Meyer.</p>
+<p>And thank you for all these amazing pictures of cakes for Wikidata&rsquo;s
+birthday. (And if you&rsquo;re curious what is coming next: we are working on
+Wikifunctions and Abstract Wikipedia, in order to allow more people to
+contribute more knowledge to even more people!)</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Twenty years</title>
+      <link>https://simia.net/posts/twenty-years/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/twenty-years/</guid>
+      <description>On this day, twenty years ago, on January 15, 2001, I started my third Website, Nodix, and I kept it up since then (unlike my previous two Websites, which are lost to history as Internet Archive didn&amp;rsquo;t capture them yet, it seems). A few years later I renamed it to Simia.
+Here is the first entry: Willkommen auf der Webseite von Denny Vrandecic!
+My Website never became particularly popular, although I was meticulously keeping track of how many hits I got and all of this.</description>
+      <content:encoded><![CDATA[<p>On this day, twenty years ago, on January 15, 2001, I started my third
+Website, Nodix, and I kept it up since then (unlike my previous two
+Websites, which are lost to history as Internet Archive didn&rsquo;t capture
+them yet, it seems). A few years later I renamed it to Simia.</p>
+<p>Here is the first entry: <a href="/posts/willkommen-auf-der-webseite-von-denny-vrandecic">Willkommen auf der Webseite von Denny
+Vrandecic!</a></p>
+<p>My Website never became particularly popular, although I was
+meticulously keeping track of how many hits I got and all of this. It
+was always a fun side project for which I had sometimes more and
+sometimes less time.</p>
+<p>The funniest thing is that it was - and that was completely incidental -
+exactly the same day that another Website was started, which I, over the
+years, spent much more time on: Wikipedia.</p>
+<p>Wikipedia changed my life, not only once, but many times.</p>
+<p>It is how I met Kamara.</p>
+<p>It is how I met a lot of other very smart people, too. It became part of
+my research work and my PhD thesis. It became the motivation for many of
+the projects I have started, be it Semantic MediaWiki, Wikidata, or
+Abstract Wikipedia. It is the reason for my career trajectory over the
+last fifteen years. It is hard to overstate how influential Wikipedia
+has been on my life.</p>
+<p>It is hard to overstate how important Wikipedia has become for modern AI
+and for the Web of today. For smaller language communities. For many,
+many people looking for knowledge. And for the many people who realised
+that they can contribute to it too.</p>
+<p>Thanks to the Wikipedia community, thanks to this marvellous project,
+and happy anniversary and many returns to Wikipedia!</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Wikidata crossed Q100000000</title>
+      <link>https://simia.net/posts/wikidata-crossed-q100000000/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/wikidata-crossed-q100000000/</guid>
+      <description>Wikidata crossed Q100000000 (and, in fact, skipped it and got Q100000001 instead).
+Here&amp;rsquo;s a small post by Lydia Pintscher and me: https://diff.wikimedia.org/2020/10/06/wikidata-reaches-q100000000/</description>
+      <content:encoded><![CDATA[<p>Wikidata crossed Q100000000 (and, in fact, skipped it and got
+<a href="https://www.wikidata.org/wiki/Q100000001">Q100000001</a> instead).</p>
+<p>Here&rsquo;s a small post by Lydia Pintscher and me:
+<a href="https://diff.wikimedia.org/2020/10/06/wikidata-reaches-q100000000/">https://diff.wikimedia.org/2020/10/06/wikidata-reaches-q100000000/</a></p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

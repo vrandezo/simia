@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.119.0"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Simia</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://simia.net/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Simia" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://simia.net/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Simia"/>
+<meta name="twitter:description" content=""/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Simia",
+  "url": "https://simia.net/",
+  "description": "",
+  "thumbnailUrl": "https://simia.net/favicon.ico",
+  "sameAs": [
+      "https://meta.wikipedia.com/wiki/User:Denny", "http://mas.to/@vrandecic", "https://github.com/vrandezo", "https://linkedin.com/in/vrandecic", "https://facebook.com/vrandezo", "https://www.youtube.com/@DennyVrande%C4%8Di%C4%87"
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>D&#39;Artagnans Tochter
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Am Samstag war ich - zum ersten mal überhaupt - in einer Theaterpremiere: D’Artagnans Tochter, im Alten Schauspielhaus in Stuttgart, geschrieben von Tom Finn und Volker Ullmann.
+Kurz gesagt: hat sehr viel Spaß gemacht! Es war sehr flott, Mantel und Degen auf der Bühne, ein netter Plot, lustig, und vor allem das erste: Flott. In den Szenenwechselns fliegen die Schauspieler über die Bühne, kein Moment Langeweile, kaum scheint man in ruhigen Gewässern angekommen zu sein, stürmen die Schergen des Kardinals heran....</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to D&#39;Artagnans Tochter" href="https://simia.net/posts/d-artagnans-tochter/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Daheim
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Nach einer Woche in Montenegro bin ich jetzt in Kroatien angekommen. Und genieße.
+Offline.</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Daheim" href="https://simia.net/posts/daheim/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Dark Side of Popularity
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>“I actually worry a lot that as I get “popular” I’ll be able to get away with saying stupider stuff than I would have dared say before. This sort of thing happens to a lot of people, and I would *really* like to avoid it.”
+Paul Graham</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Dark Side of Popularity" href="https://simia.net/posts/dark-side-of-popularity/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Das Stöckchen behalte ich
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>So. Ich fange das nächste Stöckchen auf, von Buddy. Also los.
+Fünf Dinge, die ich nicht habe, aber gerne hätte Weltfrieden. Das Semantic Web. Einen Roman. Selbstgeschrieben, fertig, und mit Verleger. Und richtig gut. Ein Direktes Neuronales Interface zur Matrix. Ich meine zum Web. Die Eine Richtige. Sechs Richtige. Die Fähigkeit bis Fünf zu zählen. Die Reihenfolge enspricht nicht der Relevanz.
+Fünf Dinge, die ich habe, aber lieber nicht hätte Keine Ahnung....</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Das Stöckchen behalte ich" href="https://simia.net/posts/das-stoeckchen-behalte-ich/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Das Vermächtnis der Tempelritter
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>aus der Reihe Filme in 50 Worten
+Es gibt keinen Film der besser geeignet ist als dieser, um die Wartezeit auf Indiana Jones 4 zu verkürzen. Ein sehr flotter Film, überraschend intelligenter Plot, annehmbar recherchierter Hintergrund (na ja, ein paar Fehler könnte man natürlich bemäkeln, aber darüber sehe ich hinweg), äußerst witzige Sprüche - er nimmt sich niemals zu ernst, doch vermeidet es auch, albern zu werden, kurz: gute Action, anschauen....</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Das Vermächtnis der Tempelritter" href="https://simia.net/posts/das-vermaechtnis-der-tempelritter/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>December 2004
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to December 2004" href="https://simia.net/posts/december-2004/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>December 2005
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to December 2005" href="https://simia.net/posts/december-2005/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Der am schnellsten gebrochene Vorsatz
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Keine Vorsätze haben. Schneller als den kann man keinen Vorsatz brechen.</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Der am schnellsten gebrochene Vorsatz" href="https://simia.net/posts/der-am-schnellsten-gebrochene-vorsatz/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Der Manchurian Kandidat
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>aus der Reihe Filme in 50 Worten, heute mal ein Film, der schon läuft
+Ein hochkomplizierter Plan soll sicherstellen, dass der mächtigste Mensch der Welt, der nächste Präsident der Vereinigten Staaten, eine willenlose Marionette für einen weltweit agierenden Superkonzern wird. Ein Einzelner - wie immer von Denzel Washington dargestellt - beginnt die Wahrheit zu erahnen und stellt sich gegen die Verschwörung, doch es glaubt ihm Niemand…
+Warum auch? Der in den Film ausgeübte Plan ist viel zu kompliziert, kann an viel zu vielen Stellen scheitern, als dass es auch nur ein halbwegs intelligenter Mensch wirklich angehen würde....</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Der Manchurian Kandidat" href="https://simia.net/posts/der-manchurian-kandidat/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Der neue Pythonblogger
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Wow, es funktioniert! Jetzt kann ich auch bloggen, wenn ich nicht zu Hause bin – was gerade in den letzten Wochen allzu häufig der Fall war. Dadurch sollte diese Seite endlich wieder ein wenig aufleben, ich hoffe sehr, dass es klappt.
+Das Problem war ja, dass dies ein sehr einfacher Webspace ist, und darin keine Scripte erlaubt sind. Also besteht die ganze Seite aus statischen HTML-Seiten. Es gibt keine Webschnittstelle, wie es der normale Blogger gewohnt ist, wo er einfach von überall aus seinen Eintrag machen kann....</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-12-26 00:00:00 +0000 UTC'>December 26, 2007</span></footer>
+  <a class="entry-link" aria-label="post link to Der neue Pythonblogger" href="https://simia.net/posts/der-neue-pythonblogger/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://simia.net/page/75/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://simia.net/page/77/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 <a href="https://simia.net/">Simia</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

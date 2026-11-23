@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>encyclopedia on Simia</title>
+    <link>https://simia.net/topics/encyclopedia/</link>
+    <description>Recent content in encyclopedia on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/topics/encyclopedia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Web of Knowledge</title>
+      <link>https://simia.net/posts/the-web-of-knowledge/</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/the-web-of-knowledge/</guid>
+      <description>I thought I knew the history of Wikipedia inside and out. Then I read Giota Alevizou’s The Web of Knowledge, and I found myself honestly surprised. I learned things about Wikipedia and its role in the knowledge ecosystem that had a major impact on my career, and that I was completely unaware of.
+2026 is Wikipedia’s Jubilee year, and there are a few books published retelling the history of Wikipedia. But this book goes further; it discusses the role of Wikipedia in the wider knowledge infrastructure, and it encompasses the history of (English) digital encyclopedias as a whole, covering in particular the journeys of Britannica and Encarta from the 1990s on, in addition to telling the history of Wikipedia.</description>
+    </item>
+    
+  </channel>
+</rss>

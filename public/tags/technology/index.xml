@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>technology on Simia</title>
+    <link>https://simia.net/tags/technology/</link>
+    <description>Recent content in technology on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 17 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to pronounce MySQL</title>
+      <link>https://simia.net/posts/how-to-pronounce-mysql/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/how-to-pronounce-mysql/</guid>
+      <description>Today I learned (or re-learned), that the &amp;ldquo;My&amp;rdquo; in MySQL does not stand for the English word my but for the Swedish name My, which is the name of the daughter of MySQL co-founder Michael Widenius. ♡
+The name My was introduced by Tove Jansson for the Moomins character Little My.
+According to the Words &amp;amp; Stuff blog: &amp;ldquo;Turns out that she was named after the Greek letter mu; for the Finnish pronunciation of Myy, see the video.</description>
+      <content:encoded><![CDATA[<p>Today I learned (or re-learned), that the &ldquo;My&rdquo; in
+<a href="https://en.wikipedia.org/wiki/MySQL">MySQL</a> does not stand for the
+English word <a href="https://www.wikidata.org/wiki/Lexeme:L1367828">my</a> but for
+the Swedish name My, which is the name of the daughter of MySQL
+co-founder <a href="https://en.wikipedia.org/wiki/Michael_Widenius">Michael
+Widenius</a>. ♡</p>
+<p>The name My was introduced by <a href="https://en.wikipedia.org/wiki/Tove_Jansson">Tove
+Jansson</a> for the
+<a href="https://en.wikipedia.org/wiki/Moomins">Moomins</a> character <a href="https://en.wikipedia.org/wiki/Little_My">Little
+My</a>.</p>
+<p>According to the <a href="https://web.archive.org/web/20240213140718/https://www.kith.org/words/2023/03/17/how-to-pronounce-finnish-moomin-names/">Words &amp;
+Stuff</a>
+blog: <em>&ldquo;Turns out that she was named after the Greek letter mu; for the
+Finnish pronunciation of Myy, see the video. In English, it turns out
+that her name is pronounced like the English word my (/maɪ/), rhyming
+with the English word hi.&rdquo;</em></p>
+<p>So you could pronounce My as <code>[ˈmyː]</code> or as <code>[maɪ]</code>.</p>
+<p>This is in addition to the well-known discussion about <a href="https://patorjk.com/blog/2012/01/26/pronouncing-sql-s-q-l-or-sequel/">how to pronounce
+SQL</a>,
+which I will not further dive into here.</p>
+<p>By the way, the MySQL documentation <a href="https://dev.mysql.com/doc/refman/8.4/en/what-is-mysql.html">defines the official
+pronunciation</a>:
+<em>&ldquo;The official way to pronounce “MySQL” is “My Ess Que Ell” (not “my
+sequel”), but we do not mind if you pronounce it as “my sequel” or in
+some other localized way.&rdquo;</em>, but it seems that when speaking Swedish the
+MySQL developers also say &ldquo;mü-ess-ku-ell&rdquo;
+(<a href="https://forums.mysql.com/read.php?12,164918,276723#msg-276723">source</a>).</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>A conspiracy to kill a browser</title>
+      <link>https://simia.net/posts/a-conspiracy-to-kill-a-browser/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/a-conspiracy-to-kill-a-browser/</guid>
+      <description>Great story about how YouTube helped with moving away from IE6.
+&amp;ldquo;Our most renegade web developer, an otherwise soft-spoken Croatian guy, insisted on checking in the code under his name, as a badge of personal honor, and the rest of us leveraged our OldTuber status to approve the code review.&amp;rdquo; I swear that wasn&amp;rsquo;t me. Although I would have loved to do it.
+Chris Zacharias, A conspiracy to kill IE6 </description>
+      <content:encoded><![CDATA[<p>Great story about how YouTube helped with moving away from IE6.</p>
+<ul>
+<li><em>&ldquo;Our most renegade web developer, an otherwise soft-spoken Croatian
+guy, insisted on checking in the code under his name, as a badge of
+personal honor, and the rest of us leveraged our OldTuber status to
+approve the code review.&rdquo;</em></li>
+</ul>
+<p>I swear that wasn&rsquo;t me. Although I would have loved to do it.</p>
+<ul>
+<li><a href="https://blog.chriszacharias.com/a-conspiracy-to-kill-ie6">Chris Zacharias, A conspiracy to kill
+IE6</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>35th birthday of the Web</title>
+      <link>https://simia.net/posts/35th-birthday-of-the-web/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/35th-birthday-of-the-web/</guid>
+      <description>Celebrating the 35th birthday of the World Wide Web, a letter by its founder, Tim Berners-Lee.
+Discussing some of the issues of the Web of today: too much centralization, too much exploitation, too much disinformation, all made even more dire by the development of AI.
+What to do? Some of the solution the letter mentions are Mastodon, a decentralized social network, and Solid, a Web-standards-based data governance solution, but it recognizes that more is needed, &amp;ldquo;to back the morally courageous leadership that is rising, collectivise their solutions, and to overturn the online world being dictated by profit to one that is dictated by the needs of humanity.</description>
+      <content:encoded><![CDATA[<p>Celebrating the 35th birthday of the World Wide Web, a letter by its
+founder, Tim Berners-Lee.</p>
+<p>Discussing some of the issues of the Web of today: too much
+centralization, too much exploitation, too much disinformation, all made
+even more dire by the development of AI.</p>
+<p>What to do? Some of the solution the letter mentions are Mastodon, a
+decentralized social network, and Solid, a Web-standards-based data
+governance solution, but it recognizes that more is needed, &ldquo;to back the
+morally courageous leadership that is rising, collectivise their
+solutions, and to overturn the online world being dictated by profit to
+one that is dictated by the needs of humanity.&rdquo; I agree with that, but
+find it a bit vague.</p>
+<ul>
+<li><a href="https://webfoundation.org/2024/03/marking-the-webs-35th-birthday-an-open-letter/">Tim Berners-Lee on the 35th birthday of the Web, Web
+Foundation</a></li>
+</ul>
+<p>I first was terribly annoyed that the letter was <a href="https://medium.com/@timberners_lee/marking-the-webs-35th-birthday-an-open-letter-ebb410cc7d42">published on
+Medium</a>,
+as this is a symptom of the centralization of the Web. I say, completely
+conscious that I am <a href="https://www.facebook.com/vrandezo/posts/pfbid02NETG3TifKWkdtJ7X97DBjquYEYKuirh5Zgtay1MTD87B3NNLzt3d88Q3wAHjjmQXl">discussing it on
+Facebook</a>.
+Obviously, both of this should be happening on our own domains, and it
+also does: I link not to Medium, but to the Web Foundation site, and I
+also have this posted on my own site and on my Mastodon account. So, it
+is there, on the real Web, not just on the closed walled gardens of
+Facebook and on one of the megasites such as Medium. But there is no
+indication of engagement on the Web Foundation&rsquo;s post, whereas the
+Medium article records more than 10,000 reactions, and my Facebook post
+will also show more reactions than my Website (but the Mastodon page
+could be competitive with Facebook for me).</p>
+<p>I want to believe that Solid is the next important step, but <a href="https://blog.ldodds.com/2024/03/12/baffled-by-solid/">Leigh
+Dodds&rsquo;s recent post on
+Solid</a>, and
+particularly the discussion in the post, didn&rsquo;t inspire hope.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Our four freedoms for our technology</title>
+      <link>https://simia.net/posts/our-four-freedoms-for-our-technology/</link>
+      <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/our-four-freedoms-for-our-technology/</guid>
+      <description>(This is a draft. Comments are welcome. This is not meant as an attack on any person or company individually, but at certain practises that are becoming increasingly prevalent)
+We are not allowed to use the devices we paid for in the ways we want. We are not allowed to use our own data in the way we want. We are only allowed to use them in the way the companies who created the devices and services allow us.</description>
+      <content:encoded><![CDATA[<p><em>(This is a draft. Comments are welcome. This is not meant as an attack
+on any person or company individually, but at certain practises that are
+becoming increasingly prevalent)</em></p>
+<p>We are not allowed to use the devices we paid for in the ways we want.
+We are not allowed to use our own data in the way we want. We are only
+allowed to use them in the way the companies who created the devices and
+services allow us.</p>
+<p>Sometimes these companies are nice and give us a lot of freedom in how
+to use the devices and data. But often they don’t. They close them down
+for all kinds of reasons. They may say it is for your protection and
+safety. They might admit it is for profit. They may say it is for legal
+reasons. But in the end, you are buying a device, or you are creating
+some data, and you are not allowed to use that device and that data in
+the way you want to, you are not allowed to be creative.</p>
+<p>The companies don’t want you to think of the devices that you bought and
+the data that you created as your devices and your data. They want you
+to think of them as black boxes that offer you services they create for
+you. They don’t want you to think of a Ring doorbell as a camera, a
+microphone, a speaker, and a button, but they want you to think of it as
+providing safety. They don’t want you to think of the garage door opener
+as a motor and a bluetooth module and a wifi module, but as a garage
+door opening service, and the company wants to control how you are
+allowed to use that service. Companies like Chamberlain and SkyLink and
+Genie don’t allow you to write a tool to check on your garage door, and
+to close or open it, but they make deals with Google and Amazon and
+Apple in order to integrate these services into their digital
+assistants, so that you can use it in the way these companies have
+agreed on together, through the few paths these digital assistants are
+available. The digital assistant that you buy is not a microphone and a
+speaker and maybe a camera and maybe a screen that you buy and use as
+you want, but you buy a service that happens to have some technical
+ingredients. But you cannot use that screen to display what you want.
+Whether you can watch your Amazon Prime show on the screen of a Google
+Nest Hub depends on whether Amazon and Google have an agreement with
+each other, not on whether you have paid for access to Amazon Prime and
+you have paid for a Google Nest Hub. You cannot use that camera to take
+a picture. You cannot use that speaker to make it say something you want
+it to say. You cannot use the rich plethora of services on the Web, and
+you cannot use the many interesting services these digital assistants
+rely on, in novel and creative combinations.</p>
+<p>These companies don’t want you to think of the data that you have
+created and that they have about you as your data. They don’t want you
+to think about this data at all. They just want you to use their
+services in the way they want you to use their services. On the devices
+they approve. They don’t want you to create other surfaces that are
+suited to the way you use your data. They don’t want you to decide on
+what you want to see in your feed. They don’t want you to be able to
+take a list of your friends and do something with it. They will say it
+is to protect privacy. They will say that it is for safety. That is why
+you cannot use the data you and your friends have created. They want to
+exactly control what you can and cannot do with the data you and your
+friends have created. They want to control how many ads you must see in
+order to be allowed to see your friends’ posts. They don&rsquo;t want anyone
+else to have the ability to provide you creative new interfaces to your
+feed. They don’t want you yourself the ability to look at your feed and
+do whatever you want with it.</p>
+<p>Those are devices you paid for.</p>
+<p>These are data you and your friends have created.</p>
+<p>And more and more we are losing our freedom of using our devices and our
+data as we like.</p>
+<p>It would be impossible to invent email today. It would be impossible to
+invent the telephone today. Both are protocols that allow everyone to
+communicate with anyone no matter what their email provider or their
+phone is. Try reading your friend’s Facebook feed on Instagram, or send
+a direct message from your Twitter account to someone on WhatsApp, or
+call your Skype contact on Facetime.</p>
+<p>It would be impossible to launch the Web today - many companies don’t
+want you browsing the Web. They want you to be inside of your Facebook
+feed and consume your content there. They want you to be on your Twitter
+feed. They don’t want you to go to the Website of the New York Times and
+read an article there, they don’t want you to visit the Website of your
+friend and read their blog there. They want you to stay on their apps.
+Per default, they open Websites inside their app, and not in your
+browser, so you are always within their app. They don’t want you to
+experience the Web. The Web is dwindling and all the good things on it
+are being recut and rebundled within the apps and services of tech
+companies.</p>
+<p>Increasingly, we are seeing more and more walls in the world. Already,
+it is becoming impossible to pay and watch certain movies and shows
+without buying into a full subscription in a service. We will likely see
+the day where you will need a specific device to watch a specific movie.
+Where the only way to watch a Disney+ exclusive movie is on a Disney+
+tablet. You don’t think so? Think about how easy it is to get your
+Kindle books onto another Ebook reader. How do you enable a skill or
+capability available in Alexa on your Nest smart speaker? How can you
+search through the books that you bought and are in your digital
+library, besides by using a service provided by the company that allows
+you to search your digital library? When you buy a movie today on
+YouTube or on iMovies, what do you own? What are you left with when the
+companies behind these services close that service, or go out of
+business altogether?</p>
+<p>Devices and content we pay for, data we and our friends create, should
+be ours to use in empowering and creative ways. Services and content
+should not be locked in with a certain device or subscription service.
+The bundling of services, content, devices, and locking up user data
+creates monopolies that stifle innovation and creativity. I am not
+asking to give away services or content or devices for free, I am asking
+to be allowed to pay for them and then use them as I see fit.</p>
+<p>What can we do?</p>
+<p>As far as I can tell, the solution, unfortunately, seems to be to ask
+for regulation. The market won’t solve it. The market doesn’t solve
+monopolies and oligopolies.</p>
+<p>But don’t ask to regulate the tech giants individually. We don’t need a
+law that regulates Google and a law that regulates Apple and a law that
+regulates Amazon and a law to regulate Microsoft. We need laws to
+regulate devices, laws to regulate services, laws to regulate content,
+laws that regulate AI.</p>
+<p>Don’t ask for Facebook to be broken up because you think Mark Zuckerberg
+is too rich and powerful. Breaking up Facebook, creating Baby Books,
+will ultimately make him and other Facebook shareholders richer than
+ever before. But breaking up Facebook will require the successor
+companies to work together on a protocol to collaborate. To share data.
+To be able to move from one service to another.</p>
+<p><strong>We need laws that require that every device we buy can be made fully
+ours.</strong> Yes, sure, Apple must still be allowed to provide us with the
+wonderful smooth User Experience we value Apple for. But we must also be
+able to access and share the data from the sensors in our devices that
+we have bought from them. We must be able to install and run software we
+have written or bought on the devices we paid for.</p>
+<p><strong>We need laws that require that our data is ours.</strong> We should be able
+to download our data from a service provider and use it as we like. We
+must be allowed to share with a friend the parts of our data we want to
+share with that friend. In real time, not in a dump download hours
+later. We must be able to take our social graph from one social service
+and move to a new service. The data must be sufficiently complete to
+allow for such a transfer, and not crippled.</p>
+<p><strong>We need laws that require that published content can be bought and
+used by us as we like.</strong> We should be able to store content on our hard
+disks. To lend it to a friend. To sell it. Anything I can legally do
+with a book I bought I must be able to legally do with a movie or piece
+of music I bought online. Just as with a book you are not allowed to
+give away the copies if the work you bought still enjoys copyright.</p>
+<p><strong>We need laws that require that services and capabilities are unbundled
+and made available to everyone.</strong> Particularly as technological progress
+with regards to AI, Quantum computing, and providing large amounts of
+compute becomes increasingly an exclusive domain for trillion dollar
+companies, we must enable other organizations and people to access these
+capabilities, or run the risk that sooner or later all and any
+innovation will be happening only in these few trillion dollar
+companies. Just because a company is really good at providing a specific
+service cheaply, it should not be allowed to unfairly gain advantage in
+all related areas and products and stifle competition and innovation.
+This company should still be allowed to use these capabilities in their
+products and services, but so should anyone else, fairly prized and
+accessible by everyone.</p>
+<p>We want to unleash creativity and innovation. In our lifetimes we have
+seen the creation of technologies that would have been considered
+miracles and impossible just decades ago. These must belong to
+everybody. These must be available to everyone. There cannot be equity
+if all of these marvellous technologies can be only wielded by a few
+companies on the West coast of the United States. We must make them
+available to all the people of the world: the people of the Indian
+subcontinent, the people of Subsaharan Africa,the people of Latin
+America, and everyone else. They all should own the devices they paid
+for, the data they created, the content they paid for. They all should
+have access to the same digital services and capabilities that are
+available to the engineers at Amazon or Google or Microsoft. The
+universities and research centers of the world should be able to access
+the same devices and services and extend them with their novel and
+creative ideas. The scrappy engineers in Eastern Europe and India and
+Nigeria and Central Asia should be able to call the AI models trained by
+Google and Microsoft and use them in novel ways to run their devices and
+chip-powered cars and agricultural machines. We want a world of freedom,
+tinkering, where creativity and innovation are unleashed, and where
+everyone can contribute their ideas, their creativity, and where
+everyone can build their fortune.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

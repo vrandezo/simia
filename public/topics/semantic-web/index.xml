@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Semantic Web on Simia</title>
+    <link>https://simia.net/topics/semantic-web/</link>
+    <description>Recent content in Semantic Web on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/topics/semantic-web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recording of ISWC 2025 keynote</title>
+      <link>https://simia.net/posts/recording-of-iswc-2025-keynote/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/recording-of-iswc-2025-keynote/</guid>
+      <description>It was an tremendous honour to have been invited as a keynote speaker to the ISWC - International Semantic Web Conference 2025 in Nara, Japan.
+This was particularly exciting for me, because during my PhD research, ISWC has been my &amp;ldquo;home conference&amp;rdquo; - the prime conference in my research area, where the research community that I felt affiliated with was meeting. It will be 20 years since I attended my first ISWC, in Galway, and it was a huge pleasure to talk about</description>
+    </item>
+    
+    <item>
+      <title>The new thing about the Semantic Web is not the semantics, it&#39;s the Web</title>
+      <link>https://simia.net/posts/the-new-thing-about-the-semantic-web-is-not-the-semantics-it-s-the-web/</link>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/the-new-thing-about-the-semantic-web-is-not-the-semantics-it-s-the-web/</guid>
+      <description>In my 2025 ISWC keynote I was using some text which I considered a quote: “The new thing about the Semantic Web is not the semantics, it&amp;rsquo;s the Web.”
+Now I thought the quote was by Chris Welty, and I thought it was in his 2007 ISWC keynote (what a nice recall!), but I didn&amp;rsquo;t have the time to actually check it and I could be wrong.
+On arrival in Nara I met Natasha Noy, and asked her if she remembered the quote.</description>
+    </item>
+    
+    <item>
+      <title>Keynote at ISWC 2025</title>
+      <link>https://simia.net/posts/keynote-at-iswc-2025/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/keynote-at-iswc-2025/</guid>
+      <description>It is an honor to be invited as a keynote speaker to the ISWC - International Semantic Web Conference this year in Nara, Japan.
+This is particularly exciting for me, because during my PhD research, ISWC has been my &amp;ldquo;home conference&amp;rdquo; - the prime conference in my research area, where the research community that I felt affiliated with was meeting. It will be 20 years since I attended my first ISWC, in Galway, and every year I attended I enjoyed both the academic program and the opportunity to meet friends again.</description>
+    </item>
+    
+    <item>
+      <title>Ontology Evaluation</title>
+      <link>https://simia.net/pages/ontology-evaluation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/pages/ontology-evaluation/</guid>
+      <description>My PhD thesis. Full text available here:
+Ontology Evaluation </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog post on Simia</title>
+    <link>https://simia.net/topics/blog-post/</link>
+    <description>Recent content in Blog post on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/topics/blog-post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Main Page</title>
+      <link>https://simia.net/posts/main-page/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/main-page/</guid>
+      <description>__NOTOC__
+Nur Deutsche Beiträge - English posts only - Other contents of Simia
+Archive - Subcribe to feed
+__NOFACTBOX__</description>
+    </item>
+    
+    <item>
+      <title>Deutscher Blog</title>
+      <link>https://simia.net/posts/deutscher-blog/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/deutscher-blog/</guid>
+      <description>__NOTOC__
+Archiv - Abonniere RSS feeds</description>
+    </item>
+    
+    <item>
+      <title>English blog</title>
+      <link>https://simia.net/posts/english-blog/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/english-blog/</guid>
+      <description>__NOTOC__
+Archive - Subscribe to feeds</description>
+    </item>
+    
+    <item>
+      <title>Feeds</title>
+      <link>https://simia.net/posts/feeds/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/feeds/</guid>
+      <description>Simia offers a good old fashioned RSS feed to subscribe to:
+If you are interested in a certain topic, go to the list of all topics, click on the one you are interested in. On the page you will find a link to subscribe to all posts on this topic. If you are on a particular post, you will see comments. You can subscribe to the comments of those posts on the post&amp;rsquo;s page.</description>
+    </item>
+    
+    <item>
+      <title>Nodix</title>
+      <link>https://simia.net/posts/nodix/</link>
+      <pubDate>Sun, 19 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/nodix/</guid>
+      <description>Nodix was the former name of this website (used from 2001-2007) before it was renamed to Simia. While it was called Nodix, there were posts on this page, illustrated in this overview (read on underneath for more information on Nodix)
+Nodix was started 14 January 2001, back then as a website about the topics I was and mostly still am interested in. The technology used was kind a minimal, but many of the original elements still survived, like the background colour (see this post on the background colour) and the very simple design.</description>
+    </item>
+    
+    <item>
+      <title>Semantic Nodix</title>
+      <link>https://simia.net/posts/semantic-nodix/</link>
+      <pubDate>Sun, 19 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/semantic-nodix/</guid>
+      <description>Semantic Nodix was the former name of a spin off of this website (used from 2004-2007) before it was merged back to Nodix and renamed to Simia. While it was called Semantic Nodix, there were posts on this page, illustrated in this overview (read on underneath for more information on Semantic Nodix)
+Semanitc Nodix was started 16 November 2004 when I, a few weeks after I started working at the AIFB.</description>
+    </item>
+    
+    <item>
+      <title>Simia blog</title>
+      <link>https://simia.net/posts/simia-blog/</link>
+      <pubDate>Thu, 27 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/simia-blog/</guid>
+      <description>__NOTOC__
+Nur Deutsche post - English posts only
+Archive - Subcribe to feed</description>
+    </item>
+    
+  </channel>
+</rss>

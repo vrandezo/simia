@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>comic on Simia</title>
+    <link>https://simia.net/topics/comic/</link>
+    <description>Recent content in comic on Simia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simia.net/topics/comic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Marjane Satrapi</title>
+      <link>https://simia.net/posts/marjane-satrapi/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://simia.net/posts/marjane-satrapi/</guid>
+      <description>Marjane Satrapi, the brave and talented creator of the wonderful and honest graphic novel Persepolis, has died. Her magnum opus is an autobiography, telling of her young years growing up during the Islamic Revolution in Iran, the Iran-Iraq war of 1980, and then moving to Austria, for safety and to study. But Vienna isn&amp;rsquo;t the safe space her family was hoping for, she&amp;rsquo;s having a difficult time, and returns to Iran.</description>
+    </item>
+    
+  </channel>
+</rss>

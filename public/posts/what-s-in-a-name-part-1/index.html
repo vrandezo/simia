@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>What&#39;s in a name - Part 1 | Simia</title>
+<meta name="keywords" content="">
+<meta name="description" content="There are tons of mistakes that may occur when writing down RDF statements. I will post a six part series of blog entries, starting with this one, about what can go wrong in the course of naming resources, why it is wrong, and why you should care - if at all. I&rsquo;ll try to mix experience with pragmatics, usability with philosophy. And I surely hope that, if you disagree, you&rsquo;ll do so in the comments or in your own blog.">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/posts/what-s-in-a-name-part-1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="What&#39;s in a name - Part 1" />
+<meta property="og:description" content="There are tons of mistakes that may occur when writing down RDF statements. I will post a six part series of blog entries, starting with this one, about what can go wrong in the course of naming resources, why it is wrong, and why you should care - if at all. I&rsquo;ll try to mix experience with pragmatics, usability with philosophy. And I surely hope that, if you disagree, you&rsquo;ll do so in the comments or in your own blog." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://simia.net/posts/what-s-in-a-name-part-1/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2004-12-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2004-12-28T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="What&#39;s in a name - Part 1"/>
+<meta name="twitter:description" content="There are tons of mistakes that may occur when writing down RDF statements. I will post a six part series of blog entries, starting with this one, about what can go wrong in the course of naming resources, why it is wrong, and why you should care - if at all. I&rsquo;ll try to mix experience with pragmatics, usability with philosophy. And I surely hope that, if you disagree, you&rsquo;ll do so in the comments or in your own blog."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://simia.net/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "What's in a name - Part 1",
+      "item": "https://simia.net/posts/what-s-in-a-name-part-1/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "What's in a name - Part 1",
+  "name": "What\u0027s in a name - Part 1",
+  "description": "There are tons of mistakes that may occur when writing down RDF statements. I will post a six part series of blog entries, starting with this one, about what can go wrong in the course of naming resources, why it is wrong, and why you should care - if at all. I\u0026rsquo;ll try to mix experience with pragmatics, usability with philosophy. And I surely hope that, if you disagree, you\u0026rsquo;ll do so in the comments or in your own blog.",
+  "keywords": [
+    
+  ],
+  "articleBody": "There are tons of mistakes that may occur when writing down RDF statements. I will post a six part series of blog entries, starting with this one, about what can go wrong in the course of naming resources, why it is wrong, and why you should care - if at all. I’ll try to mix experience with pragmatics, usability with philosophy. And I surely hope that, if you disagree, you’ll do so in the comments or in your own blog.\nThe first one is the easiest to spot. Here we go:\n\"Politeia\" dc:creator \"Plato\". If you don’t know about the differences between Literals, QNames and URIs, please take a look at the RDF Primer. It’s easy to read and absolutely essential. If you know about the differences, you already know that the above said actually isn’t a valid RDF statement: you can’t have a literal as the subject of a statement. So, let’s change this:\nphilo:Politeia dc:creator \"Plato\". What’s the difference between these two? In the first one you say that “Plato” is the creator of “Politeia” (we take the semantics of dc:creator for granted for now). But in the second you say that “Plato” is the creator of philo:Politeia. That’s like in Dragonheart, where Bowen tries to find a name for the dragon because he can’t just call him “dragon”, and he decides on “draco”. The dragon comments: “So, instead of calling me dragon in your own language, you decide to call me dragon in another language.”\nYep, we decide to talk about Politeia in another language. Because RDF is another language. It tries to look like ours, it even has subjects, objects, predicates, but it is not the language of humans. It is (mostly) much easier, so easy in fact even computers can cope with it (and that’s about the whole point of the Semantic Web in the first place, so you shouldn’t be too surprised here).\n“Politeia” has a well defined meaning: it is a literal (the quotation marks tell you that) and thus it is interpreted as a value. “Politeia” actually is just a word, a symbol, a sign pointing to the meant string Politeia (a better example would be: “42” means the number 42. “101010b”, “Fourty-Two” or “2Ah” would have been perfectly valid other signs denoting the number 42).\nAnd what about philo:Politeia? How is it different from “Politeia”, what does this point to?\nphilo:Politeia is a Qualified Name (QName), and thus ultimatively a short-hand notation for an URI, an Unified Resource Identifier. In RDF, everything has to be a resource (well, remember, RDF stands for Resource Description Framework), but that’s not really a constraint, as you may simply consider everything a resource. Even you and me. And URIs are names for resources. Universally (well, at least globally) unique names. Like philo:Politeia.\nYou may wonder about what your URI is, the one URI denoting you. Or what the URI of Plato is, or of the Politeia? How to choose good URIs, and what may go wrong? And what do URIs actually denote, and how? We’ll discuss this all in the next five parts of this series, don’t worry, just stay tuned.\n",
+  "wordCount" : "526",
+  "inLanguage": "en",
+  "datePublished": "2004-12-28T00:00:00Z",
+  "dateModified": "2004-12-28T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://simia.net/posts/what-s-in-a-name-part-1/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Simia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://simia.net/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://simia.net/">Home</a>&nbsp;»&nbsp;<a href="https://simia.net/posts/">Posts</a></div>
+    <h1 class="post-title">
+      What&#39;s in a name - Part 1
+    </h1>
+    <div class="post-meta"><span title='2004-12-28 00:00:00 +0000 UTC'>December 28, 2004</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>There are tons of mistakes that may occur when writing down
+<a href="RDF" title="wikilink">RDF</a> statements. I will post a six part series of blog
+entries, starting with this one, about what can go wrong in the course
+of naming resources, why it is wrong, and why you should care - if at
+all. I&rsquo;ll try to mix experience with pragmatics, usability with
+philosophy. And I surely hope that, if you disagree, you&rsquo;ll do so in the
+comments or in your own blog.</p>
+<p>The first one is the easiest to spot. Here we go:</p>
+<pre><code>&quot;Politeia&quot; dc:creator &quot;Plato&quot;.
+</code></pre>
+<p>If you don&rsquo;t know about the differences between Literals, QNames and
+URIs, please take a look at the <a href="http://www.w3.org/TR/rdf-primer/">RDF
+Primer</a>. It&rsquo;s easy to read and
+absolutely essential. If you know about the differences, you already
+know that the above said actually isn&rsquo;t a valid RDF statement: you can&rsquo;t
+have a literal as the subject of a statement. So, let&rsquo;s change this:</p>
+<pre><code>philo:Politeia dc:creator &quot;Plato&quot;.
+</code></pre>
+<p>What&rsquo;s the difference between these two? In the first one you say that
+<em>&ldquo;Plato&rdquo;</em> is the creator of <em>&ldquo;Politeia&rdquo;</em> (we take the semantics of
+<em>dc:creator</em> for granted for now). But in the second you say that
+<em>&ldquo;Plato&rdquo;</em> is the creator of <em>philo:Politeia</em>. That&rsquo;s like in
+<em><a href="Dragonheart" title="wikilink">Dragonheart</a></em>, where Bowen tries to find a
+name for the dragon because he can&rsquo;t just call him <em>&ldquo;dragon&rdquo;</em>, and he
+decides on <em>&ldquo;draco&rdquo;</em>. The dragon comments: <em>&ldquo;So, instead of calling me
+dragon in your own language, you decide to call me dragon in another
+language.&rdquo;</em></p>
+<p>Yep, we decide to talk about Politeia in another language. Because RDF
+<em>is</em> another language. It tries to look like ours, it even has subjects,
+objects, predicates, but it is not the language of humans. It is
+(mostly) much easier, so easy in fact even computers can cope with it
+(and that&rsquo;s about the whole point of the Semantic Web in the first
+place, so you shouldn&rsquo;t be too surprised here).</p>
+<p><em>&ldquo;Politeia&rdquo;</em> has a well defined meaning: it is a literal (the quotation
+marks tell you that) and thus it is interpreted as a value. <em>&ldquo;Politeia&rdquo;</em>
+actually is just a word, a symbol, a sign pointing to the meant string
+Politeia (a better example would be: <em>&ldquo;42&rdquo;</em> means the number 42.
+<em>&ldquo;101010b&rdquo;</em>, <em>&ldquo;Fourty-Two&rdquo;</em> or <em>&ldquo;2Ah&rdquo;</em> would have been perfectly valid
+other signs denoting the number 42).</p>
+<p>And what about <em>philo:Politeia</em>? How is it different from <em>&ldquo;Politeia&rdquo;</em>,
+what does this point to?</p>
+<p><em>philo:Politeia</em> is a Qualified Name (QName), and thus ultimatively a
+short-hand notation for an URI, an Unified Resource Identifier. In RDF,
+everything has to be a resource (well, remember, RDF stands for Resource
+Description Framework), but that&rsquo;s not really a constraint, as you may
+simply consider everything a resource. Even you and me. And URIs are
+names for resources. Universally (well, at least globally) unique names.
+Like <em>philo:Politeia</em>.</p>
+<p>You may wonder about what your URI is, the one URI denoting you. Or what
+the URI of Plato is, or of the Politeia? How to choose good URIs, and
+what may go wrong? And what do URIs actually denote, and how? We&rsquo;ll
+discuss this all in the next five parts of this series, don&rsquo;t worry,
+just stay tuned.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://simia.net/posts/dick-werden/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Dick werden...</span>
+  </a>
+  <a class="next" href="https://simia.net/posts/team-america/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Team America</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

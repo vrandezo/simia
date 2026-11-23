@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Map of current Wikidata edits | Simia</title>
+<meta name="keywords" content="Simia, english, Wikidata, programming">
+<meta name="description" content="It starts entirely black and then listens to Wikidata edits. Every time an item with a coordinate is edited, a blue dot in the corresponding place is made. So slowly, over time, you get a more and more complete map of Wikidata items.
+https://vrandezo.github.io/wikidata-edit-map/ If you open the developer console, you can get links and names of the items being displayed.
+The whole page is less than a hundred lines of JavaScript and HTML, and it runs entirely in the browser.">
+<meta name="author" content="">
+<link rel="canonical" href="https://simia.net/posts/map-of-current-wikidata-edits/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.489c87718ac315c94e98671d64883032763cec124a7337e67ba9216f47f87f5b.css" integrity="sha256-SJyHcYrDFclOmGcdZIgwMnY87BJKczfme6khb0f4f1s=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://simia.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://simia.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://simia.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://simia.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://simia.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Map of current Wikidata edits" />
+<meta property="og:description" content="It starts entirely black and then listens to Wikidata edits. Every time an item with a coordinate is edited, a blue dot in the corresponding place is made. So slowly, over time, you get a more and more complete map of Wikidata items.
+https://vrandezo.github.io/wikidata-edit-map/ If you open the developer console, you can get links and names of the items being displayed.
+The whole page is less than a hundred lines of JavaScript and HTML, and it runs entirely in the browser." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://simia.net/posts/map-of-current-wikidata-edits/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-01-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-01-16T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Map of current Wikidata edits"/>
+<meta name="twitter:description" content="It starts entirely black and then listens to Wikidata edits. Every time an item with a coordinate is edited, a blue dot in the corresponding place is made. So slowly, over time, you get a more and more complete map of Wikidata items.
+https://vrandezo.github.io/wikidata-edit-map/ If you open the developer console, you can get links and names of the items being displayed.
+The whole page is less than a hundred lines of JavaScript and HTML, and it runs entirely in the browser."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://simia.net/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Map of current Wikidata edits",
+      "item": "https://simia.net/posts/map-of-current-wikidata-edits/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Map of current Wikidata edits",
+  "name": "Map of current Wikidata edits",
+  "description": "It starts entirely black and then listens to Wikidata edits. Every time an item with a coordinate is edited, a blue dot in the corresponding place is made. So slowly, over time, you get a more and more complete map of Wikidata items.\nhttps://vrandezo.github.io/wikidata-edit-map/ If you open the developer console, you can get links and names of the items being displayed.\nThe whole page is less than a hundred lines of JavaScript and HTML, and it runs entirely in the browser.",
+  "keywords": [
+    "Simia", "english", "Wikidata", "programming"
+  ],
+  "articleBody": "It starts entirely black and then listens to Wikidata edits. Every time an item with a coordinate is edited, a blue dot in the corresponding place is made. So slowly, over time, you get a more and more complete map of Wikidata items.\nhttps://vrandezo.github.io/wikidata-edit-map/ If you open the developer console, you can get links and names of the items being displayed.\nThe whole page is less than a hundred lines of JavaScript and HTML, and it runs entirely in the browser. It uses the Wikimedia Stream API and the Wikidata API, and has no code dependencies. Might be fun to take a look if you’re so inclined.\nhttps://github.com/vrandezo/wikidata-edit-map/blob/main/index.html\n",
+  "wordCount" : "108",
+  "inLanguage": "en",
+  "datePublished": "2022-01-16T00:00:00Z",
+  "dateModified": "2022-01-16T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://simia.net/posts/map-of-current-wikidata-edits/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Simia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://simia.net/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://simia.net/" accesskey="h" title="Simia (Alt + H)">Simia</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://simia.net/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://simia.net/pages/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://simia.net/">Home</a>&nbsp;»&nbsp;<a href="https://simia.net/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Map of current Wikidata edits
+    </h1>
+    <div class="post-meta"><span title='2022-01-16 00:00:00 +0000 UTC'>January 16, 2022</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>It starts entirely black and then listens to Wikidata edits. Every time
+an item with a coordinate is edited, a blue dot in the corresponding
+place is made. So slowly, over time, you get a more and more complete
+map of Wikidata items.</p>
+<ul>
+<li><a href="https://vrandezo.github.io/wikidata-edit-map/">https://vrandezo.github.io/wikidata-edit-map/</a></li>
+</ul>
+<p>If you open the developer console, you can get links and names of the
+items being displayed.</p>
+<p>The whole page is less than a hundred lines of JavaScript and HTML, and
+it runs entirely in the browser. It uses the <a href="https://wikitech.wikimedia.org/wiki/Event_Platform/EventStreams">Wikimedia Stream
+API</a>
+and the <a href="https://www.wikidata.org/wiki/Special:ApiSandbox">Wikidata
+API</a>, and has no code
+dependencies. Might be fun to take a look if you&rsquo;re so inclined.</p>
+<p><a href="https://github.com/vrandezo/wikidata-edit-map/blob/main/index.html">https://github.com/vrandezo/wikidata-edit-map/blob/main/index.html</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://simia.net/tags/simia/">Simia</a></li>
+      <li><a href="https://simia.net/tags/english/">english</a></li>
+      <li><a href="https://simia.net/tags/wikidata/">Wikidata</a></li>
+      <li><a href="https://simia.net/tags/programming/">programming</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://simia.net/posts/white-s-illusion/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>White&#39;s illusion</span>
+  </a>
+  <a class="next" href="https://simia.net/posts/meat-loaf/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Meat Loaf</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
