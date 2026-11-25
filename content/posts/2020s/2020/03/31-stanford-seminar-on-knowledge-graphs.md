@@ -9,6 +9,7 @@ tags:
   - english
   - Simia
   - Knowledge Graphs
+  - presentation
 ---
 
 My friend Vinay Chaudhri is organising a seminar on Knowledge Graphs
