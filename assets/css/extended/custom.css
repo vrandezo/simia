@@ -1,18 +1,15 @@
-/* Light mode colors */
-:root,
-body,
-body.list,
-.list {
-  --theme: #eaeaea;   /* Main page background (e.g., warm off-white) */
-  --entry: #eaeaea;   /* Post card background */
-  --primary: #000000; /* Main text color */
-  --secondary: #555555; /* Date and subtitle text color */
-  --border: #000000;  /* Card and divider borders */
+/* Light mode colors only */
+:root:not([data-theme="dark"]) {
+  --theme: #eaeaea;
+  --entry: #eaeaea;
+  --primary: #000000;
+  --secondary: #555555;
+  --border: #000000;
   --code-bg: #eaeaea;
 }
 
 .paginav a:hover {
-    background: #f0f0f0;
+    background: var(--tertiary);
     color: var(--primary);
 }
 
