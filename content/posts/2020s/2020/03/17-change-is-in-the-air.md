@@ -6,7 +6,9 @@ slug: "change-is-in-the-air"
 aliases:
   - "/wiki/Change_is_in_the_air"
 tags:
-  []
+  - english
+  - Simia
+  - prediction
 ---
 
 I'll be prophetic: the current pandemic will shine a bright light on the
