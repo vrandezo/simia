@@ -1,3 +1,4 @@
+
 {{- define "main" }}
 
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
@@ -41,7 +42,7 @@
 
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
 {{- end }}
 
 {{- $paginator := .Paginate $pages }}
@@ -53,36 +54,79 @@
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
-{{- $class := "post-entry" }}
+{{- if $.IsHome }}
 
-{{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
-{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
-{{- $class = "first-entry" }}
-{{- else if $term }}
+<article class="home-post">
+  {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
+  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+
+  <header class="entry-header">
+    <h2>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+    </h2>
+  </header>
+
+  <div class="home-post-meta">
+    <a href="{{ .RelPermalink }}" title="Permanent link to this post">
+      <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        {{ .Date | time.Format (default "January 2, 2006" site.Params.DateFormat) }}
+      </time>
+    </a>
+  </div>
+
+  <div class="home-post-content">
+    {{- .Content }}
+  </div>
+
+  {{- with .GetTerms "tags" }}
+  <div class="post-tags">
+    {{- range . }}
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{- end }}
+  </div>
+  {{- end }}
+
+  <div class="post-permalink">
+    <a href="{{ .Permalink }}">#permalink</a>
+  </div>
+</article>
+
+{{- else }}
+
+{{- $class := "post-entry" }}
+{{- if $term }}
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
 <article class="{{ $class }}">
   {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+
   <header class="entry-header">
     <h2>
       {{- .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
     </h2>
   </header>
+
   {{- if (ne (.Param "hideSummary") true) }}
   <div class="entry-content">
     <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </div>
   {{- end }}
+
   {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">
     {{- partial "post_meta.html" . -}}
   </footer>
   {{- end }}
+
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
+
+{{- end }}
+
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
