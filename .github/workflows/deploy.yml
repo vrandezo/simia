@@ -44,6 +44,6 @@ jobs:
           SIMIA_HOST: ${{ secrets.SIMIA_HOST }}
           SIMIA_USER: ${{ secrets.SIMIA_USER }}
         run: |
-          rsync -az0 --delete \
+          rsync -azO --delete \
             -e "ssh -i $HOME/.ssh/simia_deploy -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o HostKeyalgorithms=ecdsa-sha2-nistp256" \
             public/ "$SIMIA_USER@$SIMIA_HOST:/var/www/simia/"
