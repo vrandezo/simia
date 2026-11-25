@@ -18,6 +18,8 @@ theme = 'PaperMod'
   ShowTags = true
   hideFooter = true
   ShowFullTextinRSS = true
+  ShowShareButtons = true
+  ShareButtons = ["mastodon", "twitter", "facebook", "linkedin", "reddit", "whatsapp", "telegram"]
 
   [params.homeInfoParams]
     Title = "Simia"
