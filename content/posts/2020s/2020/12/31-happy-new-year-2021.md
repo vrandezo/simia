@@ -8,6 +8,7 @@ aliases:
 tags:
   - Simia
   - english
+  - prediction 
   
 ---
 
