@@ -6,7 +6,9 @@ slug: "stanford-seminar-on-knowledge-graphs"
 aliases:
   - "/wiki/Stanford_seminar_on_Knowledge_Graphs"
 tags:
-  []
+  - english
+  - Simia
+  - Knowledge Graphs
 ---
 
 My friend Vinay Chaudhri is organising a seminar on Knowledge Graphs
