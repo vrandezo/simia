@@ -1,0 +1,49 @@
+name: Deploy Simia
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.119.0'
+          extended: true
+
+      - name: Build site
+        run: hugo --cleanDestinationDir
+
+      - name: Configure SSH
+        env:
+          SIMIA_SSH_PRIVATE_KEY: ${{ secrets.SIMIA_SSH_PRIVATE_KEY }}
+          SIMIA_SSH_KNOWN_HOSTS: ${{ secrets.SIMIA_SSH_KNOWN_HOSTS }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SIMIA_SSH_PRIVATE_KEY" > ~/.ssh/simia_deploy
+          chmod 600 ~/.ssh/simia_deploy
+          printf '%s\n' "$SIMIA_SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Deploy site
+        env:
+          SIMIA_HOST: ${{ secrets.SIMIA_HOST }}
+          SIMIA_USER: ${{ secrets.SIMIA_USER }}
+        run: |
+          rsync -az --delete \
+            -e "ssh -i $HOME/.ssh/simia_deploy -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes" \
+            public/ "$SIMIA_USER@$SIMIA_HOST:/var/www/simia/"
