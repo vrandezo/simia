@@ -8,6 +8,7 @@ aliases:
 tags:
   - Simia
   - AI
+  - English
 ---
 
 The last few days, the Website was going really slow again. And I was
