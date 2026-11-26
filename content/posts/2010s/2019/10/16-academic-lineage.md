@@ -13,7 +13,7 @@ tags:
 ---
 Sorry for showing off, but it is just too cool not to: a visualization of my academic lineage according to Wikidata.
 
-[![Academic lineage of Denny Vrandečić](/images/academiclineage.png)](/images/academiclineage.png)
+[![Academic lineage of Denny Vrandečić](/images/academic_lineage.png)](/images/academic_lineage.png)
 
 Can be interactively explored on the below link. And also, the person can be changed in the query.
 
