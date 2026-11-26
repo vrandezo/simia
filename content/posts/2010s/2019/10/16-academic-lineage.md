@@ -11,8 +11,10 @@ tags:
   - english
   - Wikidata
 ---
-Sorry for showing off, but it is just too cool not to: [here](http://simia.net/download/academic_lineage.png) is a visualization of my academic lineage according to Wikidata.
+Sorry for showing off, but it is just too cool not to: a visualization of my academic lineage according to Wikidata.
 
 ![](/images/academiclineage.png)
+
+Can be interactively explored on the below link. And also, the person can be changed in the query.
 
 Query: [w.wiki/AE8](https://w.wiki/AE8)
