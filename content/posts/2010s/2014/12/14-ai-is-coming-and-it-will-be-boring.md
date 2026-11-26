@@ -1,6 +1,6 @@
 ---
 title: "AI is coming, and it will be boring"
-date: 2014-14-12
+date: 2014-12-14
 language: "en"
 slug: "ai-is-coming-and-it-will-be-boring"
 aliases:
@@ -114,5 +114,3 @@ the end of humanity.
 *Published originally on
 [Medium](https://medium.com/@vrandezo/ai-is-coming-and-it-will-be-boring-94768de264c6)
 on December 14, 2014*
-
-
