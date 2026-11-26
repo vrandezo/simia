@@ -6,7 +6,9 @@ slug: "normbrunnenflasche"
 aliases:
   - "/wiki/Normbrunnenflasche"
 tags:
-  []
+  - Simia
+  - english
+  - fascinating
 ---
 
 It's a pity there's no English Wikipedia article about this marvellous
@@ -53,5 +55,3 @@ estimated quarter of a trillion fillings.
 
   - [Normbrunnenflasche on German
     Wikipedia](https://de.wikipedia.org/wiki/Normbrunnenflasche)
-
-

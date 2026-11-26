@@ -6,7 +6,10 @@ slug: "if-life-was-one-day"
 aliases:
   - "/wiki/If_life_was_one_day"
 tags:
-  []
+  - fascinating
+  - science
+  - Simia
+  - english
 ---
 
 If the evolution of animals was one day... (600 million years)
@@ -49,5 +52,3 @@ There are several things that surprised me here.
 Addendum April 27: Álvaro Ortiz, a graphic designer from Madrid, [turned
 this text into an
 infographic](https://populate.tools/blog/if-life-was-one-day).
-
-

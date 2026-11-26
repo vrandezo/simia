@@ -6,10 +6,13 @@ slug: "wired-wikipedia-is-the-last-best-place-on-the-internet"
 aliases:
   - "/wiki/Wired:_\"Wikipedia_is_the_last_best_place_on_the_Internet\""
 tags:
-  []
+  - linkpost
+  - Wikipedia
+  - English
+  - Simia
 ---
 
-WIRED published a beautiful ode to Wikipedia, painting the history of
+WIRED published [a beautiful ode to Wikipedia](https://www.wired.com/story/wikipedia-online-encyclopedia-best-place-internet/), painting the history of
 the movement with broad strokes, aiming to capture its impact and
 ambition with beautiful prose. It is a long piece, but I found the
 writing exciting.
@@ -41,5 +44,3 @@ in Wikidata have been created by humans. I don't know if that is correct
 
   - [Wired: Wikipedia is the last best place on the
     internet"](https://www.wired.com/story/wikipedia-online-encyclopedia-best-place-internet/)
-
-

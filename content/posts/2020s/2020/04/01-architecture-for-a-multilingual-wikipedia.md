@@ -6,7 +6,10 @@ slug: "architecture-for-a-multilingual-wikipedia"
 aliases:
   - "/wiki/Architecture_for_a_multilingual_Wikipedia"
 tags:
-  []
+  - Abstract Wikipedia
+  - Simia
+  - english
+  - paper
 ---
 
 I published a paper today:
@@ -46,5 +49,3 @@ share in the sum of all knowledge.
 
   - [Architecture for a multilingual
     Wikipedia](http://simia.net/download/multilingualwikipedia.pdf)
-
-

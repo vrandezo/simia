@@ -6,10 +6,13 @@ slug: "fun-in-coding"
 aliases:
   - "/wiki/Fun_in_coding"
 tags:
-  []
+  - coding
+  - Simia
+  - english
+  - linkpost
 ---
 
-This article really was grinding my gears today. Coding is not fun, it
+[This article](https://aeon.co/ideas/coding-is-not-fun-it-s-technically-and-ethically-complex) really was grinding my gears today. Coding is not fun, it
 claims, and everyone who says otherwise is lying for evil reasons, like
 luring more people into programming.
 
@@ -73,5 +76,3 @@ Sorry for my Saturday morning rant.
 
   - [Walter Vannini: Coding is not
     fun](https://aeon.co/ideas/coding-is-not-fun-it-s-technically-and-ethically-complex)
-
-
