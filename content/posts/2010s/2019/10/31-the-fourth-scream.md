@@ -8,6 +8,8 @@ aliases:
   - "/wiki/The_Fourth_Scream"
 tags:
   - Short story
+  - Simia
+  - english
 ---
 
 Janie loved her research. It was at the intersection of so many

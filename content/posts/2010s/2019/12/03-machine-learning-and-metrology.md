@@ -6,7 +6,9 @@ slug: "machine-learning-and-metrology"
 aliases:
   - "/wiki/Machine_Learning_and_Metrology"
 tags:
-  []
+  - AI
+  - Simia
+  - english
 ---
 
 There are many, many papers in machine learning these days. And this
@@ -27,5 +29,3 @@ Paritosh](https://ai.google/research/people/PraveenParitosh).
 
   - [Metrology for AI: From Benchmarks to
     Instruments](https://www.arxiv-vanity.com/papers/1911.01875/)
-
-

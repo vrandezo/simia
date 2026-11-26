@@ -6,7 +6,10 @@ slug: "on-the-competence-of-conspiracists"
 aliases:
   - "/wiki/On_the_competence_of_conspiracists"
 tags:
-  []
+  - quote
+  - fascinating
+  - Simia
+  - english
 ---
 
 “Look, I’ll be honest, if living in the US for the last five years has
@@ -18,5 +21,3 @@ some investigative reporter, it would have been because one of the
 lizards forgot to put on their human suit on day and accidentally went
 out to shop for a pint of milk and like, got caught in a tik-tok video.”
 -- Os Keyes, WikidataCon, Keynote "Questioning Wikidata"
-
-

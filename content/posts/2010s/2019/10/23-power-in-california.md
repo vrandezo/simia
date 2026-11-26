@@ -6,7 +6,9 @@ slug: "power-in-california"
 aliases:
   - "/wiki/Power_in_California"
 tags:
-  []
+  - Simia
+  - english
+  - USA
 ---
 
 It is wonderful to live in the Bay Area, where the future is being
@@ -42,5 +44,3 @@ appreciate it.
 
   - [NPR on the
     blackouts](https://www.npr.org/2019/10/18/771486828/california-can-expect-blackouts-for-a-decade-says-pg-e-ceo)
-
-

@@ -6,7 +6,9 @@ slug: "a-new-decade"
 aliases:
   - "/wiki/A_new_decade?"
 tags:
-  []
+  - Simia
+  - ontology
+  - english
 ---
 
 The job of an ontologist is to define concepts. And since I see some
@@ -38,5 +40,3 @@ According to this method, tonight marks a new decade.
 So whether you are celebrating a new year tonight or not (because there
 are many other calendars out there too), or a new decade or not, I wish
 you wonderful 2020s\!
-
-<noinclude>

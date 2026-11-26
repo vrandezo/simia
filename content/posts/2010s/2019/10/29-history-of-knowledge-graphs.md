@@ -6,7 +6,10 @@ slug: "history-of-knowledge-graphs"
 aliases:
   - "/wiki/History_of_knowledge_graphs"
 tags:
-  []
+  - linkpost
+  - Simia
+  - english
+  - knowledge graph
 ---
 
 An overview on the history of ideas leading to knowledge graphs, with
@@ -15,5 +18,3 @@ background of the field, and probably the best current such overview.
 
   - [History of knowledge
     graphs](http://knowledgegraph.today/paper.html)
-
-

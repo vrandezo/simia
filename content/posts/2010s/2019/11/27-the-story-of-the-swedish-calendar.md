@@ -3,10 +3,14 @@ title: "The story of the Swedish calendar"
 date: 2019-11-27
 language: "en"
 slug: "the-story-of-the-swedish-calendar"
+summary: "English, true story of how the Swedish calendar went from Julian to Gregorian"
 aliases:
   - "/wiki/The_story_of_the_Swedish_calendar"
 tags:
-  []
+  - fascinating
+  - Short story
+  - Simia
+  - english
 ---
 
 Most of us are mostly aware how the calendar works. There’s twelve
@@ -160,5 +164,3 @@ complications we encountered, and the ones we missed, etc. One section
 in this book is planned to be about calendar models. This is an early,
 self-contained draft of part of that section. Feedback and corrections
 are very welcome.*
-
-

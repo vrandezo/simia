@@ -6,7 +6,10 @@ slug: "frozen-ii-in-korea"
 aliases:
   - "/wiki/Frozen_II_in_Korea"
 tags:
-  []
+  - fascinating
+  - movie
+  - Simia
+  - english
 ---
 
 This is a fascinating story, that just keeps getting better (and
@@ -76,5 +79,3 @@ this lawsuit. Let me know if anyone knows of such a system\!)
 
   - [Hollywood
     Reporter](https://www.hollywoodreporter.com/news/disney-hit-anti-trust-complaint-south-korea-frozen-2-monopoly-1258631)
-
-

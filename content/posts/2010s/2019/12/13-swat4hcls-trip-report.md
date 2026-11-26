@@ -6,7 +6,11 @@ slug: "swat4hcls-trip-report"
 aliases:
   - "/wiki/SWAT4HCLS_trip_report"
 tags:
-  []
+  - Simia
+  - english
+  - trip report
+  - presentation
+  - Semantic Web
 ---
 
 This week saw the 12th [SWAT4HCLS](http://www.swat4ls.org/) event in
@@ -58,5 +62,3 @@ Other trip reports (send me more if you have them):
 
   - [Roderic
     Page](https://iphylo.blogspot.com/2019/12/the-semantic-web-revisited.html)
-
-

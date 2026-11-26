@@ -6,7 +6,10 @@ slug: "academic-lineage"
 aliases:
   - "/wiki/Academic_lineage"
 tags:
-  []
+  - Simia
+  - Denny
+  - english
+  - Wikidata
 ---
 
 Sorry for showing off, but it is just too cool not to:
@@ -14,5 +17,3 @@ Sorry for showing off, but it is just too cool not to:
 visualization of my academic lineage according to Wikidata.
 
 Query: [w.wiki/AE8](http://w.wiki/AE8)
-
-
