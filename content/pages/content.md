@@ -24,17 +24,9 @@ This page provides an (incomplete) overview of the content on Simia.
 
   - [nutkidz on English](https://nutkidz.net/en/index.html)
   - [nutkidz auf Deutsch](https://nutkidz.net/de/index.html)
-  - [Something\*Positive on German](/sp)
-
-A webcomic by R. K. Milholland.
-
-Ralf Baumgartner and Denny Vrandečić translated the first 83 comics back
-in 2005 and 2006. The German translation is available on
-[Simia](Simia "wikilink").
-
-  - Something Positive
-  - [German translation](http://simia.net/sp)
-
+  - [Something\*Positive on German](/sp), a webcomic by R. K. Milholland,
+    which Ralf Baumgartner and Denny Vrandečić translated the
+    first 83 comics back in 2005 and 2006.
 
 ### Different subsites
 
