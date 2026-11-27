@@ -26,14 +26,14 @@ effectively turn MediaWiki into a fancy static site generator), CPU
 utilization first went down to 30-40%, just to crawl back to 100% within a
 few months.
 
-[![CPU utilization 2024-2026](/images/cpu-load-2426.png)](/images/cpu-load-2426.png)
+![CPU utilization 2024-2026](/images/cpu-load-2426.png)
 
 So, this week I pulled the plug, and migrated all the content from being
 stored in Semantic MediaWiki to just a static Website using Hugo.
 You can read more about how this works on the [technology page](/pages/technology).
 So far, the results look promising.
 
-[![CPU utilization end of November](/images/cpu-to-static-2026.png)](/images/cpu-to-static-2026.png)
+![CPU utilization end of November](/images/cpu-to-static-2026.png)
 
 I hope this isn't understood as a challenge to the AI bots to try their worst.
 I am getting quite tired of how difficult it is getting to just run a Website.
@@ -45,6 +45,8 @@ are very nicely solved today with tools like
 and even
 [Git](https://en.wikipedia.org/wiki/Git).
 
-To make it very clear, this is not meant as a critique of MediaWiki or
-Semantic MediaWiki. I am super happy about the capabilities I had with SMW,
+To make it very clear, this is not meant as a critique of MediaWiki or  
+Semantic MediaWiki. I am super happy about the capabilities I had with SMW,  
 and I very sorry to loose all these magical features. *sigh*
+
+P.S.: Dan Connolly has a great [blog post about the dancers of bullish AI scraping](https://www.madmode.com/2026/crawler-conduct-choice), the reason why I had to do these changes
