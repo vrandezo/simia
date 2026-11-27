@@ -6,7 +6,10 @@ slug: "sve-jo-miri-e-na-nju"
 aliases:
   - "/wiki/Sve_još_miriše_na_nju"
 tags:
-  []
+  - Simia
+  - english
+  - Deutsch
+  - music
 ---
 
 The following are the lyrics to one of my favorite songs, performed by
@@ -20,140 +23,93 @@ singer is doing.
 
 (Croatian original)
 
-  -   
-    **Sve još miriše na nju**
+**Sve još miriše na nju**
 
-<!-- end list -->
+*Ne pitaj me noćas ništa, pusti me da šutim* <br>
+*Ja noćas trebam mir* <br>
+*Stare rane opet peku, moje bitke dalje teku, dušo* <br>
+*Ti nemaš ništa s tim*
 
-  -   
-    Ne pitaj me noćas ništa, pusti me da šutim
-    Ja noćas trebam mir
-    Stare rane opet peku, moje bitke dalje teku, dušo
-    Ti nemaš ništa s tim
+*Sa tvojeg izvora moja se duša napila* <br>
+*Žedna tvojih godina* <br>
+*I sada mamurna pita gdje je utjeha* <br>
+*Gdje je mladost nestala*
 
-<!-- end list -->
+*Idu dani, ja ih pratim, ponekad do tebe svratim* <br>
+*Dušo tražim zaborav* <br>
+*Molim sate da se vrate, tragovima njenim hodam* <br>
+*Tiho kao da je tu*
 
-  -   
-    Sa tvojeg izvora moja se duša napila
-    Žedna tvojih godina
-    I sada mamurna pita gdje je utjeha
-    Gdje je mladost nestala
+*Sve još miriše na nju, i dan, i jutro što će doći* <br>
+*Nakon ove noći, noći bez sna* <br>
+*I dvjesto godina da ih brojim u samoći* <br>
+*Otkako je otišla.*
 
-<!-- end list -->
-
-  -   
-    Idu dani, ja ih pratim, ponekad do tebe svratim
-    Dušo tražim zaborav
-    Molim sate da se vrate, tragovima njenim hodam
-    Tiho kao da je tu
-
-<!-- end list -->
-
-  -   
-    Sve još miriše na nju, i dan, i jutro što će doći
-    Nakon ove noći, noći bez sna
-    I dvjesto godina da ih brojim u samoći
-    Otkako je otišla.
-
-<!-- end list -->
-
-  -   
-    U mojim venama još je njenog otrova
-    Još je doza prejaka
-    A tebe ljubim, da ne poludim
-    Da zaboravim
+*U mojim venama još je njenog otrova* <br>
+*Još je doza prejaka* <br>
+*A tebe ljubim, da ne poludim* <br>
+*Da zaboravim*
 
 (English translation)
 
-  -   
-    **Everything smells like her**
+**Everything smells like her**
 
-<!-- end list -->
+*Do not ask me any questions tonight, please let me remain silent* <br>
+*Tonight I just need some (peace/rest)* <br>
+*The old wounds burn again, my battles continue, dear,* <br>
+*But you don't have anything to do with it*
 
-  -   
-    Do not ask me any questions tonight, please let me remain silent
-    Tonight I just need some (peace/rest)
-    The old wounds burn again, my battles continue, dear,
-    But you don't have anything to do with it
+*My soul has drunk at your sour source,* <br>
+*Thirsty for your years* <br>
+*And now it asks tired, where the consolation has gone* <br>
+*Where the youth has disappeared*
 
-<!-- end list -->
+*The days pass, I follow them, sometimes I come to you* <br>
+*Dear, I search for oblivion* <br>
+*I ask the hours to return, follow (them/her) in (their/her) steps* <br>
+*Quietly, as if she's there*
 
-  -   
-    My soul has drunk at your sour source,
-    Thirsty for your years
-    And now it asks tired, where the consolation has gone
-    Where the youth has disappeared
+*Everything smells like her, the day, the morning that is coming* <br>
+*After this night, this dreamless night* <br>
+*And I counted two hundred years in solitude* <br>
+*Since she is gone*
 
-<!-- end list -->
-
-  -   
-    The days pass, I follow them, sometimes I come to you
-    Dear, I search for oblivion
-    I ask the hours to return, follow (them/her) in (their/her) steps
-    Quietly, as if she's there
-
-<!-- end list -->
-
-  -   
-    Everything smells like her, the day, the morning that is coming
-    After this night, this dreamless night
-    Eve I counted two hundred years in solitude
-    Since she is gone
-
-<!-- end list -->
-
-  -   
-    Her poison still flows through my veins
-    The dose is still too strong
-    I make love to you
-    So I don't go crazy
-    So I forget
+*Her poison still flows through my veins* <br>
+*The dose is still too strong* <br>
+*I make love to you* <br>
+*So I don't go crazy* <br>
+*So I forget*
 
 (Deutsche Übersetzung)
 
-  -   
-    **Alles riecht nach ihr**
 
-<!-- end list -->
+**Alles riecht nach ihr**
 
-  -   
-    Stell mir heute nacht keine Fragen, lass mich schweigen
-    Heute Nacht brauche ich (Frieden/Ruhe)
-    Die alten Wunden brennen wieder, meine Schlachten gehen weiter,
-    Schatz,
-    Du hast damit nichts zu tun
+*Stell mir heute nacht keine Fragen, lass mich schweigen* <br>
+*Heute Nacht brauche ich (Frieden/Ruhe)* <br>
+*Die alten Wunden brennen wieder, meine Schlachten gehen weiter,* <br>
+*Schatz,* <br>
+*Du hast damit nichts zu tun*
 
-<!-- end list -->
+*An deiner Quelle hat meine Seele sich erfrischt,* <br>
+*Durstig nach deinen Jahren* <br>
+*Und jetzt fragt sie müde, wo der Trost geblieben ist,* <br>
+*wohin die Jugend verschwunden ist*
 
-  -   
-    An deiner Quelle hat meine Seele sich erfrischt,
-    Durstig nach deinen Jahren
-    Und jetzt fragt sie müde, wo der Trost geblieben ist,
-    wohin die Jugend verschwunden ist
+*Die Tage gehen vorbei, ich folge ihnen, komme hin und wieder zu Dir* <br>
+*Schatz, ich suche das Vergessen* <br>
+*Ich bitte die Stunden, zurückzukommen, wandere in ihren Spuren* <br>
+*Leise, als wäre sie da*
 
-<!-- end list -->
+*Alles riecht nach ihr, der Tag, und der Morgen der kommen wird* <br>
+*Nach dieser Nacht, dieser traumlosen Nacht* <br>
+*Und selbst wenn ich zweihundert Jahren in Einsamkeit zählte* <br>
+*Seitdem sie weg ist*
 
-  -   
-    Die Tage gehen vorbei, ich folge ihnen, komme hin und wieder zu Dir
-    Schatz, ich suche das Vergessen
-    Ich bitte die Stunden, zurückzukommen, wandere in ihren Spuren
-    Leise, als wäre sie da
-
-<!-- end list -->
-
-  -   
-    Alles riecht nach ihr, der Tag, und der Morgen der kommen wird
-    Nach dieser Nacht, dieser traumlosen Nacht
-    Und selbst wenn ich zweihundert Jahren in Einsamkeit zählte
-    Seitdem sie weg ist
-
-<!-- end list -->
-
-  -   
-    In meinen Venen fließt noch ihr Gift
-    Noch ist die Dosis zu stark
-    Und mit dir mache ich Liebe
-    Um nicht wahnsinnig zu werden
-    Um zu vergessen
+*In meinen Venen fließt noch ihr Gift* <br>
+*Noch ist die Dosis zu stark* <br>
+*Und mit dir mache ich Liebe* <br>
+*Um nicht wahnsinnig zu werden* <br>
+*Um zu vergessen*
 
 Comments on the translations are welcome.

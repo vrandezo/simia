@@ -6,7 +6,11 @@ slug: "goedel-and-physics"
 aliases:
   - "/wiki/Gödel_and_physics"
 tags:
-  []
+  - Simia
+  - english
+  - linkpost
+  - science
+  - math
 ---
 
 "A logical paradox at the heart of mathematics and computer science
@@ -40,4 +44,3 @@ unanswerable](http://www.nature.com/news/paradox-at-the-heart-of-mathematics-mak
 [Phys.org: Quantum physics problem proved unsolvable: Godel and Turing
 enter quantum
 physics](http://phys.org/news/2015-12-quantum-physics-problem-unsolvable-godel.html)
-

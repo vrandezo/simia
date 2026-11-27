@@ -7,7 +7,10 @@ aliases:
   - "/wiki/AI_is_coming,_and_it_will_be_boring"
   - "/wiki/Boring_AI"
 tags:
-  []
+  - Medium
+  - english
+  - AI
+  - prediction
 ---
 
 *I was asked about my opinion on this topic, and I thought I would have

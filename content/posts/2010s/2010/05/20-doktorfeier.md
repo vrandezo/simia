@@ -6,7 +6,9 @@ slug: "doktorfeier"
 aliases:
   - "/wiki/Doktorfeier"
 tags:
-  []
+  - Studium
+  - english
+  - Denny
 ---
 
 [English](#English "wikilink") - [Deutsch](#Deutsch "wikilink")

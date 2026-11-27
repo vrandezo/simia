@@ -6,7 +6,11 @@ slug: "stars-in-our-eyes"
 aliases:
   - "/wiki/Stars_in_our_eyes"
 tags:
-  []
+  - anecdote
+  - funny
+  - short story
+  - Simia
+  - english
 ---
 
 I grew up in a suburban, almost rural area in southern Germany, and I
@@ -21,5 +25,3 @@ confined it to my memory only.
 
 Until in my late twenties I finally accepted and got glasses. Now the
 stars are back, as beautiful and brilliant as they have ever been.
-
-

@@ -6,7 +6,11 @@ slug: "free-data"
 aliases:
   - "/wiki/Free_data"
 tags:
-  []
+  - Simia
+  - english
+  - data
+  - legal
+  - licensing
 ---
 
 tl;dr - If you publish data, attach the CC0 license to it, but that’s

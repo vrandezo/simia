@@ -1,12 +1,14 @@
 ---
 title: "Wenn ich wollte"
-date: 2011-09-18
+date: 2011-09-17
 language: "de"
 slug: "wenn-ich-wollte"
 aliases:
   - "/wiki/Wenn_ich_wollte"
 tags:
-  - "Poem"
+  - poem
+  - Deutsch
+  - Simia
 ---
 
 Wenn ich wollte wie ich wollte  

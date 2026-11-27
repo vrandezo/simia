@@ -2,11 +2,17 @@
 title: "My first encyclopedia"
 date: 2015-05-24
 language: "en"
+summary: "German, biographic. About my first encyclopedia."
 slug: "my-first-encyclopedia"
 aliases:
   - "/wiki/My_first_encyclopedia"
 tags:
-  []
+  - Medium
+  - english
+  - encyclopedia
+  - knowledge
+  - short story
+  - Denny
 ---
 
 One of my favorite books as a kid was “[Knaurs Jugend

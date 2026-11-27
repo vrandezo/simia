@@ -6,19 +6,17 @@ slug: "liebe-vodafone"
 aliases:
   - "/wiki/Liebe_Vodafone"
 tags:
-  []
+  - Simia
+  - deutsch
 ---
 
--
-
-      -   
-        **UPDATE**: *Heute (am 29. Juli) rief mich Vodafone an. Sie
-        hatten die Sachlage geprüft, und ich werde wie anfangs geplant
-        aus dem Vertrag entlassen. Außerdem prüfen sie die technischen
-        Schwierigkeiten beim Erreichen meiner Frau. Das beides freut
-        mich sehr, und sollte ich wieder in Deutschland ein Telefon
-        brauchen, werde ich ohne zu zögern wieder zu Vodafone gehen.
-        Prima\!*
+**UPDATE**: *Heute (am 29. Juli) rief mich Vodafone an. Sie
+hatten die Sachlage geprüft, und ich werde wie anfangs geplant
+aus dem Vertrag entlassen. Außerdem prüfen sie die technischen
+Schwierigkeiten beim Erreichen meiner Frau. Das beides freut
+mich sehr, und sollte ich wieder in Deutschland ein Telefon
+brauchen, werde ich ohne zu zögern wieder zu Vodafone gehen.
+Prima\!*
 
 Liebe Vodafone,
 
@@ -122,15 +120,12 @@ ziehen, und mir nicht über Dich mehr Gedanken machen zu müssen.
 
 Ist das irgendwie möglich?
 
-Mit sommerlichen Grüßen, Denny Vrandecic
+Mit sommerlichen Grüßen, Denny Vrandečić
 
-  -
-
-      -   
-        **UPDATE**: *Heute (am 29. Juli) rief mich Vodafone an. Sie
-        hatten die Sachlage geprüft, und ich werde wie anfangs geplant
-        aus dem Vertrag entlassen. Außerdem prüfen sie die technischen
-        Schwierigkeiten beim Erreichen meiner Frau. Das beides freut
-        mich sehr, und sollte ich wieder in Deutschland ein Telefon
-        brauchen, werde ich ohne zu zögern wieder zu Vodafone gehen.
-        Prima\!*
+**UPDATE**: *Heute (am 29. Juli) rief mich Vodafone an. Sie
+hatten die Sachlage geprüft, und ich werde wie anfangs geplant
+aus dem Vertrag entlassen. Außerdem prüfen sie die technischen
+Schwierigkeiten beim Erreichen meiner Frau. Das beides freut
+mich sehr, und sollte ich wieder in Deutschland ein Telefon
+brauchen, werde ich ohne zu zögern wieder zu Vodafone gehen.
+Prima\!*

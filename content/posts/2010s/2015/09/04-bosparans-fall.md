@@ -9,7 +9,7 @@ aliases:
 tags:
   - Medium
   - Deutsch
-  - Short story
+  - short story
 ---
 
 ***Ein Mann gegen das Imperium. Eine Frau gegen die Götter.***

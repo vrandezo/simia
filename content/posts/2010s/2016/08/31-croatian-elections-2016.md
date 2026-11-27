@@ -6,7 +6,10 @@ slug: "croatian-elections-2016"
 aliases:
   - "/wiki/Croatian_Elections_2016"
 tags:
-  []
+  - Simia
+  - english
+  - Croatia
+  - politics
 ---
 
 Croatian elections are upcoming.
@@ -37,5 +40,3 @@ Parliament that represent us.
 
 I don't really feel like the parliament wants us to vote. Making the
 vote mean so little and making it so hard to vote.
-
-

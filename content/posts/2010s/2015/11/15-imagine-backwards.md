@@ -8,6 +8,7 @@ aliases:
 tags:
   - Medium
   - english
+  - music
 ---
 
 John Lennon was wrong.

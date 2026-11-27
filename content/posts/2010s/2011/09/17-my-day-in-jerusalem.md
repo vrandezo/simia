@@ -1,12 +1,15 @@
 ---
 title: "My day in Jerusalem"
-date: 2011-09-18
+date: 2011-09-17
 language: "en"
 slug: "my-day-in-jerusalem"
 aliases:
   - "/wiki/My_day_in_Jerusalem"
 tags:
-  - "Story"
+  - short story
+  - English
+  - trip report
+  - Medium
 ---
 
 My trip to Jerusalem went, for reasons only an economist will

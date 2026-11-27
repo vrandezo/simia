@@ -6,7 +6,9 @@ slug: "start-the-website-again"
 aliases:
   - "/wiki/Start_the_website_again"
 tags:
-  []
+  - Simia
+  - english
+  - internal
 ---
 
 This is no blog anymore. I haven't had entries for years, and even
@@ -25,6 +27,6 @@ I'll still be around (I hope), but they might not...
 
 Let's see what will happen here. For now, I republished the retelling of
 a day as a story I first published on Google+ (*[My day in
-Jerusalem](My_day_in_Jerusalem "wikilink")*) and a poem that feels
-eerily relevant whenever I think about it (*[Wenn ich
-wollte](Wenn_ich_wollte "wikilink")*)  
+Jerusalem](/posts/my_day_in_jerusalem)*) and a poem that feels
+eerily relevant whenever I think about it (*Wenn ich
+wollte](/posts/wenn-ich-wollte)*)  
