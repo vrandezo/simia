@@ -6,7 +6,10 @@ slug: "wikidatan-in-residence-at-google"
 aliases:
   - "/wiki/Wikidatan_in_residence_at_Google"
 tags:
-  []
+  - Denny
+  - Wikidata
+  - Simia
+  - english
 ---
 
 Over the last few years, more and more research teams all around the
@@ -35,5 +38,3 @@ Expect to see more from me again - there are already a number of fun
 ideas in the pipeline, and I am looking forward to see them get out of
 the gates\! I am looking forward to hearing your ideas and suggestions,
 and to continue contributing to the Wikimedia goals.
-
-

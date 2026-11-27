@@ -6,7 +6,9 @@ slug: "saturn-the-alligator"
 aliases:
   - "/wiki/Saturn_the_alligator"
 tags:
-  []
+  - fascinating
+  - Simia
+  - english
 ---
 
 Today at work I learned about Saturn the alligator. Born to humble
@@ -30,5 +32,3 @@ figure out good candidates for the property you are looking for.
   - [Saturn on English
     Wikipedia](https://en.wikipedia.org/wiki/Saturn_\(alligator\))
   - [Saturn on Wikidata](https://www.wikidata.org/wiki/Q30600555)
-
-

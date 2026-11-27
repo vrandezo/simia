@@ -6,7 +6,12 @@ slug: "illuminati-and-wikibase"
 aliases:
   - "/wiki/Illuminati_and_Wikibase"
 tags:
-  []
+  - Wikidata
+  - knowledge graph
+  - history
+  - mystery
+  - Simia
+  - english
 ---
 
 When I was a teenager I was far too much fascinated by the
@@ -62,5 +67,3 @@ heading this project, and for this write up of their current state.
 
 It's amusing to see things go round and round and realize that, indeed,
 everything is connected.
-
-

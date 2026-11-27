@@ -7,7 +7,10 @@ summary: "English, Sci-fi when it came out: An AI helps with football"
 aliases:
   - "/wiki/Deep_kick"
 tags:
-  - "Short story"
+  - short story
+  - english
+  - Medium
+  - AI
 ---
 
 Mark Stoneward accepted the invitation immediately. Then it took two

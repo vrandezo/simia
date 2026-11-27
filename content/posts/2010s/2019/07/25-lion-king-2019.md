@@ -6,7 +6,10 @@ slug: "lion-king-2019"
 aliases:
   - "/wiki/Lion_King_2019"
 tags:
-  []
+  - Simia
+  - english
+  - movie
+  - review
 ---
 
 Wow. The new version of the Lion King is technically brilliant, and
@@ -120,5 +123,3 @@ pays off for the amazing imagery that really shines on a large canvas. I
 also love the original, and the original will always have a special
 place in my heart, but this is a wonderful tribute to a brilliant movie
 with an exceptional story.
-
-

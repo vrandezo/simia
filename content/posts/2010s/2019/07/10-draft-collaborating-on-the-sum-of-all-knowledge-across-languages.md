@@ -6,7 +6,11 @@ slug: "draft-collaborating-on-the-sum-of-all-knowledge-across-languages"
 aliases:
   - "/wiki/Draft:_Collaborating_on_the_sum_of_all_knowledge_across_languages"
 tags:
-  []
+  - Simia
+  - english
+  - paper
+  - Wikipedia
+  - Abstract Wikipedia
 ---
 
 For the upcoming [Wikipedia@20
@@ -557,5 +561,3 @@ Orlowitz.
     the 25th International World-Wide Web Conference (WWW 2016), edited
     by Jaqueline Bourdeau, Jim Hendler, Roger Nkambou, Ian Horrocks, and
     Ben Y. Zhao. Montréal: IW3C2, 2016: 975-985.
-
-

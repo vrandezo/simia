@@ -6,7 +6,11 @@ slug: "in-the-beginning"
 aliases:
   - "/wiki/In_the_beginning"
 tags:
-  []
+  - short story
+  - Simia
+  - english
+  - microfiction
+  - funny
 ---
 
 "Let there be a planet with a hothouse effect, so that they can see what
@@ -18,5 +22,3 @@ happens, as a warning."
 intelligent after all."
 
 "If you say so."
-
-

@@ -6,7 +6,11 @@ slug: "bring-me-to-your-leader"
 aliases:
   - "/wiki/Bring_me_to_your_leader!"
 tags:
-  []
+  - funny
+  - short story
+  - english
+  - Simia
+  - microfiction
 ---
 
 "Bring me to your leader\!", the explorer demanded.
@@ -18,5 +22,3 @@ consternation.
 
 "Oh yeah, we have one like that, but why would you want to talk to him?
 He's unbearable."
-
-
