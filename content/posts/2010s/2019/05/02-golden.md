@@ -6,7 +6,11 @@ slug: "golden"
 aliases:
   - "/wiki/Golden"
 tags:
-  []
+  - Simia
+  - english
+  - prediction
+  - linkpost
+  - Wikipedia
 ---
 
 I'd say that Golden might be the most interesting competitor to
@@ -45,5 +49,3 @@ Predictions:
   - [Introducing Golden blog
     post](https://golden.com/blog/introducing-golden/)
   - [Golden](https://golden.com/)
-
-

@@ -6,12 +6,16 @@ slug: "web-conference-2019"
 aliases:
   - "/wiki/Web_Conference_2019"
 tags:
-  []
+  - Simia
+  - english
+  - presentation
+  - trip report
+  - Web
 ---
 
 Last week saw the latest incarnation of [the Web
 Conference](https://www2019.thewebconf.org/) (previously known as WWW or
-dubdubdub), going from May 15 to 17 (with satellite events the two days
+*dubdubdub*), going from May 15 to 17 (with satellite events the two days
 before). When I was still in academia, WWW was one of the most
 prestigious conference series for my research area, so when it came to
 be held literally across the street from my office, I couldn’t resist
@@ -79,5 +83,3 @@ If you have trip reports, let me know and I will link to them.
 
   - [Trip report by Manoel Horta
     Ribeiro](https://manoelhortaribeiro.github.io/posts/2019/05/the-web-conf-2019)
-
-

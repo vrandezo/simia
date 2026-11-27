@@ -6,7 +6,11 @@ slug: "emwcon-2019-day-1"
 aliases:
   - "/wiki/EMWCon_2019,_Day_1"
 tags:
-  []
+  - trip report
+  - presentation
+  - Semantic MediaWiki
+  - Simia
+  - english
 ---
 
 Today was the first day of the Enterprise MediaWiki Conference, EMWCon,
@@ -78,5 +82,3 @@ presentations are available on
 [YouTube](https://www.youtube.com/channel/UCZavo6makpqtRhlFxJkn6HA).
 
   - [EMWCon website](https://www.mediawiki.org/wiki/EMWCon_Spring_2019)
-
-

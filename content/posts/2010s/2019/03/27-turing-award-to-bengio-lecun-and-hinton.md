@@ -6,7 +6,10 @@ slug: "turing-award-to-bengio-lecun-and-hinton"
 aliases:
   - "/wiki/Turing_Award_to_Bengio,_LeCun,_and_Hinton"
 tags:
-  []
+  - computer science
+  - AI
+  - Simia
+  - english
 ---
 
 Congratulations to Yoshua Bengio, Yann LeCun, and Geoffrey Hinton on
@@ -20,5 +23,3 @@ deemed unpromising, and has suddenly swept through whole industries and
 reshaped them.
 
   - [ACM Turing Award 2018](https://awards.acm.org/about/2018-turing)
-
-

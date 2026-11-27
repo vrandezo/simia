@@ -6,7 +6,10 @@ slug: "toy-story-4"
 aliases:
   - "/wiki/Toy_Story_4"
 tags:
-  []
+  - movie
+  - review
+  - Simia
+  - english
 ---
 
 Toy Story 4 was great fun\!
@@ -29,5 +32,3 @@ Rickles from archive footage after his death, and everyone else) many
 new voices (Betty White, Mel Brooks, Christina Hendricks, Keanu Reeves,
 Bill Hader, Tony Hale, Key and Peele, and Flea from the Red Hot Chili
 Peppers).
-
-

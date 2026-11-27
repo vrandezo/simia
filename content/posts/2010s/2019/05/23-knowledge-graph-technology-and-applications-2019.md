@@ -6,7 +6,11 @@ slug: "knowledge-graph-technology-and-applications-2019"
 aliases:
   - "/wiki/Knowledge_Graph_Technology_and_Applications_2019"
 tags:
-  []
+- Simia
+- english
+- knowledge graph
+- Denny
+- trip report
 ---
 
 Last week, on May 13, the [Knowledge Graph Technology and Applications
@@ -64,5 +68,3 @@ knowledge graph, not about their realized knowledge graph. [Thanks to
 Joshua Shivanier for the
 correction](https://twitter.com/joshsh/status/1131782749147152384)\!
 Also added a paragraph on common sense.
-
-

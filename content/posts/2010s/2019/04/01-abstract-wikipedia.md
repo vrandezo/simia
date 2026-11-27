@@ -6,7 +6,10 @@ slug: "abstract-wikipedia"
 aliases:
   - "/wiki/Abstract_Wikipedia"
 tags:
-  []
+  - paper
+  - Abstract Wikipedia
+  - Simia
+  - english
 ---
 
 See

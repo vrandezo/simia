@@ -6,7 +6,10 @@ slug: "shazam"
 aliases:
   - "/wiki/Shazam!"
 tags:
-  []
+  - movie
+  - review
+  - english
+  - Simia
 ---
 
 Shazam\! was fun. And had more heart than many other superhero stories.
@@ -45,5 +48,3 @@ everybody refers to him as Superman as if it was obvious all the time).
 
 All in all, an enjoyable movie while waiting for Avengers: Endgame, and
 hopefully a sign that DC is finally getting on the right path.
-
-

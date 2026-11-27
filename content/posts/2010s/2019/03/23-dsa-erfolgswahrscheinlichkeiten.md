@@ -6,7 +6,9 @@ slug: "dsa-erfolgswahrscheinlichkeiten"
 aliases:
   - "/wiki/DSA_Erfolgswahrscheinlichkeiten"
 tags:
-  []
+  - Simia
+  - Deutsch
+  - Das Schwarze Auge
 ---
 
 Ich fand es immer spannend, auszurechnen, wie hoch die
@@ -35,5 +37,3 @@ und eine DSA5 App:
     Talentproben](http://dsa5.mueller-kalthoff.com/)
   - [Android App für DSA5
     Wahrscheinlichkeiten](https://play.google.com/store/apps/details?id=de.outx.dsa5calculator)
-
-

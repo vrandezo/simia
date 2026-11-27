@@ -6,7 +6,9 @@ slug: "wikipedia-demonstriert"
 aliases:
   - "/wiki/Wikipedia_demonstriert"
 tags:
-  []
+  - Simia
+  - Deutsch
+  - Wikipedia
 ---
 
 Eine Reihe von Wikipedien (Deutsch, Dänisch, Estnisch, Tschechisch)
@@ -15,5 +17,3 @@ verhindern. Ich bin stolz auf die Freiwilligen der Wikipedien, die das
 organisiert bekommen haben.
 
   - [Deutsche Wikipedia](https://de.wikipedia.org)
-
-

@@ -6,7 +6,12 @@ slug: "emwcon-spring-2019"
 aliases:
   - "/wiki/EMWCon_Spring_2019"
 tags:
-  []
+  - Simia
+  - english
+  - presentation
+  - Semantic MediaWiki
+  - Wikidata
+  - Abstract Wikipedia
 ---
 
 I'm honored to be invited to keynote the Enterprise MediaWiki conference
@@ -18,5 +23,3 @@ for everyone interested.
 
   - [EMWCon 2019
     Spring](https://www.mediawiki.org/wiki/EMWCon_Spring_2019)
-
-

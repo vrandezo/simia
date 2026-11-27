@@ -6,7 +6,10 @@ slug: "the-end-of-civilization"
 aliases:
   - "/wiki/The_end_of_civilization?"
 tags:
-  []
+  - linkpost
+  - prediction
+  - Simia
+  - english
 ---
 
 This might be controversial with some of my friends, but no, there is no
@@ -66,4 +69,3 @@ possibly billions becoming displaced.
 [IFLScience: New Report Warns "High Likelihood Of Human Civilization
 Coming To An End" Within 30
 Years](https://www.iflscience.com/environment/new-report-warns-high-likelihood-of-human-civilization-coming-to-an-end-within-30-years/)
-

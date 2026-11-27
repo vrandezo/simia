@@ -6,7 +6,12 @@ slug: "knowledge-graph-conference-2019-day-1"
 aliases:
   - "/wiki/Knowledge_Graph_Conference_2019,_Day_1"
 tags:
-  []
+  - Simia
+  - english
+  - knowledge graph
+  - presentation
+  - Denny
+  - trip report
 ---
 
 On Tuesday, May 7, began the first [Knowledge Graph
@@ -93,5 +98,3 @@ For more, see:
     Sequeda](http://www.juansequeda.com/blog/2019/05/11/2019-knowledge-graph-conference-trip-report/)
   - [trip report by Vivek
     Khetan](https://medium.com/@data_noob/a5621b7a0f4f)
-
-

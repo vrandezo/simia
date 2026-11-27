@@ -6,7 +6,12 @@ slug: "wiki-workshop-2019"
 aliases:
   - "/wiki/Wiki_workshop_2019"
 tags:
-  []
+  - Simia
+  - english
+  - wikis
+  - presentation
+  - trip report
+  - Web
 ---
 
 Last week, May 14, saw the fifth incarnation of the [Wiki
@@ -56,5 +61,3 @@ I certainly did.
 
 See also the [\#wikiworkshop2019 tag on
 Twitter](https://twitter.com/hashtag/wikiworkshop2019).
-
-

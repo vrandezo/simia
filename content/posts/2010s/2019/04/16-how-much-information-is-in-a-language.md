@@ -6,7 +6,11 @@ slug: "how-much-information-is-in-a-language"
 aliases:
   - "/wiki/How_much_information_is_in_a_language?"
 tags:
-  []
+  - information
+  - language
+  - english
+  - Simia
+  - linkpost
 ---
 
 About the paper "Humans store about 1.5 megabytes of information during
@@ -79,5 +83,3 @@ I'm very much looking forward to reading them.
   - [Humans store about 1.5MB of information during language
     acquisition](https://royalsocietypublishing.org/doi/10.1098/rsos.181393),
     Royal Society Open Science
-
-

@@ -6,7 +6,9 @@ slug: "a-bitter-better-lesson"
 aliases:
   - "/wiki/A_bitter,_better_lesson"
 tags:
-  []
+  - linkpost
+  - Simia
+  - english
 ---
 
 Rich Sutton is expressing some frustration in his short essay on
@@ -26,5 +28,3 @@ arguments from [The unreasonable effectiveness of
 data](https://ieeexplore.ieee.org/document/4804817) by Alon Halevy,
 Peter Norvig, and Fernando Pereira ten years ago. But nicely updated and
 much shorter. So worth a read\!
-
-

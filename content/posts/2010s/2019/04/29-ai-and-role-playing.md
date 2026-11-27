@@ -6,7 +6,11 @@ slug: "ai-and-role-playing"
 aliases:
   - "/wiki/AI_and_role_playing"
 tags:
-  []
+  - rpg
+  - AI
+  - Simia
+  - english
+  - linkpost
 ---
 
 An article about AI and role playing games, and thus in the perfect
@@ -22,5 +26,3 @@ playing game basically\!
 
   - [Interesting
     engineering](https://interestingengineering.com/could-role-playing-games-be-the-key-to-true-ai)
-
-

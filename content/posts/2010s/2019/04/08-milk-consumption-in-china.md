@@ -6,7 +6,10 @@ slug: "milk-consumption-in-china"
 aliases:
   - "/wiki/Milk_consumption_in_China"
 tags:
-  []
+  - linkpost
+  - fascinating
+  - english
+  - Simia
 ---
 
 Quiet disappointed by The Guardian. Here's a (rather) interesting
@@ -45,5 +48,3 @@ The article is still interesting for a number of other reasons.
 
   - [Can the world quench China's bottomless thirst?, The Guardian,
     March 29 2019](https://www.theguardian.com/environment/2019/mar/29/can-the-world-quench-chinas-bottomless-thirst-for-milk)
-
-

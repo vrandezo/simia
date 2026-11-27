@@ -6,11 +6,15 @@ slug: "prediction-coming-true"
 aliases:
   - "/wiki/Prediction_coming_true"
 tags:
-  []
+  - prediction
+  - linkpost
+  - Social Web
+  - Simia
+  - english
 ---
 
 I saw my post from [seven years
-ago](Start_the_website_again "wikilink"), where I said that I really
+ago](/posts/start-the-website-again), where I said that I really
 like Facebook and Google+, but I want a space where I have more control
 about my content so it doesn't just disappear. *"Facebook and Google+ --
 maybe they won't disappear in a year. But what about ten?"*
@@ -21,5 +25,3 @@ days](https://blog.google/technology/safety-security/project-strobe/).
 I downloaded my data from there (as well as my data from Facebook and
 Twitter), to see if there is anything to be salvaged from that, but I
 doubt it.
-
-

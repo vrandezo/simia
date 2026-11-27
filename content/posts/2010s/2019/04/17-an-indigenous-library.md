@@ -6,7 +6,10 @@ slug: "an-indigenous-library"
 aliases:
   - "/wiki/An_indigenous_library"
 tags:
-  []
+  - linkpost
+  - knowledge
+  - Simia
+  - english
 ---
 
 Great story about an indigenous library using their own categorization
@@ -33,5 +36,3 @@ Via [Jens Ohlig](Jens_Ohlig "wikilink").
   - [This Library Takes an Indigenous Approach to Categorizing
     Books](https://www.yesmagazine.org/peace-justice/decolonize-western-bias-indigenous-library-books-20190322),
     Yes magazine
-
-

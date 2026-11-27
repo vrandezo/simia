@@ -6,7 +6,10 @@ slug: "may-2019-talks"
 aliases:
   - "/wiki/May_2019_talks"
 tags:
-  []
+  - presentation
+  - Denny
+  - Simia
+  - english
 ---
 
 I am honored to give the following three invited talks in the next few
@@ -23,5 +26,3 @@ weeks:
 
 The topics will all be on Wikidata, how the Wikipedias use it, and the
 Abstract Wikipedia idea.
-
-

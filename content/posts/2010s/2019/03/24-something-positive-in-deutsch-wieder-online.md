@@ -6,7 +6,10 @@ slug: "something-positive-in-deutsch-wieder-online"
 aliases:
   - "/wiki/Something_Positive_in_Deutsch_wieder_online"
 tags:
-  []
+  - something positive
+  - Deutsch
+  - Simia
+  - comics
 ---
 
 2005 und 2006 übersetzten Ralf Baumgartner und ich die ersten paar
@@ -17,6 +20,4 @@ nach und nach online kommen werden.
 
 Viel Spass\! Oh, und die Comics sind für Erwachsene.
 
-  - [Something Positive auf Deutsch](http://simia.net/sp)
-
-
+  - [Something Positive auf Deutsch](/sp)

@@ -6,17 +6,20 @@ slug: "restarting-2019-edition"
 aliases:
   - "/wiki/Restarting,_2019_edition"
 tags:
-  []
+  - Simia
+  - english
+  - internal
 ---
 
-I had neglected [Simia](Simia "wikilink") for too long - there were five
+I had neglected [Simia](/pages/simia) for too long - there were five
 entries in the last decade. A combination of events lead me to pour some
 effort back into it - and so I want to use this chance to restart it,
 once again.
 
 Until this weekend, Simia was still running on a 2007 version of
-[Semantic MediaWiki](Semantic_MediaWiki "wikilink") and
-[MediaWiki](MediaWiki "wikilink") - which probably helped with Simia
+[Semantic MediaWiki](https://en.wikipedia.org/wiki/Semantic_MediaWiki) and
+[MediaWiki](https://en.wikipedia.org/wiki/MediaWiki) -
+which probably helped with Simia
 getting hacked a year or two ago. Now it is up to date with a current
 version, and I am trying to consolidate what is already there with some
 content I had created in other places.
@@ -40,5 +43,3 @@ this even remotely possible. For now, suggestions on
 moving to WordPress or another platform is hardly an option, as I really
 want to stay with Semantic MediaWiki - but pointers to interesting
 MediaWiki extensions are definitely welcome\!
-
-

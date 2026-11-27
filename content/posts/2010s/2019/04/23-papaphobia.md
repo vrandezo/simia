@@ -6,7 +6,11 @@ slug: "papaphobia"
 aliases:
   - "/wiki/Papaphobia"
 tags:
-  []
+  - fascinating
+  - Simia
+  - english
+  - Wikidata
+  - ontology engineering
 ---
 
 In a little knowledge engineering exercise, I was trying to add the
@@ -81,5 +85,3 @@ point that there are now organizations who will gladly take your money
 (CTRN is not the only one) to treat you for papaphobia.
 
 The world is weird.
-
-
